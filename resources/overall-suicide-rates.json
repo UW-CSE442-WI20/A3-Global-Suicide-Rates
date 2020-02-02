@@ -1,0 +1,6386 @@
+[
+  {
+    "country": "Argentina",
+    "year": 1995,
+    "gdp_per_capita ($)": 8232,
+    "suicides/100k pop": 119.97
+  },
+  {
+    "country": "Argentina",
+    "year": 1996,
+    "gdp_per_capita ($)": 8563,
+    "suicides/100k pop": 118.03
+  },
+  {
+    "country": "Argentina",
+    "year": 1997,
+    "gdp_per_capita ($)": 9057,
+    "suicides/100k pop": 111.4
+  },
+  {
+    "country": "Argentina",
+    "year": 1998,
+    "gdp_per_capita ($)": 9126,
+    "suicides/100k pop": 116.93
+  },
+  {
+    "country": "Argentina",
+    "year": 1999,
+    "gdp_per_capita ($)": 8546,
+    "suicides/100k pop": 117.19
+  },
+  {
+    "country": "Argentina",
+    "year": 2000,
+    "gdp_per_capita ($)": 8462,
+    "suicides/100k pop": 131.39
+  },
+  {
+    "country": "Argentina",
+    "year": 2001,
+    "gdp_per_capita ($)": 7900,
+    "suicides/100k pop": 143.56
+  },
+  {
+    "country": "Argentina",
+    "year": 2002,
+    "gdp_per_capita ($)": 2840,
+    "suicides/100k pop": 139.42
+  },
+  {
+    "country": "Argentina",
+    "year": 2003,
+    "gdp_per_capita ($)": 3668,
+    "suicides/100k pop": 146.29
+  },
+  {
+    "country": "Argentina",
+    "year": 2004,
+    "gdp_per_capita ($)": 4683,
+    "suicides/100k pop": 131.06
+  },
+  {
+    "country": "Argentina",
+    "year": 2005,
+    "gdp_per_capita ($)": 5590,
+    "suicides/100k pop": 128.18
+  },
+  {
+    "country": "Argentina",
+    "year": 2006,
+    "gdp_per_capita ($)": 6475,
+    "suicides/100k pop": 128.22
+  },
+  {
+    "country": "Argentina",
+    "year": 2007,
+    "gdp_per_capita ($)": 7918,
+    "suicides/100k pop": 118.35
+  },
+  {
+    "country": "Argentina",
+    "year": 2008,
+    "gdp_per_capita ($)": 9843,
+    "suicides/100k pop": 118.11
+  },
+  {
+    "country": "Argentina",
+    "year": 2009,
+    "gdp_per_capita ($)": 8961,
+    "suicides/100k pop": 107.32
+  },
+  {
+    "country": "Argentina",
+    "year": 2010,
+    "gdp_per_capita ($)": 11273,
+    "suicides/100k pop": 111.24
+  },
+  {
+    "country": "Argentina",
+    "year": 2011,
+    "gdp_per_capita ($)": 13946,
+    "suicides/100k pop": 105.87
+  },
+  {
+    "country": "Argentina",
+    "year": 2012,
+    "gdp_per_capita ($)": 14203,
+    "suicides/100k pop": 119.82
+  },
+  {
+    "country": "Argentina",
+    "year": 2013,
+    "gdp_per_capita ($)": 14206,
+    "suicides/100k pop": 103.42
+  },
+  {
+    "country": "Austria",
+    "year": 1995,
+    "gdp_per_capita ($)": 32237,
+    "suicides/100k pop": 348.09
+  },
+  {
+    "country": "Austria",
+    "year": 1996,
+    "gdp_per_capita ($)": 31660,
+    "suicides/100k pop": 342.65
+  },
+  {
+    "country": "Austria",
+    "year": 1997,
+    "gdp_per_capita ($)": 28325,
+    "suicides/100k pop": 297.5
+  },
+  {
+    "country": "Austria",
+    "year": 1998,
+    "gdp_per_capita ($)": 28972,
+    "suicides/100k pop": 289.38
+  },
+  {
+    "country": "Austria",
+    "year": 1999,
+    "gdp_per_capita ($)": 28722,
+    "suicides/100k pop": 280.3
+  },
+  {
+    "country": "Austria",
+    "year": 2000,
+    "gdp_per_capita ($)": 25922,
+    "suicides/100k pop": 289.77
+  },
+  {
+    "country": "Austria",
+    "year": 2001,
+    "gdp_per_capita ($)": 25848,
+    "suicides/100k pop": 261.91
+  },
+  {
+    "country": "Austria",
+    "year": 2002,
+    "gdp_per_capita ($)": 27772,
+    "suicides/100k pop": 276.92
+  },
+  {
+    "country": "Austria",
+    "year": 2003,
+    "gdp_per_capita ($)": 33889,
+    "suicides/100k pop": 257.06
+  },
+  {
+    "country": "Austria",
+    "year": 2004,
+    "gdp_per_capita ($)": 38711,
+    "suicides/100k pop": 254.04
+  },
+  {
+    "country": "Austria",
+    "year": 2005,
+    "gdp_per_capita ($)": 40367,
+    "suicides/100k pop": 235.25
+  },
+  {
+    "country": "Austria",
+    "year": 2006,
+    "gdp_per_capita ($)": 42698,
+    "suicides/100k pop": 218.9
+  },
+  {
+    "country": "Austria",
+    "year": 2007,
+    "gdp_per_capita ($)": 49218,
+    "suicides/100k pop": 217.31
+  },
+  {
+    "country": "Austria",
+    "year": 2008,
+    "gdp_per_capita ($)": 54294,
+    "suicides/100k pop": 216.45
+  },
+  {
+    "country": "Austria",
+    "year": 2009,
+    "gdp_per_capita ($)": 50356,
+    "suicides/100k pop": 213.22
+  },
+  {
+    "country": "Austria",
+    "year": 2010,
+    "gdp_per_capita ($)": 49181,
+    "suicides/100k pop": 207.55
+  },
+  {
+    "country": "Austria",
+    "year": 2011,
+    "gdp_per_capita ($)": 53923,
+    "suicides/100k pop": 211.49
+  },
+  {
+    "country": "Austria",
+    "year": 2012,
+    "gdp_per_capita ($)": 50979,
+    "suicides/100k pop": 206.63
+  },
+  {
+    "country": "Austria",
+    "year": 2013,
+    "gdp_per_capita ($)": 53229,
+    "suicides/100k pop": 212.12
+  },
+  {
+    "country": "Bahamas",
+    "year": 1995,
+    "gdp_per_capita ($)": 13473,
+    "suicides/100k pop": 7.16
+  },
+  {
+    "country": "Bahamas",
+    "year": 1996,
+    "gdp_per_capita ($)": 14297,
+    "suicides/100k pop": 9.82
+  },
+  {
+    "country": "Bahamas",
+    "year": 1997,
+    "gdp_per_capita ($)": 24740,
+    "suicides/100k pop": 7.15
+  },
+  {
+    "country": "Bahamas",
+    "year": 1998,
+    "gdp_per_capita ($)": 26269,
+    "suicides/100k pop": 11.09
+  },
+  {
+    "country": "Bahamas",
+    "year": 1999,
+    "gdp_per_capita ($)": 29019,
+    "suicides/100k pop": 22.96
+  },
+  {
+    "country": "Bahamas",
+    "year": 2000,
+    "gdp_per_capita ($)": 29942,
+    "suicides/100k pop": 40.66
+  },
+  {
+    "country": "Bahamas",
+    "year": 2001,
+    "gdp_per_capita ($)": 30122,
+    "suicides/100k pop": 2.68
+  },
+  {
+    "country": "Bahamas",
+    "year": 2002,
+    "gdp_per_capita ($)": 31432,
+    "suicides/100k pop": 9.97
+  },
+  {
+    "country": "Bahamas",
+    "year": 2003,
+    "gdp_per_capita ($)": 30704,
+    "suicides/100k pop": 2.49
+  },
+  {
+    "country": "Bahamas",
+    "year": 2004,
+    "gdp_per_capita ($)": 30671,
+    "suicides/100k pop": 5.93
+  },
+  {
+    "country": "Bahamas",
+    "year": 2005,
+    "gdp_per_capita ($)": 32596,
+    "suicides/100k pop": 13.32
+  },
+  {
+    "country": "Bahamas",
+    "year": 2006,
+    "gdp_per_capita ($)": 32957,
+    "suicides/100k pop": 5.64
+  },
+  {
+    "country": "Bahamas",
+    "year": 2007,
+    "gdp_per_capita ($)": 33710,
+    "suicides/100k pop": 13.42
+  },
+  {
+    "country": "Bahamas",
+    "year": 2008,
+    "gdp_per_capita ($)": 32746,
+    "suicides/100k pop": 12.49
+  },
+  {
+    "country": "Bahamas",
+    "year": 2009,
+    "gdp_per_capita ($)": 30450,
+    "suicides/100k pop": 15.98
+  },
+  {
+    "country": "Bahamas",
+    "year": 2010,
+    "gdp_per_capita ($)": 30239,
+    "suicides/100k pop": 58.32
+  },
+  {
+    "country": "Bahamas",
+    "year": 2011,
+    "gdp_per_capita ($)": 29761,
+    "suicides/100k pop": 12.99
+  },
+  {
+    "country": "Bahamas",
+    "year": 2012,
+    "gdp_per_capita ($)": 31204,
+    "suicides/100k pop": 11.84
+  },
+  {
+    "country": "Bahamas",
+    "year": 2013,
+    "gdp_per_capita ($)": 30455,
+    "suicides/100k pop": 13.91
+  },
+  {
+    "country": "Belgium",
+    "year": 1995,
+    "gdp_per_capita ($)": 30394,
+    "suicides/100k pop": 285.9
+  },
+  {
+    "country": "Belgium",
+    "year": 1996,
+    "gdp_per_capita ($)": 29438,
+    "suicides/100k pop": 267.54
+  },
+  {
+    "country": "Belgium",
+    "year": 1997,
+    "gdp_per_capita ($)": 26609,
+    "suicides/100k pop": 284.74
+  },
+  {
+    "country": "Belgium",
+    "year": 1998,
+    "gdp_per_capita ($)": 27087,
+    "suicides/100k pop": 264.74
+  },
+  {
+    "country": "Belgium",
+    "year": 1999,
+    "gdp_per_capita ($)": 26969,
+    "suicides/100k pop": 230.7
+  },
+  {
+    "country": "Belgium",
+    "year": 2000,
+    "gdp_per_capita ($)": 24592,
+    "suicides/100k pop": 267.8
+  },
+  {
+    "country": "Belgium",
+    "year": 2001,
+    "gdp_per_capita ($)": 24494,
+    "suicides/100k pop": 261.22
+  },
+  {
+    "country": "Belgium",
+    "year": 2002,
+    "gdp_per_capita ($)": 26526,
+    "suicides/100k pop": 247.86
+  },
+  {
+    "country": "Belgium",
+    "year": 2003,
+    "gdp_per_capita ($)": 32538,
+    "suicides/100k pop": 248.73
+  },
+  {
+    "country": "Belgium",
+    "year": 2004,
+    "gdp_per_capita ($)": 37661,
+    "suicides/100k pop": 231.06
+  },
+  {
+    "country": "Belgium",
+    "year": 2005,
+    "gdp_per_capita ($)": 39124,
+    "suicides/100k pop": 231.75
+  },
+  {
+    "country": "Belgium",
+    "year": 2006,
+    "gdp_per_capita ($)": 41135,
+    "suicides/100k pop": 214.9
+  },
+  {
+    "country": "Belgium",
+    "year": 2007,
+    "gdp_per_capita ($)": 47040,
+    "suicides/100k pop": 208.57
+  },
+  {
+    "country": "Belgium",
+    "year": 2008,
+    "gdp_per_capita ($)": 51345,
+    "suicides/100k pop": 221.54
+  },
+  {
+    "country": "Belgium",
+    "year": 2009,
+    "gdp_per_capita ($)": 47630,
+    "suicides/100k pop": 218.35
+  },
+  {
+    "country": "Belgium",
+    "year": 2010,
+    "gdp_per_capita ($)": 47355,
+    "suicides/100k pop": 220.18
+  },
+  {
+    "country": "Belgium",
+    "year": 2011,
+    "gdp_per_capita ($)": 50893,
+    "suicides/100k pop": 226.71
+  },
+  {
+    "country": "Belgium",
+    "year": 2012,
+    "gdp_per_capita ($)": 47678,
+    "suicides/100k pop": 217.13
+  },
+  {
+    "country": "Belgium",
+    "year": 2013,
+    "gdp_per_capita ($)": 49489,
+    "suicides/100k pop": 201.55
+  },
+  {
+    "country": "Belize",
+    "year": 1995,
+    "gdp_per_capita ($)": 3436,
+    "suicides/100k pop": 143.97
+  },
+  {
+    "country": "Belize",
+    "year": 1996,
+    "gdp_per_capita ($)": 3545,
+    "suicides/100k pop": 61.29
+  },
+  {
+    "country": "Belize",
+    "year": 1997,
+    "gdp_per_capita ($)": 3487,
+    "suicides/100k pop": 5.77
+  },
+  {
+    "country": "Belize",
+    "year": 1998,
+    "gdp_per_capita ($)": 3531,
+    "suicides/100k pop": 81.78
+  },
+  {
+    "country": "Belize",
+    "year": 1999,
+    "gdp_per_capita ($)": 3615,
+    "suicides/100k pop": 83.72
+  },
+  {
+    "country": "Belize",
+    "year": 2000,
+    "gdp_per_capita ($)": 3960,
+    "suicides/100k pop": 160.8
+  },
+  {
+    "country": "Belize",
+    "year": 2001,
+    "gdp_per_capita ($)": 4013,
+    "suicides/100k pop": 151.7
+  },
+  {
+    "country": "Belize",
+    "year": 2002,
+    "gdp_per_capita ($)": 4161,
+    "suicides/100k pop": 69.62
+  },
+  {
+    "country": "Belize",
+    "year": 2003,
+    "gdp_per_capita ($)": 4289,
+    "suicides/100k pop": 59
+  },
+  {
+    "country": "Belize",
+    "year": 2004,
+    "gdp_per_capita ($)": 4449,
+    "suicides/100k pop": 117.38
+  },
+  {
+    "country": "Belize",
+    "year": 2005,
+    "gdp_per_capita ($)": 4547,
+    "suicides/100k pop": 46.1
+  },
+  {
+    "country": "Belize",
+    "year": 2006,
+    "gdp_per_capita ($)": 4815,
+    "suicides/100k pop": 37.92
+  },
+  {
+    "country": "Belize",
+    "year": 2007,
+    "gdp_per_capita ($)": 4951,
+    "suicides/100k pop": 78.49
+  },
+  {
+    "country": "Belize",
+    "year": 2008,
+    "gdp_per_capita ($)": 5098,
+    "suicides/100k pop": 86.36
+  },
+  {
+    "country": "Belize",
+    "year": 2009,
+    "gdp_per_capita ($)": 4841,
+    "suicides/100k pop": 57.76
+  },
+  {
+    "country": "Belize",
+    "year": 2010,
+    "gdp_per_capita ($)": 4923,
+    "suicides/100k pop": 61.48
+  },
+  {
+    "country": "Belize",
+    "year": 2011,
+    "gdp_per_capita ($)": 5098,
+    "suicides/100k pop": 153.3
+  },
+  {
+    "country": "Belize",
+    "year": 2012,
+    "gdp_per_capita ($)": 5264,
+    "suicides/100k pop": 73.45
+  },
+  {
+    "country": "Belize",
+    "year": 2013,
+    "gdp_per_capita ($)": 5272,
+    "suicides/100k pop": 56.4
+  },
+  {
+    "country": "Brazil",
+    "year": 1995,
+    "gdp_per_capita ($)": 5313,
+    "suicides/100k pop": 75.24
+  },
+  {
+    "country": "Brazil",
+    "year": 1996,
+    "gdp_per_capita ($)": 5771,
+    "suicides/100k pop": 73.33
+  },
+  {
+    "country": "Brazil",
+    "year": 1997,
+    "gdp_per_capita ($)": 5891,
+    "suicides/100k pop": 76.8
+  },
+  {
+    "country": "Brazil",
+    "year": 1998,
+    "gdp_per_capita ($)": 5663,
+    "suicides/100k pop": 75.05
+  },
+  {
+    "country": "Brazil",
+    "year": 1999,
+    "gdp_per_capita ($)": 3864,
+    "suicides/100k pop": 67.65
+  },
+  {
+    "country": "Brazil",
+    "year": 2000,
+    "gdp_per_capita ($)": 4156,
+    "suicides/100k pop": 68.23
+  },
+  {
+    "country": "Brazil",
+    "year": 2001,
+    "gdp_per_capita ($)": 3492,
+    "suicides/100k pop": 73.49
+  },
+  {
+    "country": "Brazil",
+    "year": 2002,
+    "gdp_per_capita ($)": 3121,
+    "suicides/100k pop": 69.77
+  },
+  {
+    "country": "Brazil",
+    "year": 2003,
+    "gdp_per_capita ($)": 3376,
+    "suicides/100k pop": 68.07
+  },
+  {
+    "country": "Brazil",
+    "year": 2004,
+    "gdp_per_capita ($)": 3984,
+    "suicides/100k pop": 70.22
+  },
+  {
+    "country": "Brazil",
+    "year": 2005,
+    "gdp_per_capita ($)": 5230,
+    "suicides/100k pop": 73.6
+  },
+  {
+    "country": "Brazil",
+    "year": 2006,
+    "gdp_per_capita ($)": 6403,
+    "suicides/100k pop": 69.9
+  },
+  {
+    "country": "Brazil",
+    "year": 2007,
+    "gdp_per_capita ($)": 7970,
+    "suicides/100k pop": 71.68
+  },
+  {
+    "country": "Brazil",
+    "year": 2008,
+    "gdp_per_capita ($)": 9555,
+    "suicides/100k pop": 72.21
+  },
+  {
+    "country": "Brazil",
+    "year": 2009,
+    "gdp_per_capita ($)": 9283,
+    "suicides/100k pop": 70.37
+  },
+  {
+    "country": "Brazil",
+    "year": 2010,
+    "gdp_per_capita ($)": 12161,
+    "suicides/100k pop": 72.73
+  },
+  {
+    "country": "Brazil",
+    "year": 2011,
+    "gdp_per_capita ($)": 14245,
+    "suicides/100k pop": 72.41
+  },
+  {
+    "country": "Brazil",
+    "year": 2012,
+    "gdp_per_capita ($)": 13283,
+    "suicides/100k pop": 74.45
+  },
+  {
+    "country": "Brazil",
+    "year": 2013,
+    "gdp_per_capita ($)": 13191,
+    "suicides/100k pop": 73.41
+  },
+  {
+    "country": "Bulgaria",
+    "year": 1995,
+    "gdp_per_capita ($)": 1636,
+    "suicides/100k pop": 277.85
+  },
+  {
+    "country": "Bulgaria",
+    "year": 1996,
+    "gdp_per_capita ($)": 1270,
+    "suicides/100k pop": 296.2
+  },
+  {
+    "country": "Bulgaria",
+    "year": 1997,
+    "gdp_per_capita ($)": 1411,
+    "suicides/100k pop": 276.36
+  },
+  {
+    "country": "Bulgaria",
+    "year": 1998,
+    "gdp_per_capita ($)": 1852,
+    "suicides/100k pop": 304.61
+  },
+  {
+    "country": "Bulgaria",
+    "year": 1999,
+    "gdp_per_capita ($)": 1715,
+    "suicides/100k pop": 250.71
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2000,
+    "gdp_per_capita ($)": 1680,
+    "suicides/100k pop": 259.22
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2001,
+    "gdp_per_capita ($)": 1854,
+    "suicides/100k pop": 244.62
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2002,
+    "gdp_per_capita ($)": 2157,
+    "suicides/100k pop": 247.35
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2003,
+    "gdp_per_capita ($)": 2800,
+    "suicides/100k pop": 207.65
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2004,
+    "gdp_per_capita ($)": 3485,
+    "suicides/100k pop": 184.12
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2005,
+    "gdp_per_capita ($)": 4003,
+    "suicides/100k pop": 178.06
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2006,
+    "gdp_per_capita ($)": 4638,
+    "suicides/100k pop": 186.53
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2007,
+    "gdp_per_capita ($)": 6073,
+    "suicides/100k pop": 173.77
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2008,
+    "gdp_per_capita ($)": 7487,
+    "suicides/100k pop": 170.34
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2009,
+    "gdp_per_capita ($)": 7186,
+    "suicides/100k pop": 154.42
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2010,
+    "gdp_per_capita ($)": 7066,
+    "suicides/100k pop": 158.25
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2011,
+    "gdp_per_capita ($)": 8137,
+    "suicides/100k pop": 133.52
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2012,
+    "gdp_per_capita ($)": 7745,
+    "suicides/100k pop": 164.17
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2013,
+    "gdp_per_capita ($)": 8057,
+    "suicides/100k pop": 134.16
+  },
+  {
+    "country": "Canada",
+    "year": 1995,
+    "gdp_per_capita ($)": 21871,
+    "suicides/100k pop": 163.52
+  },
+  {
+    "country": "Canada",
+    "year": 1996,
+    "gdp_per_capita ($)": 22686,
+    "suicides/100k pop": 162.89
+  },
+  {
+    "country": "Canada",
+    "year": 1997,
+    "gdp_per_capita ($)": 23245,
+    "suicides/100k pop": 151.43
+  },
+  {
+    "country": "Canada",
+    "year": 1998,
+    "gdp_per_capita ($)": 22268,
+    "suicides/100k pop": 150.12
+  },
+  {
+    "country": "Canada",
+    "year": 1999,
+    "gdp_per_capita ($)": 23572,
+    "suicides/100k pop": 158.44
+  },
+  {
+    "country": "Canada",
+    "year": 2000,
+    "gdp_per_capita ($)": 25589,
+    "suicides/100k pop": 139
+  },
+  {
+    "country": "Canada",
+    "year": 2001,
+    "gdp_per_capita ($)": 25165,
+    "suicides/100k pop": 137.43
+  },
+  {
+    "country": "Canada",
+    "year": 2002,
+    "gdp_per_capita ($)": 25570,
+    "suicides/100k pop": 137.73
+  },
+  {
+    "country": "Canada",
+    "year": 2003,
+    "gdp_per_capita ($)": 29787,
+    "suicides/100k pop": 137.27
+  },
+  {
+    "country": "Canada",
+    "year": 2004,
+    "gdp_per_capita ($)": 33787,
+    "suicides/100k pop": 131.66
+  },
+  {
+    "country": "Canada",
+    "year": 2005,
+    "gdp_per_capita ($)": 38218,
+    "suicides/100k pop": 133.84
+  },
+  {
+    "country": "Canada",
+    "year": 2006,
+    "gdp_per_capita ($)": 42566,
+    "suicides/100k pop": 126.43
+  },
+  {
+    "country": "Canada",
+    "year": 2007,
+    "gdp_per_capita ($)": 46890,
+    "suicides/100k pop": 127.45
+  },
+  {
+    "country": "Canada",
+    "year": 2008,
+    "gdp_per_capita ($)": 49041,
+    "suicides/100k pop": 127.59
+  },
+  {
+    "country": "Canada",
+    "year": 2009,
+    "gdp_per_capita ($)": 42933,
+    "suicides/100k pop": 130.67
+  },
+  {
+    "country": "Canada",
+    "year": 2010,
+    "gdp_per_capita ($)": 49974,
+    "suicides/100k pop": 132.67
+  },
+  {
+    "country": "Canada",
+    "year": 2011,
+    "gdp_per_capita ($)": 54841,
+    "suicides/100k pop": 125.02
+  },
+  {
+    "country": "Canada",
+    "year": 2012,
+    "gdp_per_capita ($)": 55347,
+    "suicides/100k pop": 127.88
+  },
+  {
+    "country": "Canada",
+    "year": 2013,
+    "gdp_per_capita ($)": 55310,
+    "suicides/100k pop": 133.09
+  },
+  {
+    "country": "Chile",
+    "year": 1995,
+    "gdp_per_capita ($)": 5695,
+    "suicides/100k pop": 108.91
+  },
+  {
+    "country": "Chile",
+    "year": 1996,
+    "gdp_per_capita ($)": 5946,
+    "suicides/100k pop": 95.71
+  },
+  {
+    "country": "Chile",
+    "year": 1997,
+    "gdp_per_capita ($)": 6368,
+    "suicides/100k pop": 100.13
+  },
+  {
+    "country": "Chile",
+    "year": 1998,
+    "gdp_per_capita ($)": 6023,
+    "suicides/100k pop": 109.77
+  },
+  {
+    "country": "Chile",
+    "year": 1999,
+    "gdp_per_capita ($)": 5470,
+    "suicides/100k pop": 111.86
+  },
+  {
+    "country": "Chile",
+    "year": 2000,
+    "gdp_per_capita ($)": 5584,
+    "suicides/100k pop": 149.18
+  },
+  {
+    "country": "Chile",
+    "year": 2001,
+    "gdp_per_capita ($)": 5020,
+    "suicides/100k pop": 147.58
+  },
+  {
+    "country": "Chile",
+    "year": 2002,
+    "gdp_per_capita ($)": 4866,
+    "suicides/100k pop": 149.28
+  },
+  {
+    "country": "Chile",
+    "year": 2003,
+    "gdp_per_capita ($)": 5208,
+    "suicides/100k pop": 153.54
+  },
+  {
+    "country": "Chile",
+    "year": 2004,
+    "gdp_per_capita ($)": 6744,
+    "suicides/100k pop": 155.69
+  },
+  {
+    "country": "Chile",
+    "year": 2005,
+    "gdp_per_capita ($)": 8256,
+    "suicides/100k pop": 147.43
+  },
+  {
+    "country": "Chile",
+    "year": 2006,
+    "gdp_per_capita ($)": 10270,
+    "suicides/100k pop": 155.06
+  },
+  {
+    "country": "Chile",
+    "year": 2007,
+    "gdp_per_capita ($)": 11387,
+    "suicides/100k pop": 150.92
+  },
+  {
+    "country": "Chile",
+    "year": 2008,
+    "gdp_per_capita ($)": 11653,
+    "suicides/100k pop": 167.88
+  },
+  {
+    "country": "Chile",
+    "year": 2009,
+    "gdp_per_capita ($)": 11062,
+    "suicides/100k pop": 174.3
+  },
+  {
+    "country": "Chile",
+    "year": 2010,
+    "gdp_per_capita ($)": 13874,
+    "suicides/100k pop": 162.88
+  },
+  {
+    "country": "Chile",
+    "year": 2011,
+    "gdp_per_capita ($)": 15854,
+    "suicides/100k pop": 160.84
+  },
+  {
+    "country": "Chile",
+    "year": 2012,
+    "gdp_per_capita ($)": 16617,
+    "suicides/100k pop": 148.41
+  },
+  {
+    "country": "Chile",
+    "year": 2013,
+    "gdp_per_capita ($)": 17140,
+    "suicides/100k pop": 134.52
+  },
+  {
+    "country": "Colombia",
+    "year": 1995,
+    "gdp_per_capita ($)": 2796,
+    "suicides/100k pop": 49.64
+  },
+  {
+    "country": "Colombia",
+    "year": 1996,
+    "gdp_per_capita ($)": 2883,
+    "suicides/100k pop": 53.17
+  },
+  {
+    "country": "Colombia",
+    "year": 1997,
+    "gdp_per_capita ($)": 3106,
+    "suicides/100k pop": 52.77
+  },
+  {
+    "country": "Colombia",
+    "year": 1998,
+    "gdp_per_capita ($)": 2814,
+    "suicides/100k pop": 81.68
+  },
+  {
+    "country": "Colombia",
+    "year": 1999,
+    "gdp_per_capita ($)": 2419,
+    "suicides/100k pop": 84.1
+  },
+  {
+    "country": "Colombia",
+    "year": 2000,
+    "gdp_per_capita ($)": 2755,
+    "suicides/100k pop": 89.78
+  },
+  {
+    "country": "Colombia",
+    "year": 2001,
+    "gdp_per_capita ($)": 2662,
+    "suicides/100k pop": 88.27
+  },
+  {
+    "country": "Colombia",
+    "year": 2002,
+    "gdp_per_capita ($)": 2613,
+    "suicides/100k pop": 81.38
+  },
+  {
+    "country": "Colombia",
+    "year": 2003,
+    "gdp_per_capita ($)": 2489,
+    "suicides/100k pop": 79.85
+  },
+  {
+    "country": "Colombia",
+    "year": 2004,
+    "gdp_per_capita ($)": 3033,
+    "suicides/100k pop": 84.25
+  },
+  {
+    "country": "Colombia",
+    "year": 2005,
+    "gdp_per_capita ($)": 3742,
+    "suicides/100k pop": 74.84
+  },
+  {
+    "country": "Colombia",
+    "year": 2006,
+    "gdp_per_capita ($)": 4095,
+    "suicides/100k pop": 78.41
+  },
+  {
+    "country": "Colombia",
+    "year": 2007,
+    "gdp_per_capita ($)": 5150,
+    "suicides/100k pop": 74.25
+  },
+  {
+    "country": "Colombia",
+    "year": 2008,
+    "gdp_per_capita ($)": 5971,
+    "suicides/100k pop": 74.22
+  },
+  {
+    "country": "Colombia",
+    "year": 2009,
+    "gdp_per_capita ($)": 5643,
+    "suicides/100k pop": 73.83
+  },
+  {
+    "country": "Colombia",
+    "year": 2010,
+    "gdp_per_capita ($)": 6836,
+    "suicides/100k pop": 67.24
+  },
+  {
+    "country": "Colombia",
+    "year": 2011,
+    "gdp_per_capita ($)": 7885,
+    "suicides/100k pop": 62.88
+  },
+  {
+    "country": "Colombia",
+    "year": 2012,
+    "gdp_per_capita ($)": 8586,
+    "suicides/100k pop": 66.45
+  },
+  {
+    "country": "Colombia",
+    "year": 2013,
+    "gdp_per_capita ($)": 8731,
+    "suicides/100k pop": 63.53
+  },
+  {
+    "country": "Costa Rica",
+    "year": 1995,
+    "gdp_per_capita ($)": 3672,
+    "suicides/100k pop": 79.18
+  },
+  {
+    "country": "Costa Rica",
+    "year": 1996,
+    "gdp_per_capita ($)": 3639,
+    "suicides/100k pop": 94.86
+  },
+  {
+    "country": "Costa Rica",
+    "year": 1997,
+    "gdp_per_capita ($)": 3827,
+    "suicides/100k pop": 80.63
+  },
+  {
+    "country": "Costa Rica",
+    "year": 1998,
+    "gdp_per_capita ($)": 4046,
+    "suicides/100k pop": 92.09
+  },
+  {
+    "country": "Costa Rica",
+    "year": 1999,
+    "gdp_per_capita ($)": 4115,
+    "suicides/100k pop": 85.06
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2000,
+    "gdp_per_capita ($)": 4233,
+    "suicides/100k pop": 88.29
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2001,
+    "gdp_per_capita ($)": 4412,
+    "suicides/100k pop": 76.03
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2002,
+    "gdp_per_capita ($)": 4485,
+    "suicides/100k pop": 95.62
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2003,
+    "gdp_per_capita ($)": 4583,
+    "suicides/100k pop": 115.88
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2004,
+    "gdp_per_capita ($)": 4850,
+    "suicides/100k pop": 100.72
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2005,
+    "gdp_per_capita ($)": 5133,
+    "suicides/100k pop": 78.73
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2006,
+    "gdp_per_capita ($)": 5716,
+    "suicides/100k pop": 100.83
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2007,
+    "gdp_per_capita ($)": 6661,
+    "suicides/100k pop": 75.35
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2008,
+    "gdp_per_capita ($)": 7517,
+    "suicides/100k pop": 72.27
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2009,
+    "gdp_per_capita ($)": 7403,
+    "suicides/100k pop": 77.37
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2010,
+    "gdp_per_capita ($)": 8906,
+    "suicides/100k pop": 84.35
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2011,
+    "gdp_per_capita ($)": 9978,
+    "suicides/100k pop": 89.83
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2012,
+    "gdp_per_capita ($)": 10832,
+    "suicides/100k pop": 80.76
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2013,
+    "gdp_per_capita ($)": 11443,
+    "suicides/100k pop": 89.26
+  },
+  {
+    "country": "Croatia",
+    "year": 1995,
+    "gdp_per_capita ($)": 4978,
+    "suicides/100k pop": 305.54
+  },
+  {
+    "country": "Croatia",
+    "year": 1996,
+    "gdp_per_capita ($)": 5610,
+    "suicides/100k pop": 334.79
+  },
+  {
+    "country": "Croatia",
+    "year": 1997,
+    "gdp_per_capita ($)": 5546,
+    "suicides/100k pop": 313.7
+  },
+  {
+    "country": "Croatia",
+    "year": 1998,
+    "gdp_per_capita ($)": 6015,
+    "suicides/100k pop": 344.3
+  },
+  {
+    "country": "Croatia",
+    "year": 1999,
+    "gdp_per_capita ($)": 5459,
+    "suicides/100k pop": 327.28
+  },
+  {
+    "country": "Croatia",
+    "year": 2000,
+    "gdp_per_capita ($)": 5288,
+    "suicides/100k pop": 322.75
+  },
+  {
+    "country": "Croatia",
+    "year": 2001,
+    "gdp_per_capita ($)": 5571,
+    "suicides/100k pop": 287.54
+  },
+  {
+    "country": "Croatia",
+    "year": 2002,
+    "gdp_per_capita ($)": 6373,
+    "suicides/100k pop": 304.12
+  },
+  {
+    "country": "Croatia",
+    "year": 2003,
+    "gdp_per_capita ($)": 8202,
+    "suicides/100k pop": 281.69
+  },
+  {
+    "country": "Croatia",
+    "year": 2004,
+    "gdp_per_capita ($)": 9829,
+    "suicides/100k pop": 302.24
+  },
+  {
+    "country": "Croatia",
+    "year": 2005,
+    "gdp_per_capita ($)": 10722,
+    "suicides/100k pop": 269.57
+  },
+  {
+    "country": "Croatia",
+    "year": 2006,
+    "gdp_per_capita ($)": 11914,
+    "suicides/100k pop": 248.22
+  },
+  {
+    "country": "Croatia",
+    "year": 2007,
+    "gdp_per_capita ($)": 14204,
+    "suicides/100k pop": 243.45
+  },
+  {
+    "country": "Croatia",
+    "year": 2008,
+    "gdp_per_capita ($)": 16680,
+    "suicides/100k pop": 265.69
+  },
+  {
+    "country": "Croatia",
+    "year": 2009,
+    "gdp_per_capita ($)": 14872,
+    "suicides/100k pop": 254.29
+  },
+  {
+    "country": "Croatia",
+    "year": 2010,
+    "gdp_per_capita ($)": 14232,
+    "suicides/100k pop": 241.97
+  },
+  {
+    "country": "Croatia",
+    "year": 2011,
+    "gdp_per_capita ($)": 14890,
+    "suicides/100k pop": 221.11
+  },
+  {
+    "country": "Croatia",
+    "year": 2012,
+    "gdp_per_capita ($)": 13952,
+    "suicides/100k pop": 239.01
+  },
+  {
+    "country": "Croatia",
+    "year": 2013,
+    "gdp_per_capita ($)": 14362,
+    "suicides/100k pop": 210.3
+  },
+  {
+    "country": "Cuba",
+    "year": 1995,
+    "gdp_per_capita ($)": 2993,
+    "suicides/100k pop": 352.76
+  },
+  {
+    "country": "Cuba",
+    "year": 1996,
+    "gdp_per_capita ($)": 2443,
+    "suicides/100k pop": 316.23
+  },
+  {
+    "country": "Cuba",
+    "year": 1997,
+    "gdp_per_capita ($)": 2472,
+    "suicides/100k pop": 317.4
+  },
+  {
+    "country": "Cuba",
+    "year": 1998,
+    "gdp_per_capita ($)": 2497,
+    "suicides/100k pop": 326.98
+  },
+  {
+    "country": "Cuba",
+    "year": 1999,
+    "gdp_per_capita ($)": 2741,
+    "suicides/100k pop": 306.12
+  },
+  {
+    "country": "Cuba",
+    "year": 2000,
+    "gdp_per_capita ($)": 2940,
+    "suicides/100k pop": 272.77
+  },
+  {
+    "country": "Cuba",
+    "year": 2001,
+    "gdp_per_capita ($)": 3037,
+    "suicides/100k pop": 244.51
+  },
+  {
+    "country": "Cuba",
+    "year": 2002,
+    "gdp_per_capita ($)": 3205,
+    "suicides/100k pop": 240.42
+  },
+  {
+    "country": "Cuba",
+    "year": 2003,
+    "gdp_per_capita ($)": 3409,
+    "suicides/100k pop": 221.12
+  },
+  {
+    "country": "Cuba",
+    "year": 2004,
+    "gdp_per_capita ($)": 3611,
+    "suicides/100k pop": 216.12
+  },
+  {
+    "country": "Cuba",
+    "year": 2005,
+    "gdp_per_capita ($)": 4017,
+    "suicides/100k pop": 205.94
+  },
+  {
+    "country": "Cuba",
+    "year": 2006,
+    "gdp_per_capita ($)": 4951,
+    "suicides/100k pop": 202.55
+  },
+  {
+    "country": "Cuba",
+    "year": 2007,
+    "gdp_per_capita ($)": 5488,
+    "suicides/100k pop": 188.18
+  },
+  {
+    "country": "Cuba",
+    "year": 2008,
+    "gdp_per_capita ($)": 5686,
+    "suicides/100k pop": 190.99
+  },
+  {
+    "country": "Cuba",
+    "year": 2009,
+    "gdp_per_capita ($)": 5797,
+    "suicides/100k pop": 201.33
+  },
+  {
+    "country": "Cuba",
+    "year": 2010,
+    "gdp_per_capita ($)": 5997,
+    "suicides/100k pop": 202.13
+  },
+  {
+    "country": "Cuba",
+    "year": 2011,
+    "gdp_per_capita ($)": 6419,
+    "suicides/100k pop": 207.05
+  },
+  {
+    "country": "Cuba",
+    "year": 2012,
+    "gdp_per_capita ($)": 6791,
+    "suicides/100k pop": 204
+  },
+  {
+    "country": "Cuba",
+    "year": 2013,
+    "gdp_per_capita ($)": 7148,
+    "suicides/100k pop": 190.46
+  },
+  {
+    "country": "Czech Republic",
+    "year": 1995,
+    "gdp_per_capita ($)": 6134,
+    "suicides/100k pop": 264.4
+  },
+  {
+    "country": "Czech Republic",
+    "year": 1996,
+    "gdp_per_capita ($)": 6861,
+    "suicides/100k pop": 243.48
+  },
+  {
+    "country": "Czech Republic",
+    "year": 1997,
+    "gdp_per_capita ($)": 6314,
+    "suicides/100k pop": 234.13
+  },
+  {
+    "country": "Czech Republic",
+    "year": 1998,
+    "gdp_per_capita ($)": 6779,
+    "suicides/100k pop": 226.7
+  },
+  {
+    "country": "Czech Republic",
+    "year": 1999,
+    "gdp_per_capita ($)": 6606,
+    "suicides/100k pop": 236.93
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2000,
+    "gdp_per_capita ($)": 6278,
+    "suicides/100k pop": 226.64
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2001,
+    "gdp_per_capita ($)": 6863,
+    "suicides/100k pop": 220.92
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2002,
+    "gdp_per_capita ($)": 8399,
+    "suicides/100k pop": 212.15
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2003,
+    "gdp_per_capita ($)": 10220,
+    "suicides/100k pop": 234.88
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2004,
+    "gdp_per_capita ($)": 12226,
+    "suicides/100k pop": 203.02
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2005,
+    "gdp_per_capita ($)": 13961,
+    "suicides/100k pop": 193.4
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2006,
+    "gdp_per_capita ($)": 15896,
+    "suicides/100k pop": 178.4
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2007,
+    "gdp_per_capita ($)": 19273,
+    "suicides/100k pop": 170.78
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2008,
+    "gdp_per_capita ($)": 23811,
+    "suicides/100k pop": 175.01
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2009,
+    "gdp_per_capita ($)": 20748,
+    "suicides/100k pop": 179.71
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2010,
+    "gdp_per_capita ($)": 20862,
+    "suicides/100k pop": 175.62
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2011,
+    "gdp_per_capita ($)": 23010,
+    "suicides/100k pop": 186.24
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2012,
+    "gdp_per_capita ($)": 20898,
+    "suicides/100k pop": 196.23
+  },
+  {
+    "country": "Czech Republic",
+    "year": 2013,
+    "gdp_per_capita ($)": 21073,
+    "suicides/100k pop": 186.07
+  },
+  {
+    "country": "Denmark",
+    "year": 1995,
+    "gdp_per_capita ($)": 37841,
+    "suicides/100k pop": 239.13
+  },
+  {
+    "country": "Denmark",
+    "year": 1996,
+    "gdp_per_capita ($)": 38158,
+    "suicides/100k pop": 229.56
+  },
+  {
+    "country": "Denmark",
+    "year": 1997,
+    "gdp_per_capita ($)": 35148,
+    "suicides/100k pop": 218.46
+  },
+  {
+    "country": "Denmark",
+    "year": 1998,
+    "gdp_per_capita ($)": 35710,
+    "suicides/100k pop": 188.68
+  },
+  {
+    "country": "Denmark",
+    "year": 1999,
+    "gdp_per_capita ($)": 35763,
+    "suicides/100k pop": 183.09
+  },
+  {
+    "country": "Denmark",
+    "year": 2000,
+    "gdp_per_capita ($)": 32841,
+    "suicides/100k pop": 181.07
+  },
+  {
+    "country": "Denmark",
+    "year": 2001,
+    "gdp_per_capita ($)": 32837,
+    "suicides/100k pop": 186.17
+  },
+  {
+    "country": "Denmark",
+    "year": 2002,
+    "gdp_per_capita ($)": 35435,
+    "suicides/100k pop": 176.51
+  },
+  {
+    "country": "Denmark",
+    "year": 2003,
+    "gdp_per_capita ($)": 43129,
+    "suicides/100k pop": 156.7
+  },
+  {
+    "country": "Denmark",
+    "year": 2004,
+    "gdp_per_capita ($)": 49552,
+    "suicides/100k pop": 161.78
+  },
+  {
+    "country": "Denmark",
+    "year": 2005,
+    "gdp_per_capita ($)": 51960,
+    "suicides/100k pop": 164.23
+  },
+  {
+    "country": "Denmark",
+    "year": 2006,
+    "gdp_per_capita ($)": 55354,
+    "suicides/100k pop": 162.08
+  },
+  {
+    "country": "Denmark",
+    "year": 2007,
+    "gdp_per_capita ($)": 62229,
+    "suicides/100k pop": 139.96
+  },
+  {
+    "country": "Denmark",
+    "year": 2008,
+    "gdp_per_capita ($)": 68447,
+    "suicides/100k pop": 143.05
+  },
+  {
+    "country": "Denmark",
+    "year": 2009,
+    "gdp_per_capita ($)": 61863,
+    "suicides/100k pop": 144.7
+  },
+  {
+    "country": "Denmark",
+    "year": 2010,
+    "gdp_per_capita ($)": 61711,
+    "suicides/100k pop": 130.02
+  },
+  {
+    "country": "Denmark",
+    "year": 2011,
+    "gdp_per_capita ($)": 65598,
+    "suicides/100k pop": 126.33
+  },
+  {
+    "country": "Denmark",
+    "year": 2012,
+    "gdp_per_capita ($)": 62071,
+    "suicides/100k pop": 143.21
+  },
+  {
+    "country": "Denmark",
+    "year": 2013,
+    "gdp_per_capita ($)": 64831,
+    "suicides/100k pop": 134.55
+  },
+  {
+    "country": "Ecuador",
+    "year": 1995,
+    "gdp_per_capita ($)": 2453,
+    "suicides/100k pop": 68.22
+  },
+  {
+    "country": "Ecuador",
+    "year": 1996,
+    "gdp_per_capita ($)": 2474,
+    "suicides/100k pop": 76.34
+  },
+  {
+    "country": "Ecuador",
+    "year": 1997,
+    "gdp_per_capita ($)": 2701,
+    "suicides/100k pop": 67.02
+  },
+  {
+    "country": "Ecuador",
+    "year": 1998,
+    "gdp_per_capita ($)": 2626,
+    "suicides/100k pop": 62.07
+  },
+  {
+    "country": "Ecuador",
+    "year": 1999,
+    "gdp_per_capita ($)": 1805,
+    "suicides/100k pop": 71.93
+  },
+  {
+    "country": "Ecuador",
+    "year": 2000,
+    "gdp_per_capita ($)": 1650,
+    "suicides/100k pop": 57.17
+  },
+  {
+    "country": "Ecuador",
+    "year": 2001,
+    "gdp_per_capita ($)": 2160,
+    "suicides/100k pop": 67.24
+  },
+  {
+    "country": "Ecuador",
+    "year": 2002,
+    "gdp_per_capita ($)": 2472,
+    "suicides/100k pop": 61.42
+  },
+  {
+    "country": "Ecuador",
+    "year": 2003,
+    "gdp_per_capita ($)": 2755,
+    "suicides/100k pop": 70.56
+  },
+  {
+    "country": "Ecuador",
+    "year": 2004,
+    "gdp_per_capita ($)": 3051,
+    "suicides/100k pop": 84.39
+  },
+  {
+    "country": "Ecuador",
+    "year": 2005,
+    "gdp_per_capita ($)": 3397,
+    "suicides/100k pop": 96.73
+  },
+  {
+    "country": "Ecuador",
+    "year": 2006,
+    "gdp_per_capita ($)": 3759,
+    "suicides/100k pop": 93.07
+  },
+  {
+    "country": "Ecuador",
+    "year": 2007,
+    "gdp_per_capita ($)": 4024,
+    "suicides/100k pop": 95.97
+  },
+  {
+    "country": "Ecuador",
+    "year": 2008,
+    "gdp_per_capita ($)": 4787,
+    "suicides/100k pop": 95.29
+  },
+  {
+    "country": "Ecuador",
+    "year": 2009,
+    "gdp_per_capita ($)": 4762,
+    "suicides/100k pop": 94.25
+  },
+  {
+    "country": "Ecuador",
+    "year": 2010,
+    "gdp_per_capita ($)": 5206,
+    "suicides/100k pop": 81.49
+  },
+  {
+    "country": "Ecuador",
+    "year": 2011,
+    "gdp_per_capita ($)": 5836,
+    "suicides/100k pop": 81.8
+  },
+  {
+    "country": "Ecuador",
+    "year": 2012,
+    "gdp_per_capita ($)": 6364,
+    "suicides/100k pop": 84.88
+  },
+  {
+    "country": "Ecuador",
+    "year": 2013,
+    "gdp_per_capita ($)": 6769,
+    "suicides/100k pop": 62.88
+  },
+  {
+    "country": "El Salvador",
+    "year": 1995,
+    "gdp_per_capita ($)": 1845,
+    "suicides/100k pop": 159.19
+  },
+  {
+    "country": "El Salvador",
+    "year": 1996,
+    "gdp_per_capita ($)": 1959,
+    "suicides/100k pop": 145.16
+  },
+  {
+    "country": "El Salvador",
+    "year": 1997,
+    "gdp_per_capita ($)": 2065,
+    "suicides/100k pop": 140
+  },
+  {
+    "country": "El Salvador",
+    "year": 1998,
+    "gdp_per_capita ($)": 2185,
+    "suicides/100k pop": 122.83
+  },
+  {
+    "country": "El Salvador",
+    "year": 1999,
+    "gdp_per_capita ($)": 2229,
+    "suicides/100k pop": 127.96
+  },
+  {
+    "country": "El Salvador",
+    "year": 2000,
+    "gdp_per_capita ($)": 2303,
+    "suicides/100k pop": 110.55
+  },
+  {
+    "country": "El Salvador",
+    "year": 2001,
+    "gdp_per_capita ($)": 2373,
+    "suicides/100k pop": 129.71
+  },
+  {
+    "country": "El Salvador",
+    "year": 2002,
+    "gdp_per_capita ($)": 2421,
+    "suicides/100k pop": 113.19
+  },
+  {
+    "country": "El Salvador",
+    "year": 2003,
+    "gdp_per_capita ($)": 2507,
+    "suicides/100k pop": 128.92
+  },
+  {
+    "country": "El Salvador",
+    "year": 2004,
+    "gdp_per_capita ($)": 2573,
+    "suicides/100k pop": 111.56
+  },
+  {
+    "country": "El Salvador",
+    "year": 2005,
+    "gdp_per_capita ($)": 2733,
+    "suicides/100k pop": 115.73
+  },
+  {
+    "country": "El Salvador",
+    "year": 2006,
+    "gdp_per_capita ($)": 2947,
+    "suicides/100k pop": 99.57
+  },
+  {
+    "country": "El Salvador",
+    "year": 2007,
+    "gdp_per_capita ($)": 3111,
+    "suicides/100k pop": 127.14
+  },
+  {
+    "country": "El Salvador",
+    "year": 2008,
+    "gdp_per_capita ($)": 3271,
+    "suicides/100k pop": 125.82
+  },
+  {
+    "country": "El Salvador",
+    "year": 2009,
+    "gdp_per_capita ($)": 3184,
+    "suicides/100k pop": 124.12
+  },
+  {
+    "country": "El Salvador",
+    "year": 2010,
+    "gdp_per_capita ($)": 3318,
+    "suicides/100k pop": 97.92
+  },
+  {
+    "country": "El Salvador",
+    "year": 2011,
+    "gdp_per_capita ($)": 3631,
+    "suicides/100k pop": 115.46
+  },
+  {
+    "country": "El Salvador",
+    "year": 2012,
+    "gdp_per_capita ($)": 3806,
+    "suicides/100k pop": 123.14
+  },
+  {
+    "country": "El Salvador",
+    "year": 2013,
+    "gdp_per_capita ($)": 3885,
+    "suicides/100k pop": 116.06
+  },
+  {
+    "country": "Estonia",
+    "year": 1995,
+    "gdp_per_capita ($)": 3224,
+    "suicides/100k pop": 543.19
+  },
+  {
+    "country": "Estonia",
+    "year": 1996,
+    "gdp_per_capita ($)": 3536,
+    "suicides/100k pop": 528.72
+  },
+  {
+    "country": "Estonia",
+    "year": 1997,
+    "gdp_per_capita ($)": 3806,
+    "suicides/100k pop": 502.06
+  },
+  {
+    "country": "Estonia",
+    "year": 1998,
+    "gdp_per_capita ($)": 4250,
+    "suicides/100k pop": 427.52
+  },
+  {
+    "country": "Estonia",
+    "year": 1999,
+    "gdp_per_capita ($)": 4361,
+    "suicides/100k pop": 486.47
+  },
+  {
+    "country": "Estonia",
+    "year": 2000,
+    "gdp_per_capita ($)": 4262,
+    "suicides/100k pop": 364.64
+  },
+  {
+    "country": "Estonia",
+    "year": 2001,
+    "gdp_per_capita ($)": 4711,
+    "suicides/100k pop": 371.68
+  },
+  {
+    "country": "Estonia",
+    "year": 2002,
+    "gdp_per_capita ($)": 5561,
+    "suicides/100k pop": 358.3
+  },
+  {
+    "country": "Estonia",
+    "year": 2003,
+    "gdp_per_capita ($)": 7523,
+    "suicides/100k pop": 338.24
+  },
+  {
+    "country": "Estonia",
+    "year": 2004,
+    "gdp_per_capita ($)": 9293,
+    "suicides/100k pop": 299.46
+  },
+  {
+    "country": "Estonia",
+    "year": 2005,
+    "gdp_per_capita ($)": 10870,
+    "suicides/100k pop": 256.43
+  },
+  {
+    "country": "Estonia",
+    "year": 2006,
+    "gdp_per_capita ($)": 13264,
+    "suicides/100k pop": 242.63
+  },
+  {
+    "country": "Estonia",
+    "year": 2007,
+    "gdp_per_capita ($)": 17504,
+    "suicides/100k pop": 265.05
+  },
+  {
+    "country": "Estonia",
+    "year": 2008,
+    "gdp_per_capita ($)": 19141,
+    "suicides/100k pop": 244.57
+  },
+  {
+    "country": "Estonia",
+    "year": 2009,
+    "gdp_per_capita ($)": 15609,
+    "suicides/100k pop": 248.67
+  },
+  {
+    "country": "Estonia",
+    "year": 2010,
+    "gdp_per_capita ($)": 15540,
+    "suicides/100k pop": 229.07
+  },
+  {
+    "country": "Estonia",
+    "year": 2011,
+    "gdp_per_capita ($)": 18545,
+    "suicides/100k pop": 229.26
+  },
+  {
+    "country": "Estonia",
+    "year": 2012,
+    "gdp_per_capita ($)": 18411,
+    "suicides/100k pop": 241.61
+  },
+  {
+    "country": "Estonia",
+    "year": 2013,
+    "gdp_per_capita ($)": 20221,
+    "suicides/100k pop": 231.92
+  },
+  {
+    "country": "Finland",
+    "year": 1995,
+    "gdp_per_capita ($)": 28068,
+    "suicides/100k pop": 324.96
+  },
+  {
+    "country": "Finland",
+    "year": 1996,
+    "gdp_per_capita ($)": 27508,
+    "suicides/100k pop": 289.65
+  },
+  {
+    "country": "Finland",
+    "year": 1997,
+    "gdp_per_capita ($)": 26296,
+    "suicides/100k pop": 310.35
+  },
+  {
+    "country": "Finland",
+    "year": 1998,
+    "gdp_per_capita ($)": 27646,
+    "suicides/100k pop": 301.43
+  },
+  {
+    "country": "Finland",
+    "year": 1999,
+    "gdp_per_capita ($)": 27800,
+    "suicides/100k pop": 283.11
+  },
+  {
+    "country": "Finland",
+    "year": 2000,
+    "gdp_per_capita ($)": 25716,
+    "suicides/100k pop": 265.65
+  },
+  {
+    "country": "Finland",
+    "year": 2001,
+    "gdp_per_capita ($)": 26383,
+    "suicides/100k pop": 267.19
+  },
+  {
+    "country": "Finland",
+    "year": 2002,
+    "gdp_per_capita ($)": 28390,
+    "suicides/100k pop": 255.52
+  },
+  {
+    "country": "Finland",
+    "year": 2003,
+    "gdp_per_capita ($)": 34701,
+    "suicides/100k pop": 243.45
+  },
+  {
+    "country": "Finland",
+    "year": 2004,
+    "gdp_per_capita ($)": 39793,
+    "suicides/100k pop": 243.95
+  },
+  {
+    "country": "Finland",
+    "year": 2005,
+    "gdp_per_capita ($)": 41202,
+    "suicides/100k pop": 230.52
+  },
+  {
+    "country": "Finland",
+    "year": 2006,
+    "gdp_per_capita ($)": 43487,
+    "suicides/100k pop": 233.8
+  },
+  {
+    "country": "Finland",
+    "year": 2007,
+    "gdp_per_capita ($)": 51089,
+    "suicides/100k pop": 223.08
+  },
+  {
+    "country": "Finland",
+    "year": 2008,
+    "gdp_per_capita ($)": 56521,
+    "suicides/100k pop": 220.29
+  },
+  {
+    "country": "Finland",
+    "year": 2009,
+    "gdp_per_capita ($)": 49878,
+    "suicides/100k pop": 228.49
+  },
+  {
+    "country": "Finland",
+    "year": 2010,
+    "gdp_per_capita ($)": 48939,
+    "suicides/100k pop": 215.21
+  },
+  {
+    "country": "Finland",
+    "year": 2011,
+    "gdp_per_capita ($)": 53809,
+    "suicides/100k pop": 203.61
+  },
+  {
+    "country": "Finland",
+    "year": 2012,
+    "gdp_per_capita ($)": 50232,
+    "suicides/100k pop": 187.01
+  },
+  {
+    "country": "Finland",
+    "year": 2013,
+    "gdp_per_capita ($)": 52572,
+    "suicides/100k pop": 196.83
+  },
+  {
+    "country": "France",
+    "year": 1995,
+    "gdp_per_capita ($)": 29363,
+    "suicides/100k pop": 292.62
+  },
+  {
+    "country": "France",
+    "year": 1996,
+    "gdp_per_capita ($)": 29305,
+    "suicides/100k pop": 271.22
+  },
+  {
+    "country": "France",
+    "year": 1997,
+    "gdp_per_capita ($)": 26394,
+    "suicides/100k pop": 266.33
+  },
+  {
+    "country": "France",
+    "year": 1998,
+    "gdp_per_capita ($)": 27190,
+    "suicides/100k pop": 253.65
+  },
+  {
+    "country": "France",
+    "year": 1999,
+    "gdp_per_capita ($)": 27118,
+    "suicides/100k pop": 245.83
+  },
+  {
+    "country": "France",
+    "year": 2000,
+    "gdp_per_capita ($)": 24648,
+    "suicides/100k pop": 257.23
+  },
+  {
+    "country": "France",
+    "year": 2001,
+    "gdp_per_capita ($)": 24796,
+    "suicides/100k pop": 239.94
+  },
+  {
+    "country": "France",
+    "year": 2002,
+    "gdp_per_capita ($)": 26714,
+    "suicides/100k pop": 238.64
+  },
+  {
+    "country": "France",
+    "year": 2003,
+    "gdp_per_capita ($)": 32656,
+    "suicides/100k pop": 241.31
+  },
+  {
+    "country": "France",
+    "year": 2004,
+    "gdp_per_capita ($)": 37240,
+    "suicides/100k pop": 232.51
+  },
+  {
+    "country": "France",
+    "year": 2005,
+    "gdp_per_capita ($)": 38420,
+    "suicides/100k pop": 232.09
+  },
+  {
+    "country": "France",
+    "year": 2006,
+    "gdp_per_capita ($)": 40097,
+    "suicides/100k pop": 220.63
+  },
+  {
+    "country": "France",
+    "year": 2007,
+    "gdp_per_capita ($)": 45682,
+    "suicides/100k pop": 213.69
+  },
+  {
+    "country": "France",
+    "year": 2008,
+    "gdp_per_capita ($)": 49901,
+    "suicides/100k pop": 216.21
+  },
+  {
+    "country": "France",
+    "year": 2009,
+    "gdp_per_capita ($)": 45775,
+    "suicides/100k pop": 216.24
+  },
+  {
+    "country": "France",
+    "year": 2010,
+    "gdp_per_capita ($)": 44747,
+    "suicides/100k pop": 211.17
+  },
+  {
+    "country": "France",
+    "year": 2011,
+    "gdp_per_capita ($)": 48217,
+    "suicides/100k pop": 211.18
+  },
+  {
+    "country": "France",
+    "year": 2012,
+    "gdp_per_capita ($)": 45002,
+    "suicides/100k pop": 198.98
+  },
+  {
+    "country": "France",
+    "year": 2013,
+    "gdp_per_capita ($)": 46922,
+    "suicides/100k pop": 192.33
+  },
+  {
+    "country": "Germany",
+    "year": 1995,
+    "gdp_per_capita ($)": 33420,
+    "suicides/100k pop": 233.58
+  },
+  {
+    "country": "Germany",
+    "year": 1996,
+    "gdp_per_capita ($)": 32147,
+    "suicides/100k pop": 216.42
+  },
+  {
+    "country": "Germany",
+    "year": 1997,
+    "gdp_per_capita ($)": 28420,
+    "suicides/100k pop": 210.96
+  },
+  {
+    "country": "Germany",
+    "year": 1998,
+    "gdp_per_capita ($)": 28733,
+    "suicides/100k pop": 200.51
+  },
+  {
+    "country": "Germany",
+    "year": 1999,
+    "gdp_per_capita ($)": 28154,
+    "suicides/100k pop": 189.24
+  },
+  {
+    "country": "Germany",
+    "year": 2000,
+    "gdp_per_capita ($)": 24922,
+    "suicides/100k pop": 185.55
+  },
+  {
+    "country": "Germany",
+    "year": 2001,
+    "gdp_per_capita ($)": 24874,
+    "suicides/100k pop": 185.78
+  },
+  {
+    "country": "Germany",
+    "year": 2002,
+    "gdp_per_capita ($)": 26441,
+    "suicides/100k pop": 183.96
+  },
+  {
+    "country": "Germany",
+    "year": 2003,
+    "gdp_per_capita ($)": 31816,
+    "suicides/100k pop": 181.24
+  },
+  {
+    "country": "Germany",
+    "year": 2004,
+    "gdp_per_capita ($)": 35772,
+    "suicides/100k pop": 172.23
+  },
+  {
+    "country": "Germany",
+    "year": 2005,
+    "gdp_per_capita ($)": 36289,
+    "suicides/100k pop": 161.49
+  },
+  {
+    "country": "Germany",
+    "year": 2006,
+    "gdp_per_capita ($)": 38088,
+    "suicides/100k pop": 152.52
+  },
+  {
+    "country": "Germany",
+    "year": 2007,
+    "gdp_per_capita ($)": 43667,
+    "suicides/100k pop": 146.52
+  },
+  {
+    "country": "Germany",
+    "year": 2008,
+    "gdp_per_capita ($)": 47702,
+    "suicides/100k pop": 145.52
+  },
+  {
+    "country": "Germany",
+    "year": 2009,
+    "gdp_per_capita ($)": 43570,
+    "suicides/100k pop": 145.52
+  },
+  {
+    "country": "Germany",
+    "year": 2010,
+    "gdp_per_capita ($)": 43614,
+    "suicides/100k pop": 152.17
+  },
+  {
+    "country": "Germany",
+    "year": 2011,
+    "gdp_per_capita ($)": 47947,
+    "suicides/100k pop": 152.82
+  },
+  {
+    "country": "Germany",
+    "year": 2012,
+    "gdp_per_capita ($)": 45142,
+    "suicides/100k pop": 148.31
+  },
+  {
+    "country": "Germany",
+    "year": 2013,
+    "gdp_per_capita ($)": 48563,
+    "suicides/100k pop": 153.08
+  },
+  {
+    "country": "Greece",
+    "year": 1995,
+    "gdp_per_capita ($)": 13550,
+    "suicides/100k pop": 49.68
+  },
+  {
+    "country": "Greece",
+    "year": 1996,
+    "gdp_per_capita ($)": 14330,
+    "suicides/100k pop": 45.13
+  },
+  {
+    "country": "Greece",
+    "year": 1997,
+    "gdp_per_capita ($)": 13968,
+    "suicides/100k pop": 47.66
+  },
+  {
+    "country": "Greece",
+    "year": 1998,
+    "gdp_per_capita ($)": 14008,
+    "suicides/100k pop": 48.27
+  },
+  {
+    "country": "Greece",
+    "year": 1999,
+    "gdp_per_capita ($)": 13756,
+    "suicides/100k pop": 45.74
+  },
+  {
+    "country": "Greece",
+    "year": 2000,
+    "gdp_per_capita ($)": 12509,
+    "suicides/100k pop": 44.86
+  },
+  {
+    "country": "Greece",
+    "year": 2001,
+    "gdp_per_capita ($)": 13043,
+    "suicides/100k pop": 38.81
+  },
+  {
+    "country": "Greece",
+    "year": 2002,
+    "gdp_per_capita ($)": 14676,
+    "suicides/100k pop": 38.35
+  },
+  {
+    "country": "Greece",
+    "year": 2003,
+    "gdp_per_capita ($)": 19202,
+    "suicides/100k pop": 40.67
+  },
+  {
+    "country": "Greece",
+    "year": 2004,
+    "gdp_per_capita ($)": 22804,
+    "suicides/100k pop": 40.92
+  },
+  {
+    "country": "Greece",
+    "year": 2005,
+    "gdp_per_capita ($)": 23414,
+    "suicides/100k pop": 46.53
+  },
+  {
+    "country": "Greece",
+    "year": 2006,
+    "gdp_per_capita ($)": 25739,
+    "suicides/100k pop": 45.41
+  },
+  {
+    "country": "Greece",
+    "year": 2007,
+    "gdp_per_capita ($)": 29896,
+    "suicides/100k pop": 33.91
+  },
+  {
+    "country": "Greece",
+    "year": 2008,
+    "gdp_per_capita ($)": 33168,
+    "suicides/100k pop": 40.3
+  },
+  {
+    "country": "Greece",
+    "year": 2009,
+    "gdp_per_capita ($)": 30785,
+    "suicides/100k pop": 40.97
+  },
+  {
+    "country": "Greece",
+    "year": 2010,
+    "gdp_per_capita ($)": 27886,
+    "suicides/100k pop": 39.9
+  },
+  {
+    "country": "Greece",
+    "year": 2011,
+    "gdp_per_capita ($)": 26825,
+    "suicides/100k pop": 48.68
+  },
+  {
+    "country": "Greece",
+    "year": 2012,
+    "gdp_per_capita ($)": 23309,
+    "suicides/100k pop": 53.32
+  },
+  {
+    "country": "Greece",
+    "year": 2013,
+    "gdp_per_capita ($)": 22994,
+    "suicides/100k pop": 55.11
+  },
+  {
+    "country": "Guatemala",
+    "year": 1995,
+    "gdp_per_capita ($)": 1696,
+    "suicides/100k pop": 34.13
+  },
+  {
+    "country": "Guatemala",
+    "year": 1996,
+    "gdp_per_capita ($)": 1775,
+    "suicides/100k pop": 30.05
+  },
+  {
+    "country": "Guatemala",
+    "year": 1997,
+    "gdp_per_capita ($)": 1967,
+    "suicides/100k pop": 26.51
+  },
+  {
+    "country": "Guatemala",
+    "year": 1998,
+    "gdp_per_capita ($)": 2091,
+    "suicides/100k pop": 37.06
+  },
+  {
+    "country": "Guatemala",
+    "year": 1999,
+    "gdp_per_capita ($)": 1926,
+    "suicides/100k pop": 36.5
+  },
+  {
+    "country": "Guatemala",
+    "year": 2000,
+    "gdp_per_capita ($)": 1977,
+    "suicides/100k pop": 27.42
+  },
+  {
+    "country": "Guatemala",
+    "year": 2001,
+    "gdp_per_capita ($)": 1867,
+    "suicides/100k pop": 30.59
+  },
+  {
+    "country": "Guatemala",
+    "year": 2002,
+    "gdp_per_capita ($)": 2022,
+    "suicides/100k pop": 40.53
+  },
+  {
+    "country": "Guatemala",
+    "year": 2003,
+    "gdp_per_capita ($)": 2079,
+    "suicides/100k pop": 37.34
+  },
+  {
+    "country": "Guatemala",
+    "year": 2004,
+    "gdp_per_capita ($)": 2215,
+    "suicides/100k pop": 29.93
+  },
+  {
+    "country": "Guatemala",
+    "year": 2005,
+    "gdp_per_capita ($)": 2450,
+    "suicides/100k pop": 32.61
+  },
+  {
+    "country": "Guatemala",
+    "year": 2006,
+    "gdp_per_capita ($)": 2653,
+    "suicides/100k pop": 41.95
+  },
+  {
+    "country": "Guatemala",
+    "year": 2007,
+    "gdp_per_capita ($)": 2914,
+    "suicides/100k pop": 40.27
+  },
+  {
+    "country": "Guatemala",
+    "year": 2008,
+    "gdp_per_capita ($)": 3252,
+    "suicides/100k pop": 54.76
+  },
+  {
+    "country": "Guatemala",
+    "year": 2009,
+    "gdp_per_capita ($)": 3053,
+    "suicides/100k pop": 57.57
+  },
+  {
+    "country": "Guatemala",
+    "year": 2010,
+    "gdp_per_capita ($)": 3260,
+    "suicides/100k pop": 35.43
+  },
+  {
+    "country": "Guatemala",
+    "year": 2011,
+    "gdp_per_capita ($)": 3661,
+    "suicides/100k pop": 34.69
+  },
+  {
+    "country": "Guatemala",
+    "year": 2012,
+    "gdp_per_capita ($)": 3779,
+    "suicides/100k pop": 41.8
+  },
+  {
+    "country": "Guatemala",
+    "year": 2013,
+    "gdp_per_capita ($)": 3947,
+    "suicides/100k pop": 40.69
+  },
+  {
+    "country": "Hungary",
+    "year": 1995,
+    "gdp_per_capita ($)": 4767,
+    "suicides/100k pop": 493.42
+  },
+  {
+    "country": "Hungary",
+    "year": 1996,
+    "gdp_per_capita ($)": 4792,
+    "suicides/100k pop": 482.74
+  },
+  {
+    "country": "Hungary",
+    "year": 1997,
+    "gdp_per_capita ($)": 4856,
+    "suicides/100k pop": 470.44
+  },
+  {
+    "country": "Hungary",
+    "year": 1998,
+    "gdp_per_capita ($)": 5010,
+    "suicides/100k pop": 436.78
+  },
+  {
+    "country": "Hungary",
+    "year": 1999,
+    "gdp_per_capita ($)": 5147,
+    "suicides/100k pop": 483.88
+  },
+  {
+    "country": "Hungary",
+    "year": 2000,
+    "gdp_per_capita ($)": 4966,
+    "suicides/100k pop": 464.56
+  },
+  {
+    "country": "Hungary",
+    "year": 2001,
+    "gdp_per_capita ($)": 5546,
+    "suicides/100k pop": 408.98
+  },
+  {
+    "country": "Hungary",
+    "year": 2002,
+    "gdp_per_capita ($)": 6995,
+    "suicides/100k pop": 382.75
+  },
+  {
+    "country": "Hungary",
+    "year": 2003,
+    "gdp_per_capita ($)": 8840,
+    "suicides/100k pop": 372.04
+  },
+  {
+    "country": "Hungary",
+    "year": 2004,
+    "gdp_per_capita ($)": 10806,
+    "suicides/100k pop": 369.47
+  },
+  {
+    "country": "Hungary",
+    "year": 2005,
+    "gdp_per_capita ($)": 11764,
+    "suicides/100k pop": 352.01
+  },
+  {
+    "country": "Hungary",
+    "year": 2006,
+    "gdp_per_capita ($)": 12021,
+    "suicides/100k pop": 312.66
+  },
+  {
+    "country": "Hungary",
+    "year": 2007,
+    "gdp_per_capita ($)": 14609,
+    "suicides/100k pop": 327.32
+  },
+  {
+    "country": "Hungary",
+    "year": 2008,
+    "gdp_per_capita ($)": 16540,
+    "suicides/100k pop": 331.68
+  },
+  {
+    "country": "Hungary",
+    "year": 2009,
+    "gdp_per_capita ($)": 13697,
+    "suicides/100k pop": 310.72
+  },
+  {
+    "country": "Hungary",
+    "year": 2010,
+    "gdp_per_capita ($)": 13761,
+    "suicides/100k pop": 321.31
+  },
+  {
+    "country": "Hungary",
+    "year": 2011,
+    "gdp_per_capita ($)": 14827,
+    "suicides/100k pop": 299.85
+  },
+  {
+    "country": "Hungary",
+    "year": 2012,
+    "gdp_per_capita ($)": 13525,
+    "suicides/100k pop": 305.96
+  },
+  {
+    "country": "Hungary",
+    "year": 2013,
+    "gdp_per_capita ($)": 14333,
+    "suicides/100k pop": 266.23
+  },
+  {
+    "country": "Iceland",
+    "year": 1995,
+    "gdp_per_capita ($)": 28680,
+    "suicides/100k pop": 129.66
+  },
+  {
+    "country": "Iceland",
+    "year": 1996,
+    "gdp_per_capita ($)": 29740,
+    "suicides/100k pop": 177.35
+  },
+  {
+    "country": "Iceland",
+    "year": 1997,
+    "gdp_per_capita ($)": 30326,
+    "suicides/100k pop": 164.02
+  },
+  {
+    "country": "Iceland",
+    "year": 1998,
+    "gdp_per_capita ($)": 33513,
+    "suicides/100k pop": 141.09
+  },
+  {
+    "country": "Iceland",
+    "year": 1999,
+    "gdp_per_capita ($)": 34858,
+    "suicides/100k pop": 128.92
+  },
+  {
+    "country": "Iceland",
+    "year": 2000,
+    "gdp_per_capita ($)": 34372,
+    "suicides/100k pop": 207.99
+  },
+  {
+    "country": "Iceland",
+    "year": 2001,
+    "gdp_per_capita ($)": 30850,
+    "suicides/100k pop": 163.06
+  },
+  {
+    "country": "Iceland",
+    "year": 2002,
+    "gdp_per_capita ($)": 34556,
+    "suicides/100k pop": 131.24
+  },
+  {
+    "country": "Iceland",
+    "year": 2003,
+    "gdp_per_capita ($)": 42174,
+    "suicides/100k pop": 100.97
+  },
+  {
+    "country": "Iceland",
+    "year": 2004,
+    "gdp_per_capita ($)": 50528,
+    "suicides/100k pop": 168.81
+  },
+  {
+    "country": "Iceland",
+    "year": 2005,
+    "gdp_per_capita ($)": 60712,
+    "suicides/100k pop": 115
+  },
+  {
+    "country": "Iceland",
+    "year": 2006,
+    "gdp_per_capita ($)": 60243,
+    "suicides/100k pop": 106.39
+  },
+  {
+    "country": "Iceland",
+    "year": 2007,
+    "gdp_per_capita ($)": 73590,
+    "suicides/100k pop": 163.29
+  },
+  {
+    "country": "Iceland",
+    "year": 2008,
+    "gdp_per_capita ($)": 59489,
+    "suicides/100k pop": 136.09
+  },
+  {
+    "country": "Iceland",
+    "year": 2009,
+    "gdp_per_capita ($)": 43700,
+    "suicides/100k pop": 123.73
+  },
+  {
+    "country": "Iceland",
+    "year": 2010,
+    "gdp_per_capita ($)": 45179,
+    "suicides/100k pop": 184.27
+  },
+  {
+    "country": "Iceland",
+    "year": 2011,
+    "gdp_per_capita ($)": 49861,
+    "suicides/100k pop": 92.95
+  },
+  {
+    "country": "Iceland",
+    "year": 2012,
+    "gdp_per_capita ($)": 48083,
+    "suicides/100k pop": 145.41
+  },
+  {
+    "country": "Iceland",
+    "year": 2013,
+    "gdp_per_capita ($)": 51749,
+    "suicides/100k pop": 221.24
+  },
+  {
+    "country": "Ireland",
+    "year": 1995,
+    "gdp_per_capita ($)": 20689,
+    "suicides/100k pop": 143.84
+  },
+  {
+    "country": "Ireland",
+    "year": 1996,
+    "gdp_per_capita ($)": 22478,
+    "suicides/100k pop": 145.54
+  },
+  {
+    "country": "Ireland",
+    "year": 1997,
+    "gdp_per_capita ($)": 24259,
+    "suicides/100k pop": 156.15
+  },
+  {
+    "country": "Ireland",
+    "year": 1998,
+    "gdp_per_capita ($)": 26115,
+    "suicides/100k pop": 162.17
+  },
+  {
+    "country": "Ireland",
+    "year": 1999,
+    "gdp_per_capita ($)": 28344,
+    "suicides/100k pop": 141.22
+  },
+  {
+    "country": "Ireland",
+    "year": 2000,
+    "gdp_per_capita ($)": 28340,
+    "suicides/100k pop": 142.36
+  },
+  {
+    "country": "Ireland",
+    "year": 2001,
+    "gdp_per_capita ($)": 30536,
+    "suicides/100k pop": 148.97
+  },
+  {
+    "country": "Ireland",
+    "year": 2002,
+    "gdp_per_capita ($)": 35154,
+    "suicides/100k pop": 135.82
+  },
+  {
+    "country": "Ireland",
+    "year": 2003,
+    "gdp_per_capita ($)": 44473,
+    "suicides/100k pop": 134.77
+  },
+  {
+    "country": "Ireland",
+    "year": 2004,
+    "gdp_per_capita ($)": 51662,
+    "suicides/100k pop": 129.42
+  },
+  {
+    "country": "Ireland",
+    "year": 2005,
+    "gdp_per_capita ($)": 55213,
+    "suicides/100k pop": 121.11
+  },
+  {
+    "country": "Ireland",
+    "year": 2006,
+    "gdp_per_capita ($)": 58941,
+    "suicides/100k pop": 126.46
+  },
+  {
+    "country": "Ireland",
+    "year": 2007,
+    "gdp_per_capita ($)": 67032,
+    "suicides/100k pop": 121.77
+  },
+  {
+    "country": "Ireland",
+    "year": 2008,
+    "gdp_per_capita ($)": 67173,
+    "suicides/100k pop": 129.56
+  },
+  {
+    "country": "Ireland",
+    "year": 2009,
+    "gdp_per_capita ($)": 57390,
+    "suicides/100k pop": 132.63
+  },
+  {
+    "country": "Ireland",
+    "year": 2010,
+    "gdp_per_capita ($)": 52042,
+    "suicides/100k pop": 120.3
+  },
+  {
+    "country": "Ireland",
+    "year": 2011,
+    "gdp_per_capita ($)": 56655,
+    "suicides/100k pop": 138.58
+  },
+  {
+    "country": "Ireland",
+    "year": 2012,
+    "gdp_per_capita ($)": 53443,
+    "suicides/100k pop": 137.66
+  },
+  {
+    "country": "Ireland",
+    "year": 2013,
+    "gdp_per_capita ($)": 56628,
+    "suicides/100k pop": 117.41
+  },
+  {
+    "country": "Israel",
+    "year": 1995,
+    "gdp_per_capita ($)": 20159,
+    "suicides/100k pop": 127.43
+  },
+  {
+    "country": "Israel",
+    "year": 1996,
+    "gdp_per_capita ($)": 21545,
+    "suicides/100k pop": 110.51
+  },
+  {
+    "country": "Israel",
+    "year": 1997,
+    "gdp_per_capita ($)": 21921,
+    "suicides/100k pop": 126.58
+  },
+  {
+    "country": "Israel",
+    "year": 1998,
+    "gdp_per_capita ($)": 21637,
+    "suicides/100k pop": 100.11
+  },
+  {
+    "country": "Israel",
+    "year": 1999,
+    "gdp_per_capita ($)": 21319,
+    "suicides/100k pop": 102.58
+  },
+  {
+    "country": "Israel",
+    "year": 2000,
+    "gdp_per_capita ($)": 23451,
+    "suicides/100k pop": 108.56
+  },
+  {
+    "country": "Israel",
+    "year": 2001,
+    "gdp_per_capita ($)": 22623,
+    "suicides/100k pop": 108.23
+  },
+  {
+    "country": "Israel",
+    "year": 2002,
+    "gdp_per_capita ($)": 20536,
+    "suicides/100k pop": 93.49
+  },
+  {
+    "country": "Israel",
+    "year": 2003,
+    "gdp_per_capita ($)": 21133,
+    "suicides/100k pop": 97.17
+  },
+  {
+    "country": "Israel",
+    "year": 2004,
+    "gdp_per_capita ($)": 22168,
+    "suicides/100k pop": 98.44
+  },
+  {
+    "country": "Israel",
+    "year": 2005,
+    "gdp_per_capita ($)": 22901,
+    "suicides/100k pop": 102.91
+  },
+  {
+    "country": "Israel",
+    "year": 2006,
+    "gdp_per_capita ($)": 24306,
+    "suicides/100k pop": 80.52
+  },
+  {
+    "country": "Israel",
+    "year": 2007,
+    "gdp_per_capita ($)": 27712,
+    "suicides/100k pop": 73.67
+  },
+  {
+    "country": "Israel",
+    "year": 2008,
+    "gdp_per_capita ($)": 32874,
+    "suicides/100k pop": 87.33
+  },
+  {
+    "country": "Israel",
+    "year": 2009,
+    "gdp_per_capita ($)": 30812,
+    "suicides/100k pop": 80.32
+  },
+  {
+    "country": "Israel",
+    "year": 2010,
+    "gdp_per_capita ($)": 34104,
+    "suicides/100k pop": 99.47
+  },
+  {
+    "country": "Israel",
+    "year": 2011,
+    "gdp_per_capita ($)": 37528,
+    "suicides/100k pop": 87.41
+  },
+  {
+    "country": "Israel",
+    "year": 2012,
+    "gdp_per_capita ($)": 36263,
+    "suicides/100k pop": 83.79
+  },
+  {
+    "country": "Israel",
+    "year": 2013,
+    "gdp_per_capita ($)": 40477,
+    "suicides/100k pop": 74.21
+  },
+  {
+    "country": "Italy",
+    "year": 1995,
+    "gdp_per_capita ($)": 21625,
+    "suicides/100k pop": 118.01
+  },
+  {
+    "country": "Italy",
+    "year": 1996,
+    "gdp_per_capita ($)": 24172,
+    "suicides/100k pop": 115.45
+  },
+  {
+    "country": "Italy",
+    "year": 1997,
+    "gdp_per_capita ($)": 22869,
+    "suicides/100k pop": 117.04
+  },
+  {
+    "country": "Italy",
+    "year": 1998,
+    "gdp_per_capita ($)": 23342,
+    "suicides/100k pop": 113.84
+  },
+  {
+    "country": "Italy",
+    "year": 1999,
+    "gdp_per_capita ($)": 23002,
+    "suicides/100k pop": 99.72
+  },
+  {
+    "country": "Italy",
+    "year": 2000,
+    "gdp_per_capita ($)": 21027,
+    "suicides/100k pop": 99.22
+  },
+  {
+    "country": "Italy",
+    "year": 2001,
+    "gdp_per_capita ($)": 21392,
+    "suicides/100k pop": 95.87
+  },
+  {
+    "country": "Italy",
+    "year": 2002,
+    "gdp_per_capita ($)": 23227,
+    "suicides/100k pop": 94.61
+  },
+  {
+    "country": "Italy",
+    "year": 2003,
+    "gdp_per_capita ($)": 28572,
+    "suicides/100k pop": 94.42
+  },
+  {
+    "country": "Italy",
+    "year": 2004,
+    "gdp_per_capita ($)": 32704,
+    "suicides/100k pop": 91.33
+  },
+  {
+    "country": "Italy",
+    "year": 2005,
+    "gdp_per_capita ($)": 33536,
+    "suicides/100k pop": 82.59
+  },
+  {
+    "country": "Italy",
+    "year": 2006,
+    "gdp_per_capita ($)": 34578,
+    "suicides/100k pop": 81.61
+  },
+  {
+    "country": "Italy",
+    "year": 2007,
+    "gdp_per_capita ($)": 38935,
+    "suicides/100k pop": 81.96
+  },
+  {
+    "country": "Italy",
+    "year": 2008,
+    "gdp_per_capita ($)": 41935,
+    "suicides/100k pop": 81.69
+  },
+  {
+    "country": "Italy",
+    "year": 2009,
+    "gdp_per_capita ($)": 38101,
+    "suicides/100k pop": 81.93
+  },
+  {
+    "country": "Italy",
+    "year": 2010,
+    "gdp_per_capita ($)": 36869,
+    "suicides/100k pop": 80.77
+  },
+  {
+    "country": "Italy",
+    "year": 2011,
+    "gdp_per_capita ($)": 40210,
+    "suicides/100k pop": 86.08
+  },
+  {
+    "country": "Italy",
+    "year": 2012,
+    "gdp_per_capita ($)": 36497,
+    "suicides/100k pop": 85.45
+  },
+  {
+    "country": "Italy",
+    "year": 2013,
+    "gdp_per_capita ($)": 37050,
+    "suicides/100k pop": 84.86
+  },
+  {
+    "country": "Japan",
+    "year": 1995,
+    "gdp_per_capita ($)": 46043,
+    "suicides/100k pop": 228.13
+  },
+  {
+    "country": "Japan",
+    "year": 1996,
+    "gdp_per_capita ($)": 40693,
+    "suicides/100k pop": 228.48
+  },
+  {
+    "country": "Japan",
+    "year": 1997,
+    "gdp_per_capita ($)": 37080,
+    "suicides/100k pop": 237.38
+  },
+  {
+    "country": "Japan",
+    "year": 1998,
+    "gdp_per_capita ($)": 33791,
+    "suicides/100k pop": 306.6
+  },
+  {
+    "country": "Japan",
+    "year": 1999,
+    "gdp_per_capita ($)": 38164,
+    "suicides/100k pop": 298.9
+  },
+  {
+    "country": "Japan",
+    "year": 2000,
+    "gdp_per_capita ($)": 40813,
+    "suicides/100k pop": 278.52
+  },
+  {
+    "country": "Japan",
+    "year": 2001,
+    "gdp_per_capita ($)": 35843,
+    "suicides/100k pop": 267.16
+  },
+  {
+    "country": "Japan",
+    "year": 2002,
+    "gdp_per_capita ($)": 34239,
+    "suicides/100k pop": 265.84
+  },
+  {
+    "country": "Japan",
+    "year": 2003,
+    "gdp_per_capita ($)": 36926,
+    "suicides/100k pop": 279.41
+  },
+  {
+    "country": "Japan",
+    "year": 2004,
+    "gdp_per_capita ($)": 39960,
+    "suicides/100k pop": 266.25
+  },
+  {
+    "country": "Japan",
+    "year": 2005,
+    "gdp_per_capita ($)": 39412,
+    "suicides/100k pop": 266.89
+  },
+  {
+    "country": "Japan",
+    "year": 2006,
+    "gdp_per_capita ($)": 37534,
+    "suicides/100k pop": 262.24
+  },
+  {
+    "country": "Japan",
+    "year": 2007,
+    "gdp_per_capita ($)": 37408,
+    "suicides/100k pop": 268.76
+  },
+  {
+    "country": "Japan",
+    "year": 2008,
+    "gdp_per_capita ($)": 41773,
+    "suicides/100k pop": 265.32
+  },
+  {
+    "country": "Japan",
+    "year": 2009,
+    "gdp_per_capita ($)": 43415,
+    "suicides/100k pop": 266.69
+  },
+  {
+    "country": "Japan",
+    "year": 2010,
+    "gdp_per_capita ($)": 47059,
+    "suicides/100k pop": 255.48
+  },
+  {
+    "country": "Japan",
+    "year": 2011,
+    "gdp_per_capita ($)": 50919,
+    "suicides/100k pop": 252.41
+  },
+  {
+    "country": "Japan",
+    "year": 2012,
+    "gdp_per_capita ($)": 51379,
+    "suicides/100k pop": 233.7
+  },
+  {
+    "country": "Japan",
+    "year": 2013,
+    "gdp_per_capita ($)": 42781,
+    "suicides/100k pop": 231.16
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 1995,
+    "gdp_per_capita ($)": 1359,
+    "suicides/100k pop": 454.67
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 1996,
+    "gdp_per_capita ($)": 1452,
+    "suicides/100k pop": 452.84
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 1997,
+    "gdp_per_capita ($)": 1540,
+    "suicides/100k pop": 433.74
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 1998,
+    "gdp_per_capita ($)": 1599,
+    "suicides/100k pop": 440.52
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 1999,
+    "gdp_per_capita ($)": 1225,
+    "suicides/100k pop": 407.73
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2000,
+    "gdp_per_capita ($)": 1328,
+    "suicides/100k pop": 426.05
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2001,
+    "gdp_per_capita ($)": 1608,
+    "suicides/100k pop": 422.49
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2002,
+    "gdp_per_capita ($)": 1788,
+    "suicides/100k pop": 405.89
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2003,
+    "gdp_per_capita ($)": 2232,
+    "suicides/100k pop": 411.71
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2004,
+    "gdp_per_capita ($)": 3110,
+    "suicides/100k pop": 413.86
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2005,
+    "gdp_per_capita ($)": 4096,
+    "suicides/100k pop": 357.8
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2006,
+    "gdp_per_capita ($)": 5770,
+    "suicides/100k pop": 374.73
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2007,
+    "gdp_per_capita ($)": 7423,
+    "suicides/100k pop": 375.63
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2008,
+    "gdp_per_capita ($)": 9387,
+    "suicides/100k pop": 366.94
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2009,
+    "gdp_per_capita ($)": 8024,
+    "suicides/100k pop": 330.07
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2010,
+    "gdp_per_capita ($)": 10062,
+    "suicides/100k pop": 320.81
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2011,
+    "gdp_per_capita ($)": 12969,
+    "suicides/100k pop": 293.76
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2012,
+    "gdp_per_capita ($)": 13845,
+    "suicides/100k pop": 271.02
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2013,
+    "gdp_per_capita ($)": 15552,
+    "suicides/100k pop": 296.67
+  },
+  {
+    "country": "Kuwait",
+    "year": 1995,
+    "gdp_per_capita ($)": 17995,
+    "suicides/100k pop": 12.74
+  },
+  {
+    "country": "Kuwait",
+    "year": 1996,
+    "gdp_per_capita ($)": 20076,
+    "suicides/100k pop": 18.33
+  },
+  {
+    "country": "Kuwait",
+    "year": 1997,
+    "gdp_per_capita ($)": 18766,
+    "suicides/100k pop": 19.94
+  },
+  {
+    "country": "Kuwait",
+    "year": 1998,
+    "gdp_per_capita ($)": 14209,
+    "suicides/100k pop": 16.21
+  },
+  {
+    "country": "Kuwait",
+    "year": 1999,
+    "gdp_per_capita ($)": 15864,
+    "suicides/100k pop": 16.82
+  },
+  {
+    "country": "Kuwait",
+    "year": 2000,
+    "gdp_per_capita ($)": 19112,
+    "suicides/100k pop": 15.23
+  },
+  {
+    "country": "Kuwait",
+    "year": 2001,
+    "gdp_per_capita ($)": 17116,
+    "suicides/100k pop": 9.13
+  },
+  {
+    "country": "Kuwait",
+    "year": 2002,
+    "gdp_per_capita ($)": 17668,
+    "suicides/100k pop": 14.56
+  },
+  {
+    "country": "Kuwait",
+    "year": 2003,
+    "gdp_per_capita ($)": 24544,
+    "suicides/100k pop": 16.44
+  },
+  {
+    "country": "Kuwait",
+    "year": 2004,
+    "gdp_per_capita ($)": 29778,
+    "suicides/100k pop": 17.26
+  },
+  {
+    "country": "Kuwait",
+    "year": 2005,
+    "gdp_per_capita ($)": 39166,
+    "suicides/100k pop": 18.18
+  },
+  {
+    "country": "Kuwait",
+    "year": 2006,
+    "gdp_per_capita ($)": 46890,
+    "suicides/100k pop": 15.83
+  },
+  {
+    "country": "Kuwait",
+    "year": 2007,
+    "gdp_per_capita ($)": 37283,
+    "suicides/100k pop": 13.02
+  },
+  {
+    "country": "Kuwait",
+    "year": 2008,
+    "gdp_per_capita ($)": 43746,
+    "suicides/100k pop": 11.76
+  },
+  {
+    "country": "Kuwait",
+    "year": 2009,
+    "gdp_per_capita ($)": 33453,
+    "suicides/100k pop": 14.81
+  },
+  {
+    "country": "Kuwait",
+    "year": 2010,
+    "gdp_per_capita ($)": 35171,
+    "suicides/100k pop": 10.04
+  },
+  {
+    "country": "Kuwait",
+    "year": 2011,
+    "gdp_per_capita ($)": 46203,
+    "suicides/100k pop": 11.41
+  },
+  {
+    "country": "Kuwait",
+    "year": 2012,
+    "gdp_per_capita ($)": 49781,
+    "suicides/100k pop": 15.59
+  },
+  {
+    "country": "Kuwait",
+    "year": 2013,
+    "gdp_per_capita ($)": 48729,
+    "suicides/100k pop": 9.88
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 1995,
+    "gdp_per_capita ($)": 425,
+    "suicides/100k pop": 239.77
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 1996,
+    "gdp_per_capita ($)": 459,
+    "suicides/100k pop": 206.54
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 1997,
+    "gdp_per_capita ($)": 435,
+    "suicides/100k pop": 190.85
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 1998,
+    "gdp_per_capita ($)": 398,
+    "suicides/100k pop": 184.94
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 1999,
+    "gdp_per_capita ($)": 291,
+    "suicides/100k pop": 191.44
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2000,
+    "gdp_per_capita ($)": 313,
+    "suicides/100k pop": 182.63
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2001,
+    "gdp_per_capita ($)": 345,
+    "suicides/100k pop": 193.3
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2002,
+    "gdp_per_capita ($)": 359,
+    "suicides/100k pop": 173.11
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2003,
+    "gdp_per_capita ($)": 424,
+    "suicides/100k pop": 137.86
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2004,
+    "gdp_per_capita ($)": 484,
+    "suicides/100k pop": 141.33
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2005,
+    "gdp_per_capita ($)": 533,
+    "suicides/100k pop": 135.48
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2006,
+    "gdp_per_capita ($)": 610,
+    "suicides/100k pop": 145.99
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2007,
+    "gdp_per_capita ($)": 814,
+    "suicides/100k pop": 125.89
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2008,
+    "gdp_per_capita ($)": 1096,
+    "suicides/100k pop": 135.96
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2009,
+    "gdp_per_capita ($)": 977,
+    "suicides/100k pop": 113.28
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2010,
+    "gdp_per_capita ($)": 991,
+    "suicides/100k pop": 143.2
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2011,
+    "gdp_per_capita ($)": 1273,
+    "suicides/100k pop": 126.89
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2012,
+    "gdp_per_capita ($)": 1339,
+    "suicides/100k pop": 140.66
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2013,
+    "gdp_per_capita ($)": 1463,
+    "suicides/100k pop": 109.84
+  },
+  {
+    "country": "Latvia",
+    "year": 1995,
+    "gdp_per_capita ($)": 2438,
+    "suicides/100k pop": 545.62
+  },
+  {
+    "country": "Latvia",
+    "year": 1996,
+    "gdp_per_capita ($)": 2526,
+    "suicides/100k pop": 492.01
+  },
+  {
+    "country": "Latvia",
+    "year": 1997,
+    "gdp_per_capita ($)": 2771,
+    "suicides/100k pop": 492.57
+  },
+  {
+    "country": "Latvia",
+    "year": 1998,
+    "gdp_per_capita ($)": 3061,
+    "suicides/100k pop": 441.84
+  },
+  {
+    "country": "Latvia",
+    "year": 1999,
+    "gdp_per_capita ($)": 3228,
+    "suicides/100k pop": 420.41
+  },
+  {
+    "country": "Latvia",
+    "year": 2000,
+    "gdp_per_capita ($)": 3494,
+    "suicides/100k pop": 453.2
+  },
+  {
+    "country": "Latvia",
+    "year": 2001,
+    "gdp_per_capita ($)": 3724,
+    "suicides/100k pop": 383.49
+  },
+  {
+    "country": "Latvia",
+    "year": 2002,
+    "gdp_per_capita ($)": 4311,
+    "suicides/100k pop": 367.76
+  },
+  {
+    "country": "Latvia",
+    "year": 2003,
+    "gdp_per_capita ($)": 5364,
+    "suicides/100k pop": 361.63
+  },
+  {
+    "country": "Latvia",
+    "year": 2004,
+    "gdp_per_capita ($)": 6644,
+    "suicides/100k pop": 328.38
+  },
+  {
+    "country": "Latvia",
+    "year": 2005,
+    "gdp_per_capita ($)": 7916,
+    "suicides/100k pop": 312.06
+  },
+  {
+    "country": "Latvia",
+    "year": 2006,
+    "gdp_per_capita ($)": 10139,
+    "suicides/100k pop": 288.9
+  },
+  {
+    "country": "Latvia",
+    "year": 2007,
+    "gdp_per_capita ($)": 14758,
+    "suicides/100k pop": 295.75
+  },
+  {
+    "country": "Latvia",
+    "year": 2008,
+    "gdp_per_capita ($)": 17217,
+    "suicides/100k pop": 323.69
+  },
+  {
+    "country": "Latvia",
+    "year": 2009,
+    "gdp_per_capita ($)": 12890,
+    "suicides/100k pop": 307.8
+  },
+  {
+    "country": "Latvia",
+    "year": 2010,
+    "gdp_per_capita ($)": 11951,
+    "suicides/100k pop": 259.34
+  },
+  {
+    "country": "Latvia",
+    "year": 2011,
+    "gdp_per_capita ($)": 14447,
+    "suicides/100k pop": 288.75
+  },
+  {
+    "country": "Latvia",
+    "year": 2012,
+    "gdp_per_capita ($)": 14558,
+    "suicides/100k pop": 267.68
+  },
+  {
+    "country": "Latvia",
+    "year": 2013,
+    "gdp_per_capita ($)": 15820,
+    "suicides/100k pop": 242.19
+  },
+  {
+    "country": "Lithuania",
+    "year": 1995,
+    "gdp_per_capita ($)": 2324,
+    "suicides/100k pop": 639.3
+  },
+  {
+    "country": "Lithuania",
+    "year": 1996,
+    "gdp_per_capita ($)": 2484,
+    "suicides/100k pop": 595.61
+  },
+  {
+    "country": "Lithuania",
+    "year": 1997,
+    "gdp_per_capita ($)": 3008,
+    "suicides/100k pop": 565.44
+  },
+  {
+    "country": "Lithuania",
+    "year": 1998,
+    "gdp_per_capita ($)": 3354,
+    "suicides/100k pop": 566.36
+  },
+  {
+    "country": "Lithuania",
+    "year": 1999,
+    "gdp_per_capita ($)": 3292,
+    "suicides/100k pop": 561.53
+  },
+  {
+    "country": "Lithuania",
+    "year": 2000,
+    "gdp_per_capita ($)": 3481,
+    "suicides/100k pop": 571.8
+  },
+  {
+    "country": "Lithuania",
+    "year": 2001,
+    "gdp_per_capita ($)": 3719,
+    "suicides/100k pop": 568.98
+  },
+  {
+    "country": "Lithuania",
+    "year": 2002,
+    "gdp_per_capita ($)": 4360,
+    "suicides/100k pop": 555.62
+  },
+  {
+    "country": "Lithuania",
+    "year": 2003,
+    "gdp_per_capita ($)": 5778,
+    "suicides/100k pop": 530.52
+  },
+  {
+    "country": "Lithuania",
+    "year": 2004,
+    "gdp_per_capita ($)": 7028,
+    "suicides/100k pop": 503.37
+  },
+  {
+    "country": "Lithuania",
+    "year": 2005,
+    "gdp_per_capita ($)": 8229,
+    "suicides/100k pop": 485.79
+  },
+  {
+    "country": "Lithuania",
+    "year": 2006,
+    "gdp_per_capita ($)": 9667,
+    "suicides/100k pop": 400.57
+  },
+  {
+    "country": "Lithuania",
+    "year": 2007,
+    "gdp_per_capita ($)": 12869,
+    "suicides/100k pop": 406.79
+  },
+  {
+    "country": "Lithuania",
+    "year": 2008,
+    "gdp_per_capita ($)": 15669,
+    "suicides/100k pop": 430.05
+  },
+  {
+    "country": "Lithuania",
+    "year": 2009,
+    "gdp_per_capita ($)": 12412,
+    "suicides/100k pop": 437.07
+  },
+  {
+    "country": "Lithuania",
+    "year": 2010,
+    "gdp_per_capita ($)": 12584,
+    "suicides/100k pop": 395.24
+  },
+  {
+    "country": "Lithuania",
+    "year": 2011,
+    "gdp_per_capita ($)": 15097,
+    "suicides/100k pop": 407.69
+  },
+  {
+    "country": "Lithuania",
+    "year": 2012,
+    "gdp_per_capita ($)": 15099,
+    "suicides/100k pop": 374.12
+  },
+  {
+    "country": "Lithuania",
+    "year": 2013,
+    "gdp_per_capita ($)": 16538,
+    "suicides/100k pop": 444.56
+  },
+  {
+    "country": "Luxembourg",
+    "year": 1995,
+    "gdp_per_capita ($)": 56499,
+    "suicides/100k pop": 210.08
+  },
+  {
+    "country": "Luxembourg",
+    "year": 1996,
+    "gdp_per_capita ($)": 56169,
+    "suicides/100k pop": 229.25
+  },
+  {
+    "country": "Luxembourg",
+    "year": 1997,
+    "gdp_per_capita ($)": 50260,
+    "suicides/100k pop": 307.6
+  },
+  {
+    "country": "Luxembourg",
+    "year": 1998,
+    "gdp_per_capita ($)": 50788,
+    "suicides/100k pop": 201.25
+  },
+  {
+    "country": "Luxembourg",
+    "year": 1999,
+    "gdp_per_capita ($)": 55054,
+    "suicides/100k pop": 211.99
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2000,
+    "gdp_per_capita ($)": 51841,
+    "suicides/100k pop": 222.64
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2001,
+    "gdp_per_capita ($)": 51391,
+    "suicides/100k pop": 239.82
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2002,
+    "gdp_per_capita ($)": 56484,
+    "suicides/100k pop": 264.14
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2003,
+    "gdp_per_capita ($)": 69768,
+    "suicides/100k pop": 164.37
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2004,
+    "gdp_per_capita ($)": 80639,
+    "suicides/100k pop": 189.54
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2005,
+    "gdp_per_capita ($)": 85397,
+    "suicides/100k pop": 159.07
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2006,
+    "gdp_per_capita ($)": 95351,
+    "suicides/100k pop": 183.79
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2007,
+    "gdp_per_capita ($)": 112581,
+    "suicides/100k pop": 183.89
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2008,
+    "gdp_per_capita ($)": 121315,
+    "suicides/100k pop": 112.31
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2009,
+    "gdp_per_capita ($)": 109483,
+    "suicides/100k pop": 110.95
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2010,
+    "gdp_per_capita ($)": 111328,
+    "suicides/100k pop": 141.16
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2011,
+    "gdp_per_capita ($)": 122729,
+    "suicides/100k pop": 136.53
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2012,
+    "gdp_per_capita ($)": 113120,
+    "suicides/100k pop": 140.18
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2013,
+    "gdp_per_capita ($)": 120423,
+    "suicides/100k pop": 91.48
+  },
+  {
+    "country": "Malta",
+    "year": 1995,
+    "gdp_per_capita ($)": 9974,
+    "suicides/100k pop": 47.02
+  },
+  {
+    "country": "Malta",
+    "year": 1996,
+    "gdp_per_capita ($)": 10254,
+    "suicides/100k pop": 47.43
+  },
+  {
+    "country": "Malta",
+    "year": 1997,
+    "gdp_per_capita ($)": 10575,
+    "suicides/100k pop": 70.68
+  },
+  {
+    "country": "Malta",
+    "year": 1998,
+    "gdp_per_capita ($)": 11103,
+    "suicides/100k pop": 30.63
+  },
+  {
+    "country": "Malta",
+    "year": 1999,
+    "gdp_per_capita ($)": 11607,
+    "suicides/100k pop": 91.76
+  },
+  {
+    "country": "Malta",
+    "year": 2000,
+    "gdp_per_capita ($)": 11873,
+    "suicides/100k pop": 78.05
+  },
+  {
+    "country": "Malta",
+    "year": 2001,
+    "gdp_per_capita ($)": 11691,
+    "suicides/100k pop": 85.29
+  },
+  {
+    "country": "Malta",
+    "year": 2002,
+    "gdp_per_capita ($)": 12524,
+    "suicides/100k pop": 55.28
+  },
+  {
+    "country": "Malta",
+    "year": 2003,
+    "gdp_per_capita ($)": 14444,
+    "suicides/100k pop": 74.94
+  },
+  {
+    "country": "Malta",
+    "year": 2004,
+    "gdp_per_capita ($)": 15916,
+    "suicides/100k pop": 85.82
+  },
+  {
+    "country": "Malta",
+    "year": 2005,
+    "gdp_per_capita ($)": 16648,
+    "suicides/100k pop": 67.94
+  },
+  {
+    "country": "Malta",
+    "year": 2006,
+    "gdp_per_capita ($)": 17504,
+    "suicides/100k pop": 87.21
+  },
+  {
+    "country": "Malta",
+    "year": 2007,
+    "gdp_per_capita ($)": 20333,
+    "suicides/100k pop": 73.84
+  },
+  {
+    "country": "Malta",
+    "year": 2008,
+    "gdp_per_capita ($)": 23007,
+    "suicides/100k pop": 38.68
+  },
+  {
+    "country": "Malta",
+    "year": 2009,
+    "gdp_per_capita ($)": 21695,
+    "suicides/100k pop": 107.12
+  },
+  {
+    "country": "Malta",
+    "year": 2010,
+    "gdp_per_capita ($)": 22132,
+    "suicides/100k pop": 82.11
+  },
+  {
+    "country": "Malta",
+    "year": 2011,
+    "gdp_per_capita ($)": 23984,
+    "suicides/100k pop": 47.5
+  },
+  {
+    "country": "Malta",
+    "year": 2012,
+    "gdp_per_capita ($)": 23074,
+    "suicides/100k pop": 59.87
+  },
+  {
+    "country": "Malta",
+    "year": 2013,
+    "gdp_per_capita ($)": 25191,
+    "suicides/100k pop": 57.22
+  },
+  {
+    "country": "Mauritius",
+    "year": 1995,
+    "gdp_per_capita ($)": 4115,
+    "suicides/100k pop": 182.65
+  },
+  {
+    "country": "Mauritius",
+    "year": 1996,
+    "gdp_per_capita ($)": 4444,
+    "suicides/100k pop": 166.14
+  },
+  {
+    "country": "Mauritius",
+    "year": 1997,
+    "gdp_per_capita ($)": 4139,
+    "suicides/100k pop": 143.57
+  },
+  {
+    "country": "Mauritius",
+    "year": 1998,
+    "gdp_per_capita ($)": 4063,
+    "suicides/100k pop": 154.77
+  },
+  {
+    "country": "Mauritius",
+    "year": 1999,
+    "gdp_per_capita ($)": 4117,
+    "suicides/100k pop": 186.04
+  },
+  {
+    "country": "Mauritius",
+    "year": 2000,
+    "gdp_per_capita ($)": 4339,
+    "suicides/100k pop": 140.82
+  },
+  {
+    "country": "Mauritius",
+    "year": 2001,
+    "gdp_per_capita ($)": 4244,
+    "suicides/100k pop": 121.84
+  },
+  {
+    "country": "Mauritius",
+    "year": 2002,
+    "gdp_per_capita ($)": 4415,
+    "suicides/100k pop": 131.9
+  },
+  {
+    "country": "Mauritius",
+    "year": 2003,
+    "gdp_per_capita ($)": 5136,
+    "suicides/100k pop": 94.02
+  },
+  {
+    "country": "Mauritius",
+    "year": 2004,
+    "gdp_per_capita ($)": 5789,
+    "suicides/100k pop": 100.99
+  },
+  {
+    "country": "Mauritius",
+    "year": 2005,
+    "gdp_per_capita ($)": 5641,
+    "suicides/100k pop": 102.51
+  },
+  {
+    "country": "Mauritius",
+    "year": 2006,
+    "gdp_per_capita ($)": 6246,
+    "suicides/100k pop": 163.68
+  },
+  {
+    "country": "Mauritius",
+    "year": 2007,
+    "gdp_per_capita ($)": 7179,
+    "suicides/100k pop": 141.45
+  },
+  {
+    "country": "Mauritius",
+    "year": 2008,
+    "gdp_per_capita ($)": 8716,
+    "suicides/100k pop": 78.13
+  },
+  {
+    "country": "Mauritius",
+    "year": 2009,
+    "gdp_per_capita ($)": 7873,
+    "suicides/100k pop": 106.07
+  },
+  {
+    "country": "Mauritius",
+    "year": 2010,
+    "gdp_per_capita ($)": 8587,
+    "suicides/100k pop": 111.83
+  },
+  {
+    "country": "Mauritius",
+    "year": 2011,
+    "gdp_per_capita ($)": 9817,
+    "suicides/100k pop": 120.04
+  },
+  {
+    "country": "Mauritius",
+    "year": 2012,
+    "gdp_per_capita ($)": 9884,
+    "suicides/100k pop": 114.25
+  },
+  {
+    "country": "Mauritius",
+    "year": 2013,
+    "gdp_per_capita ($)": 10572,
+    "suicides/100k pop": 97.67
+  },
+  {
+    "country": "Mexico",
+    "year": 1995,
+    "gdp_per_capita ($)": 4505,
+    "suicides/100k pop": 59.09
+  },
+  {
+    "country": "Mexico",
+    "year": 1996,
+    "gdp_per_capita ($)": 4904,
+    "suicides/100k pop": 56.33
+  },
+  {
+    "country": "Mexico",
+    "year": 1997,
+    "gdp_per_capita ($)": 5864,
+    "suicides/100k pop": 57.07
+  },
+  {
+    "country": "Mexico",
+    "year": 1998,
+    "gdp_per_capita ($)": 6064,
+    "suicides/100k pop": 56.84
+  },
+  {
+    "country": "Mexico",
+    "year": 1999,
+    "gdp_per_capita ($)": 6800,
+    "suicides/100k pop": 54.89
+  },
+  {
+    "country": "Mexico",
+    "year": 2000,
+    "gdp_per_capita ($)": 7892,
+    "suicides/100k pop": 54.89
+  },
+  {
+    "country": "Mexico",
+    "year": 2001,
+    "gdp_per_capita ($)": 8311,
+    "suicides/100k pop": 63.3
+  },
+  {
+    "country": "Mexico",
+    "year": 2002,
+    "gdp_per_capita ($)": 8357,
+    "suicides/100k pop": 58.36
+  },
+  {
+    "country": "Mexico",
+    "year": 2003,
+    "gdp_per_capita ($)": 7779,
+    "suicides/100k pop": 63
+  },
+  {
+    "country": "Mexico",
+    "year": 2004,
+    "gdp_per_capita ($)": 8217,
+    "suicides/100k pop": 60.75
+  },
+  {
+    "country": "Mexico",
+    "year": 2005,
+    "gdp_per_capita ($)": 9071,
+    "suicides/100k pop": 62.22
+  },
+  {
+    "country": "Mexico",
+    "year": 2006,
+    "gdp_per_capita ($)": 9906,
+    "suicides/100k pop": 59.22
+  },
+  {
+    "country": "Mexico",
+    "year": 2007,
+    "gdp_per_capita ($)": 10496,
+    "suicides/100k pop": 58.01
+  },
+  {
+    "country": "Mexico",
+    "year": 2008,
+    "gdp_per_capita ($)": 10864,
+    "suicides/100k pop": 60.83
+  },
+  {
+    "country": "Mexico",
+    "year": 2009,
+    "gdp_per_capita ($)": 8651,
+    "suicides/100k pop": 64.14
+  },
+  {
+    "country": "Mexico",
+    "year": 2010,
+    "gdp_per_capita ($)": 9991,
+    "suicides/100k pop": 61.01
+  },
+  {
+    "country": "Mexico",
+    "year": 2011,
+    "gdp_per_capita ($)": 10965,
+    "suicides/100k pop": 65.52
+  },
+  {
+    "country": "Mexico",
+    "year": 2012,
+    "gdp_per_capita ($)": 10982,
+    "suicides/100k pop": 63.43
+  },
+  {
+    "country": "Mexico",
+    "year": 2013,
+    "gdp_per_capita ($)": 11478,
+    "suicides/100k pop": 64.99
+  },
+  {
+    "country": "Netherlands",
+    "year": 1995,
+    "gdp_per_capita ($)": 30850,
+    "suicides/100k pop": 125.02
+  },
+  {
+    "country": "Netherlands",
+    "year": 1996,
+    "gdp_per_capita ($)": 30625,
+    "suicides/100k pop": 135.07
+  },
+  {
+    "country": "Netherlands",
+    "year": 1997,
+    "gdp_per_capita ($)": 28156,
+    "suicides/100k pop": 136.57
+  },
+  {
+    "country": "Netherlands",
+    "year": 1998,
+    "gdp_per_capita ($)": 29351,
+    "suicides/100k pop": 128.5
+  },
+  {
+    "country": "Netherlands",
+    "year": 1999,
+    "gdp_per_capita ($)": 29799,
+    "suicides/100k pop": 123.16
+  },
+  {
+    "country": "Netherlands",
+    "year": 2000,
+    "gdp_per_capita ($)": 27644,
+    "suicides/100k pop": 118.99
+  },
+  {
+    "country": "Netherlands",
+    "year": 2001,
+    "gdp_per_capita ($)": 28366,
+    "suicides/100k pop": 116.3
+  },
+  {
+    "country": "Netherlands",
+    "year": 2002,
+    "gdp_per_capita ($)": 30757,
+    "suicides/100k pop": 119.73
+  },
+  {
+    "country": "Netherlands",
+    "year": 2003,
+    "gdp_per_capita ($)": 37614,
+    "suicides/100k pop": 113.33
+  },
+  {
+    "country": "Netherlands",
+    "year": 2004,
+    "gdp_per_capita ($)": 42614,
+    "suicides/100k pop": 111.16
+  },
+  {
+    "country": "Netherlands",
+    "year": 2005,
+    "gdp_per_capita ($)": 44289,
+    "suicides/100k pop": 113.28
+  },
+  {
+    "country": "Netherlands",
+    "year": 2006,
+    "gdp_per_capita ($)": 47281,
+    "suicides/100k pop": 113.19
+  },
+  {
+    "country": "Netherlands",
+    "year": 2007,
+    "gdp_per_capita ($)": 54418,
+    "suicides/100k pop": 97.44
+  },
+  {
+    "country": "Netherlands",
+    "year": 2008,
+    "gdp_per_capita ($)": 60375,
+    "suicides/100k pop": 102.09
+  },
+  {
+    "country": "Netherlands",
+    "year": 2009,
+    "gdp_per_capita ($)": 54988,
+    "suicides/100k pop": 108.3
+  },
+  {
+    "country": "Netherlands",
+    "year": 2010,
+    "gdp_per_capita ($)": 53302,
+    "suicides/100k pop": 109.49
+  },
+  {
+    "country": "Netherlands",
+    "year": 2011,
+    "gdp_per_capita ($)": 56667,
+    "suicides/100k pop": 113.08
+  },
+  {
+    "country": "Netherlands",
+    "year": 2012,
+    "gdp_per_capita ($)": 52334,
+    "suicides/100k pop": 118.51
+  },
+  {
+    "country": "Netherlands",
+    "year": 2013,
+    "gdp_per_capita ($)": 54510,
+    "suicides/100k pop": 125.53
+  },
+  {
+    "country": "New Zealand",
+    "year": 1995,
+    "gdp_per_capita ($)": 18945,
+    "suicides/100k pop": 199.42
+  },
+  {
+    "country": "New Zealand",
+    "year": 1996,
+    "gdp_per_capita ($)": 20434,
+    "suicides/100k pop": 195.13
+  },
+  {
+    "country": "New Zealand",
+    "year": 1997,
+    "gdp_per_capita ($)": 19041,
+    "suicides/100k pop": 198.28
+  },
+  {
+    "country": "New Zealand",
+    "year": 1998,
+    "gdp_per_capita ($)": 16052,
+    "suicides/100k pop": 201.07
+  },
+  {
+    "country": "New Zealand",
+    "year": 1999,
+    "gdp_per_capita ($)": 16556,
+    "suicides/100k pop": 176.8
+  },
+  {
+    "country": "New Zealand",
+    "year": 2000,
+    "gdp_per_capita ($)": 14725,
+    "suicides/100k pop": 157.54
+  },
+  {
+    "country": "New Zealand",
+    "year": 2001,
+    "gdp_per_capita ($)": 14968,
+    "suicides/100k pop": 179.9
+  },
+  {
+    "country": "New Zealand",
+    "year": 2002,
+    "gdp_per_capita ($)": 18208,
+    "suicides/100k pop": 152.03
+  },
+  {
+    "country": "New Zealand",
+    "year": 2003,
+    "gdp_per_capita ($)": 23663,
+    "suicides/100k pop": 172.35
+  },
+  {
+    "country": "New Zealand",
+    "year": 2004,
+    "gdp_per_capita ($)": 27325,
+    "suicides/100k pop": 163.41
+  },
+  {
+    "country": "New Zealand",
+    "year": 2005,
+    "gdp_per_capita ($)": 29803,
+    "suicides/100k pop": 157.93
+  },
+  {
+    "country": "New Zealand",
+    "year": 2006,
+    "gdp_per_capita ($)": 28628,
+    "suicides/100k pop": 156.74
+  },
+  {
+    "country": "New Zealand",
+    "year": 2007,
+    "gdp_per_capita ($)": 34892,
+    "suicides/100k pop": 148.19
+  },
+  {
+    "country": "New Zealand",
+    "year": 2008,
+    "gdp_per_capita ($)": 33585,
+    "suicides/100k pop": 151.78
+  },
+  {
+    "country": "New Zealand",
+    "year": 2009,
+    "gdp_per_capita ($)": 30259,
+    "suicides/100k pop": 153
+  },
+  {
+    "country": "New Zealand",
+    "year": 2010,
+    "gdp_per_capita ($)": 36145,
+    "suicides/100k pop": 152.62
+  },
+  {
+    "country": "New Zealand",
+    "year": 2011,
+    "gdp_per_capita ($)": 41184,
+    "suicides/100k pop": 142.82
+  },
+  {
+    "country": "New Zealand",
+    "year": 2012,
+    "gdp_per_capita ($)": 42756,
+    "suicides/100k pop": 158.03
+  },
+  {
+    "country": "New Zealand",
+    "year": 2013,
+    "gdp_per_capita ($)": 46198,
+    "suicides/100k pop": 144.55
+  },
+  {
+    "country": "Norway",
+    "year": 1995,
+    "gdp_per_capita ($)": 37483,
+    "suicides/100k pop": 156.35
+  },
+  {
+    "country": "Norway",
+    "year": 1996,
+    "gdp_per_capita ($)": 40098,
+    "suicides/100k pop": 153.93
+  },
+  {
+    "country": "Norway",
+    "year": 1997,
+    "gdp_per_capita ($)": 39335,
+    "suicides/100k pop": 158.61
+  },
+  {
+    "country": "Norway",
+    "year": 1998,
+    "gdp_per_capita ($)": 37334,
+    "suicides/100k pop": 153.66
+  },
+  {
+    "country": "Norway",
+    "year": 1999,
+    "gdp_per_capita ($)": 39013,
+    "suicides/100k pop": 163.33
+  },
+  {
+    "country": "Norway",
+    "year": 2000,
+    "gdp_per_capita ($)": 41099,
+    "suicides/100k pop": 150.33
+  },
+  {
+    "country": "Norway",
+    "year": 2001,
+    "gdp_per_capita ($)": 41281,
+    "suicides/100k pop": 154.29
+  },
+  {
+    "country": "Norway",
+    "year": 2002,
+    "gdp_per_capita ($)": 46049,
+    "suicides/100k pop": 141
+  },
+  {
+    "country": "Norway",
+    "year": 2003,
+    "gdp_per_capita ($)": 53533,
+    "suicides/100k pop": 138.08
+  },
+  {
+    "country": "Norway",
+    "year": 2004,
+    "gdp_per_capita ($)": 61450,
+    "suicides/100k pop": 141.37
+  },
+  {
+    "country": "Norway",
+    "year": 2005,
+    "gdp_per_capita ($)": 71215,
+    "suicides/100k pop": 142.09
+  },
+  {
+    "country": "Norway",
+    "year": 2006,
+    "gdp_per_capita ($)": 79007,
+    "suicides/100k pop": 142.67
+  },
+  {
+    "country": "Norway",
+    "year": 2007,
+    "gdp_per_capita ($)": 90797,
+    "suicides/100k pop": 127.77
+  },
+  {
+    "country": "Norway",
+    "year": 2008,
+    "gdp_per_capita ($)": 103431,
+    "suicides/100k pop": 132.03
+  },
+  {
+    "country": "Norway",
+    "year": 2009,
+    "gdp_per_capita ($)": 85394,
+    "suicides/100k pop": 145.74
+  },
+  {
+    "country": "Norway",
+    "year": 2010,
+    "gdp_per_capita ($)": 93638,
+    "suicides/100k pop": 136.43
+  },
+  {
+    "country": "Norway",
+    "year": 2011,
+    "gdp_per_capita ($)": 107430,
+    "suicides/100k pop": 146.49
+  },
+  {
+    "country": "Norway",
+    "year": 2012,
+    "gdp_per_capita ($)": 108408,
+    "suicides/100k pop": 126
+  },
+  {
+    "country": "Norway",
+    "year": 2013,
+    "gdp_per_capita ($)": 109804,
+    "suicides/100k pop": 127.01
+  },
+  {
+    "country": "Paraguay",
+    "year": 1995,
+    "gdp_per_capita ($)": 2223,
+    "suicides/100k pop": 40.33
+  },
+  {
+    "country": "Paraguay",
+    "year": 1996,
+    "gdp_per_capita ($)": 2341,
+    "suicides/100k pop": 33.46
+  },
+  {
+    "country": "Paraguay",
+    "year": 1997,
+    "gdp_per_capita ($)": 2326,
+    "suicides/100k pop": 35.58
+  },
+  {
+    "country": "Paraguay",
+    "year": 1998,
+    "gdp_per_capita ($)": 2057,
+    "suicides/100k pop": 48.55
+  },
+  {
+    "country": "Paraguay",
+    "year": 1999,
+    "gdp_per_capita ($)": 1868,
+    "suicides/100k pop": 44.42
+  },
+  {
+    "country": "Paraguay",
+    "year": 2000,
+    "gdp_per_capita ($)": 1782,
+    "suicides/100k pop": 42.78
+  },
+  {
+    "country": "Paraguay",
+    "year": 2001,
+    "gdp_per_capita ($)": 1630,
+    "suicides/100k pop": 56.52
+  },
+  {
+    "country": "Paraguay",
+    "year": 2002,
+    "gdp_per_capita ($)": 1315,
+    "suicides/100k pop": 43.45
+  },
+  {
+    "country": "Paraguay",
+    "year": 2003,
+    "gdp_per_capita ($)": 1339,
+    "suicides/100k pop": 51.35
+  },
+  {
+    "country": "Paraguay",
+    "year": 2004,
+    "gdp_per_capita ($)": 1598,
+    "suicides/100k pop": 65.44
+  },
+  {
+    "country": "Paraguay",
+    "year": 2005,
+    "gdp_per_capita ($)": 1704,
+    "suicides/100k pop": 62.81
+  },
+  {
+    "country": "Paraguay",
+    "year": 2006,
+    "gdp_per_capita ($)": 2038,
+    "suicides/100k pop": 65.57
+  },
+  {
+    "country": "Paraguay",
+    "year": 2007,
+    "gdp_per_capita ($)": 2599,
+    "suicides/100k pop": 62.51
+  },
+  {
+    "country": "Paraguay",
+    "year": 2008,
+    "gdp_per_capita ($)": 3438,
+    "suicides/100k pop": 58.32
+  },
+  {
+    "country": "Paraguay",
+    "year": 2009,
+    "gdp_per_capita ($)": 2920,
+    "suicides/100k pop": 67.33
+  },
+  {
+    "country": "Paraguay",
+    "year": 2010,
+    "gdp_per_capita ($)": 3619,
+    "suicides/100k pop": 54.56
+  },
+  {
+    "country": "Paraguay",
+    "year": 2011,
+    "gdp_per_capita ($)": 4474,
+    "suicides/100k pop": 67.83
+  },
+  {
+    "country": "Paraguay",
+    "year": 2012,
+    "gdp_per_capita ($)": 4319,
+    "suicides/100k pop": 63.3
+  },
+  {
+    "country": "Paraguay",
+    "year": 2013,
+    "gdp_per_capita ($)": 5006,
+    "suicides/100k pop": 75.39
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 1995,
+    "gdp_per_capita ($)": 12636,
+    "suicides/100k pop": 120.87
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 1996,
+    "gdp_per_capita ($)": 13328,
+    "suicides/100k pop": 139.81
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 1997,
+    "gdp_per_capita ($)": 14037,
+    "suicides/100k pop": 99.26
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 1998,
+    "gdp_per_capita ($)": 15610,
+    "suicides/100k pop": 131.07
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 1999,
+    "gdp_per_capita ($)": 16560,
+    "suicides/100k pop": 117.31
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2000,
+    "gdp_per_capita ($)": 17569,
+    "suicides/100k pop": 108.26
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2001,
+    "gdp_per_capita ($)": 19649,
+    "suicides/100k pop": 106.89
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2002,
+    "gdp_per_capita ($)": 20325,
+    "suicides/100k pop": 91.59
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2003,
+    "gdp_per_capita ($)": 21264,
+    "suicides/100k pop": 96.99
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2004,
+    "gdp_per_capita ($)": 22874,
+    "suicides/100k pop": 108.95
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2005,
+    "gdp_per_capita ($)": 23944,
+    "suicides/100k pop": 105.11
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2006,
+    "gdp_per_capita ($)": 24943,
+    "suicides/100k pop": 95.3
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2007,
+    "gdp_per_capita ($)": 25625,
+    "suicides/100k pop": 93.08
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2008,
+    "gdp_per_capita ($)": 26840,
+    "suicides/100k pop": 107.08
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2009,
+    "gdp_per_capita ($)": 27661,
+    "suicides/100k pop": 124.9
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2010,
+    "gdp_per_capita ($)": 28267,
+    "suicides/100k pop": 103.84
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2011,
+    "gdp_per_capita ($)": 28876,
+    "suicides/100k pop": 90.55
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2012,
+    "gdp_per_capita ($)": 29247,
+    "suicides/100k pop": 87.1
+  },
+  {
+    "country": "Puerto Rico",
+    "year": 2013,
+    "gdp_per_capita ($)": 29510,
+    "suicides/100k pop": 90.59
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 1995,
+    "gdp_per_capita ($)": 13217,
+    "suicides/100k pop": 179.28
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 1996,
+    "gdp_per_capita ($)": 14071,
+    "suicides/100k pop": 216.99
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 1997,
+    "gdp_per_capita ($)": 12978,
+    "suicides/100k pop": 226.8
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 1998,
+    "gdp_per_capita ($)": 8624,
+    "suicides/100k pop": 302.32
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 1999,
+    "gdp_per_capita ($)": 11074,
+    "suicides/100k pop": 257.52
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2000,
+    "gdp_per_capita ($)": 12686,
+    "suicides/100k pop": 248.59
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2001,
+    "gdp_per_capita ($)": 11922,
+    "suicides/100k pop": 273.54
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2002,
+    "gdp_per_capita ($)": 13501,
+    "suicides/100k pop": 361.04
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2003,
+    "gdp_per_capita ($)": 14971,
+    "suicides/100k pop": 454.12
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2004,
+    "gdp_per_capita ($)": 16708,
+    "suicides/100k pop": 469.7
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2005,
+    "gdp_per_capita ($)": 19460,
+    "suicides/100k pop": 479.04
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2006,
+    "gdp_per_capita ($)": 21753,
+    "suicides/100k pop": 420.46
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2007,
+    "gdp_per_capita ($)": 23982,
+    "suicides/100k pop": 466.54
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2008,
+    "gdp_per_capita ($)": 21278,
+    "suicides/100k pop": 452.28
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2009,
+    "gdp_per_capita ($)": 19036,
+    "suicides/100k pop": 519.52
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2010,
+    "gdp_per_capita ($)": 22994,
+    "suicides/100k pop": 518.2
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2011,
+    "gdp_per_capita ($)": 25157,
+    "suicides/100k pop": 515.05
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2012,
+    "gdp_per_capita ($)": 25464,
+    "suicides/100k pop": 443.26
+  },
+  {
+    "country": "Republic of Korea",
+    "year": 2013,
+    "gdp_per_capita ($)": 27060,
+    "suicides/100k pop": 428.57
+  },
+  {
+    "country": "Romania",
+    "year": 1995,
+    "gdp_per_capita ($)": 1756,
+    "suicides/100k pop": 156.18
+  },
+  {
+    "country": "Romania",
+    "year": 1996,
+    "gdp_per_capita ($)": 1738,
+    "suicides/100k pop": 159.98
+  },
+  {
+    "country": "Romania",
+    "year": 1997,
+    "gdp_per_capita ($)": 1677,
+    "suicides/100k pop": 161.6
+  },
+  {
+    "country": "Romania",
+    "year": 1998,
+    "gdp_per_capita ($)": 1967,
+    "suicides/100k pop": 161.29
+  },
+  {
+    "country": "Romania",
+    "year": 1999,
+    "gdp_per_capita ($)": 1698,
+    "suicides/100k pop": 158.27
+  },
+  {
+    "country": "Romania",
+    "year": 2000,
+    "gdp_per_capita ($)": 1758,
+    "suicides/100k pop": 159.19
+  },
+  {
+    "country": "Romania",
+    "year": 2001,
+    "gdp_per_capita ($)": 1914,
+    "suicides/100k pop": 149.11
+  },
+  {
+    "country": "Romania",
+    "year": 2002,
+    "gdp_per_capita ($)": 2231,
+    "suicides/100k pop": 173.6
+  },
+  {
+    "country": "Romania",
+    "year": 2003,
+    "gdp_per_capita ($)": 2898,
+    "suicides/100k pop": 159.71
+  },
+  {
+    "country": "Romania",
+    "year": 2004,
+    "gdp_per_capita ($)": 3698,
+    "suicides/100k pop": 151.19
+  },
+  {
+    "country": "Romania",
+    "year": 2005,
+    "gdp_per_capita ($)": 4847,
+    "suicides/100k pop": 146.01
+  },
+  {
+    "country": "Romania",
+    "year": 2006,
+    "gdp_per_capita ($)": 6018,
+    "suicides/100k pop": 149.09
+  },
+  {
+    "country": "Romania",
+    "year": 2007,
+    "gdp_per_capita ($)": 8593,
+    "suicides/100k pop": 136.06
+  },
+  {
+    "country": "Romania",
+    "year": 2008,
+    "gdp_per_capita ($)": 10454,
+    "suicides/100k pop": 140.4
+  },
+  {
+    "country": "Romania",
+    "year": 2009,
+    "gdp_per_capita ($)": 8465,
+    "suicides/100k pop": 144.02
+  },
+  {
+    "country": "Romania",
+    "year": 2010,
+    "gdp_per_capita ($)": 8190,
+    "suicides/100k pop": 150.04
+  },
+  {
+    "country": "Romania",
+    "year": 2011,
+    "gdp_per_capita ($)": 9086,
+    "suicides/100k pop": 138.78
+  },
+  {
+    "country": "Romania",
+    "year": 2012,
+    "gdp_per_capita ($)": 9015,
+    "suicides/100k pop": 142.03
+  },
+  {
+    "country": "Romania",
+    "year": 2013,
+    "gdp_per_capita ($)": 10080,
+    "suicides/100k pop": 137.99
+  },
+  {
+    "country": "Russian Federation",
+    "year": 1995,
+    "gdp_per_capita ($)": 2844,
+    "suicides/100k pop": 547.38
+  },
+  {
+    "country": "Russian Federation",
+    "year": 1996,
+    "gdp_per_capita ($)": 2813,
+    "suicides/100k pop": 526.28
+  },
+  {
+    "country": "Russian Federation",
+    "year": 1997,
+    "gdp_per_capita ($)": 2907,
+    "suicides/100k pop": 508.09
+  },
+  {
+    "country": "Russian Federation",
+    "year": 1998,
+    "gdp_per_capita ($)": 1948,
+    "suicides/100k pop": 474.74
+  },
+  {
+    "country": "Russian Federation",
+    "year": 1999,
+    "gdp_per_capita ($)": 1412,
+    "suicides/100k pop": 510.13
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2000,
+    "gdp_per_capita ($)": 1879,
+    "suicides/100k pop": 504.47
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2001,
+    "gdp_per_capita ($)": 2229,
+    "suicides/100k pop": 504.65
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2002,
+    "gdp_per_capita ($)": 2527,
+    "suicides/100k pop": 488.55
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2003,
+    "gdp_per_capita ($)": 3141,
+    "suicides/100k pop": 468.91
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2004,
+    "gdp_per_capita ($)": 4312,
+    "suicides/100k pop": 447.61
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2005,
+    "gdp_per_capita ($)": 5611,
+    "suicides/100k pop": 420.34
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2006,
+    "gdp_per_capita ($)": 7313,
+    "suicides/100k pop": 401.31
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2007,
+    "gdp_per_capita ($)": 9643,
+    "suicides/100k pop": 386.99
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2008,
+    "gdp_per_capita ($)": 12359,
+    "suicides/100k pop": 366.8
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2009,
+    "gdp_per_capita ($)": 9118,
+    "suicides/100k pop": 352.8
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2010,
+    "gdp_per_capita ($)": 11307,
+    "suicides/100k pop": 319.21
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2011,
+    "gdp_per_capita ($)": 15226,
+    "suicides/100k pop": 299.68
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2012,
+    "gdp_per_capita ($)": 16413,
+    "suicides/100k pop": 285.51
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2013,
+    "gdp_per_capita ($)": 17052,
+    "suicides/100k pop": 273.97
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 1995,
+    "gdp_per_capita ($)": 3293,
+    "suicides/100k pop": 85.41
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 1996,
+    "gdp_per_capita ($)": 3450,
+    "suicides/100k pop": 85.06
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 1997,
+    "gdp_per_capita ($)": 3613,
+    "suicides/100k pop": 30.02
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 1998,
+    "gdp_per_capita ($)": 3874,
+    "suicides/100k pop": 194.42
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 1999,
+    "gdp_per_capita ($)": 4041,
+    "suicides/100k pop": 65.8
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2000,
+    "gdp_per_capita ($)": 4087,
+    "suicides/100k pop": 44.11
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2001,
+    "gdp_per_capita ($)": 4418,
+    "suicides/100k pop": 160.66
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2002,
+    "gdp_per_capita ($)": 4723,
+    "suicides/100k pop": 202.93
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2003,
+    "gdp_per_capita ($)": 4902,
+    "suicides/100k pop": 50.91
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2004,
+    "gdp_per_capita ($)": 5286,
+    "suicides/100k pop": 46.46
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2005,
+    "gdp_per_capita ($)": 5556,
+    "suicides/100k pop": 72.11
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2006,
+    "gdp_per_capita ($)": 6142,
+    "suicides/100k pop": 122.07
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2007,
+    "gdp_per_capita ($)": 6539,
+    "suicides/100k pop": 102.39
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2008,
+    "gdp_per_capita ($)": 6966,
+    "suicides/100k pop": 40.29
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2009,
+    "gdp_per_capita ($)": 6754,
+    "suicides/100k pop": 11.18
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2010,
+    "gdp_per_capita ($)": 6809,
+    "suicides/100k pop": 54.83
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2011,
+    "gdp_per_capita ($)": 6759,
+    "suicides/100k pop": 46.98
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2012,
+    "gdp_per_capita ($)": 6918,
+    "suicides/100k pop": 97.29
+  },
+  {
+    "country": "Saint Vincent and Grenadines",
+    "year": 2013,
+    "gdp_per_capita ($)": 7183,
+    "suicides/100k pop": 0
+  },
+  {
+    "country": "Singapore",
+    "year": 1995,
+    "gdp_per_capita ($)": 31783,
+    "suicides/100k pop": 282.76
+  },
+  {
+    "country": "Singapore",
+    "year": 1996,
+    "gdp_per_capita ($)": 34148,
+    "suicides/100k pop": 208.94
+  },
+  {
+    "country": "Singapore",
+    "year": 1997,
+    "gdp_per_capita ($)": 34779,
+    "suicides/100k pop": 206.65
+  },
+  {
+    "country": "Singapore",
+    "year": 1998,
+    "gdp_per_capita ($)": 29150,
+    "suicides/100k pop": 215.36
+  },
+  {
+    "country": "Singapore",
+    "year": 1999,
+    "gdp_per_capita ($)": 28789,
+    "suicides/100k pop": 166.45
+  },
+  {
+    "country": "Singapore",
+    "year": 2000,
+    "gdp_per_capita ($)": 31446,
+    "suicides/100k pop": 164.34
+  },
+  {
+    "country": "Singapore",
+    "year": 2001,
+    "gdp_per_capita ($)": 28774,
+    "suicides/100k pop": 167.8
+  },
+  {
+    "country": "Singapore",
+    "year": 2002,
+    "gdp_per_capita ($)": 29048,
+    "suicides/100k pop": 172.39
+  },
+  {
+    "country": "Singapore",
+    "year": 2003,
+    "gdp_per_capita ($)": 30067,
+    "suicides/100k pop": 172.74
+  },
+  {
+    "country": "Singapore",
+    "year": 2004,
+    "gdp_per_capita ($)": 34799,
+    "suicides/100k pop": 167.48
+  },
+  {
+    "country": "Singapore",
+    "year": 2005,
+    "gdp_per_capita ($)": 38122,
+    "suicides/100k pop": 180.33
+  },
+  {
+    "country": "Singapore",
+    "year": 2006,
+    "gdp_per_capita ($)": 43318,
+    "suicides/100k pop": 148.75
+  },
+  {
+    "country": "Singapore",
+    "year": 2007,
+    "gdp_per_capita ($)": 53098,
+    "suicides/100k pop": 165.76
+  },
+  {
+    "country": "Singapore",
+    "year": 2008,
+    "gdp_per_capita ($)": 55735,
+    "suicides/100k pop": 150.25
+  },
+  {
+    "country": "Singapore",
+    "year": 2009,
+    "gdp_per_capita ($)": 54413,
+    "suicides/100k pop": 149.58
+  },
+  {
+    "country": "Singapore",
+    "year": 2010,
+    "gdp_per_capita ($)": 66099,
+    "suicides/100k pop": 129.23
+  },
+  {
+    "country": "Singapore",
+    "year": 2011,
+    "gdp_per_capita ($)": 76638,
+    "suicides/100k pop": 116.96
+  },
+  {
+    "country": "Singapore",
+    "year": 2012,
+    "gdp_per_capita ($)": 80040,
+    "suicides/100k pop": 141.62
+  },
+  {
+    "country": "Singapore",
+    "year": 2013,
+    "gdp_per_capita ($)": 83151,
+    "suicides/100k pop": 137.87
+  },
+  {
+    "country": "Slovenia",
+    "year": 1995,
+    "gdp_per_capita ($)": 11291,
+    "suicides/100k pop": 393.87
+  },
+  {
+    "country": "Slovenia",
+    "year": 1996,
+    "gdp_per_capita ($)": 11346,
+    "suicides/100k pop": 421.11
+  },
+  {
+    "country": "Slovenia",
+    "year": 1997,
+    "gdp_per_capita ($)": 11014,
+    "suicides/100k pop": 410.1
+  },
+  {
+    "country": "Slovenia",
+    "year": 1998,
+    "gdp_per_capita ($)": 11767,
+    "suicides/100k pop": 413.6
+  },
+  {
+    "country": "Slovenia",
+    "year": 1999,
+    "gdp_per_capita ($)": 12041,
+    "suicides/100k pop": 393.36
+  },
+  {
+    "country": "Slovenia",
+    "year": 2000,
+    "gdp_per_capita ($)": 10783,
+    "suicides/100k pop": 404.12
+  },
+  {
+    "country": "Slovenia",
+    "year": 2001,
+    "gdp_per_capita ($)": 10979,
+    "suicides/100k pop": 423.4
+  },
+  {
+    "country": "Slovenia",
+    "year": 2002,
+    "gdp_per_capita ($)": 12362,
+    "suicides/100k pop": 354.3
+  },
+  {
+    "country": "Slovenia",
+    "year": 2003,
+    "gdp_per_capita ($)": 15568,
+    "suicides/100k pop": 376.56
+  },
+  {
+    "country": "Slovenia",
+    "year": 2004,
+    "gdp_per_capita ($)": 18067,
+    "suicides/100k pop": 298.48
+  },
+  {
+    "country": "Slovenia",
+    "year": 2005,
+    "gdp_per_capita ($)": 19012,
+    "suicides/100k pop": 337.41
+  },
+  {
+    "country": "Slovenia",
+    "year": 2006,
+    "gdp_per_capita ($)": 20634,
+    "suicides/100k pop": 347.87
+  },
+  {
+    "country": "Slovenia",
+    "year": 2007,
+    "gdp_per_capita ($)": 24964,
+    "suicides/100k pop": 291.45
+  },
+  {
+    "country": "Slovenia",
+    "year": 2008,
+    "gdp_per_capita ($)": 28599,
+    "suicides/100k pop": 263.09
+  },
+  {
+    "country": "Slovenia",
+    "year": 2009,
+    "gdp_per_capita ($)": 25872,
+    "suicides/100k pop": 268.71
+  },
+  {
+    "country": "Slovenia",
+    "year": 2010,
+    "gdp_per_capita ($)": 24689,
+    "suicides/100k pop": 265.59
+  },
+  {
+    "country": "Slovenia",
+    "year": 2011,
+    "gdp_per_capita ($)": 26377,
+    "suicides/100k pop": 281.66
+  },
+  {
+    "country": "Slovenia",
+    "year": 2012,
+    "gdp_per_capita ($)": 23820,
+    "suicides/100k pop": 279.74
+  },
+  {
+    "country": "Slovenia",
+    "year": 2013,
+    "gdp_per_capita ($)": 24697,
+    "suicides/100k pop": 283.02
+  },
+  {
+    "country": "Spain",
+    "year": 1995,
+    "gdp_per_capita ($)": 16444,
+    "suicides/100k pop": 123.81
+  },
+  {
+    "country": "Spain",
+    "year": 1996,
+    "gdp_per_capita ($)": 17166,
+    "suicides/100k pop": 126.53
+  },
+  {
+    "country": "Spain",
+    "year": 1997,
+    "gdp_per_capita ($)": 15738,
+    "suicides/100k pop": 131.32
+  },
+  {
+    "country": "Spain",
+    "year": 1998,
+    "gdp_per_capita ($)": 16473,
+    "suicides/100k pop": 124.04
+  },
+  {
+    "country": "Spain",
+    "year": 1999,
+    "gdp_per_capita ($)": 16756,
+    "suicides/100k pop": 119.08
+  },
+  {
+    "country": "Spain",
+    "year": 2000,
+    "gdp_per_capita ($)": 15538,
+    "suicides/100k pop": 122.21
+  },
+  {
+    "country": "Spain",
+    "year": 2001,
+    "gdp_per_capita ($)": 16169,
+    "suicides/100k pop": 112.4
+  },
+  {
+    "country": "Spain",
+    "year": 2002,
+    "gdp_per_capita ($)": 17924,
+    "suicides/100k pop": 115.64
+  },
+  {
+    "country": "Spain",
+    "year": 2003,
+    "gdp_per_capita ($)": 22701,
+    "suicides/100k pop": 116.49
+  },
+  {
+    "country": "Spain",
+    "year": 2004,
+    "gdp_per_capita ($)": 26372,
+    "suicides/100k pop": 112.63
+  },
+  {
+    "country": "Spain",
+    "year": 2005,
+    "gdp_per_capita ($)": 28092,
+    "suicides/100k pop": 107.66
+  },
+  {
+    "country": "Spain",
+    "year": 2006,
+    "gdp_per_capita ($)": 30246,
+    "suicides/100k pop": 99.87
+  },
+  {
+    "country": "Spain",
+    "year": 2007,
+    "gdp_per_capita ($)": 34769,
+    "suicides/100k pop": 98.95
+  },
+  {
+    "country": "Spain",
+    "year": 2008,
+    "gdp_per_capita ($)": 37848,
+    "suicides/100k pop": 98.52
+  },
+  {
+    "country": "Spain",
+    "year": 2009,
+    "gdp_per_capita ($)": 34470,
+    "suicides/100k pop": 98.02
+  },
+  {
+    "country": "Spain",
+    "year": 2010,
+    "gdp_per_capita ($)": 32839,
+    "suicides/100k pop": 87.44
+  },
+  {
+    "country": "Spain",
+    "year": 2011,
+    "gdp_per_capita ($)": 34097,
+    "suicides/100k pop": 88.59
+  },
+  {
+    "country": "Spain",
+    "year": 2012,
+    "gdp_per_capita ($)": 30146,
+    "suicides/100k pop": 96.88
+  },
+  {
+    "country": "Spain",
+    "year": 2013,
+    "gdp_per_capita ($)": 30792,
+    "suicides/100k pop": 101.32
+  },
+  {
+    "country": "Suriname",
+    "year": 1995,
+    "gdp_per_capita ($)": 1782,
+    "suicides/100k pop": 182.52
+  },
+  {
+    "country": "Suriname",
+    "year": 1996,
+    "gdp_per_capita ($)": 2174,
+    "suicides/100k pop": 84.27
+  },
+  {
+    "country": "Suriname",
+    "year": 1997,
+    "gdp_per_capita ($)": 2314,
+    "suicides/100k pop": 115.69
+  },
+  {
+    "country": "Suriname",
+    "year": 1998,
+    "gdp_per_capita ($)": 2318,
+    "suicides/100k pop": 101.95
+  },
+  {
+    "country": "Suriname",
+    "year": 1999,
+    "gdp_per_capita ($)": 2142,
+    "suicides/100k pop": 216.7
+  },
+  {
+    "country": "Suriname",
+    "year": 2000,
+    "gdp_per_capita ($)": 2129,
+    "suicides/100k pop": 127.93
+  },
+  {
+    "country": "Suriname",
+    "year": 2001,
+    "gdp_per_capita ($)": 1798,
+    "suicides/100k pop": 218.09
+  },
+  {
+    "country": "Suriname",
+    "year": 2002,
+    "gdp_per_capita ($)": 2507,
+    "suicides/100k pop": 214.23
+  },
+  {
+    "country": "Suriname",
+    "year": 2003,
+    "gdp_per_capita ($)": 2916,
+    "suicides/100k pop": 246
+  },
+  {
+    "country": "Suriname",
+    "year": 2004,
+    "gdp_per_capita ($)": 3360,
+    "suicides/100k pop": 202.1
+  },
+  {
+    "country": "Suriname",
+    "year": 2005,
+    "gdp_per_capita ($)": 4009,
+    "suicides/100k pop": 211.17
+  },
+  {
+    "country": "Suriname",
+    "year": 2006,
+    "gdp_per_capita ($)": 5794,
+    "suicides/100k pop": 298.26
+  },
+  {
+    "country": "Suriname",
+    "year": 2007,
+    "gdp_per_capita ($)": 6397,
+    "suicides/100k pop": 356.14
+  },
+  {
+    "country": "Suriname",
+    "year": 2008,
+    "gdp_per_capita ($)": 7601,
+    "suicides/100k pop": 416.82
+  },
+  {
+    "country": "Suriname",
+    "year": 2009,
+    "gdp_per_capita ($)": 8238,
+    "suicides/100k pop": 369.71
+  },
+  {
+    "country": "Suriname",
+    "year": 2010,
+    "gdp_per_capita ($)": 9176,
+    "suicides/100k pop": 425.3
+  },
+  {
+    "country": "Suriname",
+    "year": 2011,
+    "gdp_per_capita ($)": 9184,
+    "suicides/100k pop": 353.31
+  },
+  {
+    "country": "Suriname",
+    "year": 2012,
+    "gdp_per_capita ($)": 10227,
+    "suicides/100k pop": 454.11
+  },
+  {
+    "country": "Suriname",
+    "year": 2013,
+    "gdp_per_capita ($)": 10451,
+    "suicides/100k pop": 286.8
+  },
+  {
+    "country": "Sweden",
+    "year": 1995,
+    "gdp_per_capita ($)": 32072,
+    "suicides/100k pop": 191.72
+  },
+  {
+    "country": "Sweden",
+    "year": 1996,
+    "gdp_per_capita ($)": 34819,
+    "suicides/100k pop": 178.24
+  },
+  {
+    "country": "Sweden",
+    "year": 1997,
+    "gdp_per_capita ($)": 31821,
+    "suicides/100k pop": 167.19
+  },
+  {
+    "country": "Sweden",
+    "year": 1998,
+    "gdp_per_capita ($)": 31966,
+    "suicides/100k pop": 175.8
+  },
+  {
+    "country": "Sweden",
+    "year": 1999,
+    "gdp_per_capita ($)": 32328,
+    "suicides/100k pop": 172.64
+  },
+  {
+    "country": "Sweden",
+    "year": 2000,
+    "gdp_per_capita ($)": 30896,
+    "suicides/100k pop": 162.5
+  },
+  {
+    "country": "Sweden",
+    "year": 2001,
+    "gdp_per_capita ($)": 28429,
+    "suicides/100k pop": 167.49
+  },
+  {
+    "country": "Sweden",
+    "year": 2002,
+    "gdp_per_capita ($)": 31175,
+    "suicides/100k pop": 162.71
+  },
+  {
+    "country": "Sweden",
+    "year": 2003,
+    "gdp_per_capita ($)": 38997,
+    "suicides/100k pop": 153.41
+  },
+  {
+    "country": "Sweden",
+    "year": 2004,
+    "gdp_per_capita ($)": 44831,
+    "suicides/100k pop": 157.41
+  },
+  {
+    "country": "Sweden",
+    "year": 2005,
+    "gdp_per_capita ($)": 45563,
+    "suicides/100k pop": 164.62
+  },
+  {
+    "country": "Sweden",
+    "year": 2006,
+    "gdp_per_capita ($)": 48977,
+    "suicides/100k pop": 160.76
+  },
+  {
+    "country": "Sweden",
+    "year": 2007,
+    "gdp_per_capita ($)": 56531,
+    "suicides/100k pop": 147.39
+  },
+  {
+    "country": "Sweden",
+    "year": 2008,
+    "gdp_per_capita ($)": 59155,
+    "suicides/100k pop": 155.68
+  },
+  {
+    "country": "Sweden",
+    "year": 2009,
+    "gdp_per_capita ($)": 49070,
+    "suicides/100k pop": 160.4
+  },
+  {
+    "country": "Sweden",
+    "year": 2010,
+    "gdp_per_capita ($)": 55352,
+    "suicides/100k pop": 146.54
+  },
+  {
+    "country": "Sweden",
+    "year": 2011,
+    "gdp_per_capita ($)": 63380,
+    "suicides/100k pop": 141.77
+  },
+  {
+    "country": "Sweden",
+    "year": 2012,
+    "gdp_per_capita ($)": 60776,
+    "suicides/100k pop": 148.11
+  },
+  {
+    "country": "Sweden",
+    "year": 2013,
+    "gdp_per_capita ($)": 64133,
+    "suicides/100k pop": 158.2
+  },
+  {
+    "country": "Switzerland",
+    "year": 1995,
+    "gdp_per_capita ($)": 51774,
+    "suicides/100k pop": 283.07
+  },
+  {
+    "country": "Switzerland",
+    "year": 1996,
+    "gdp_per_capita ($)": 49621,
+    "suicides/100k pop": 279.89
+  },
+  {
+    "country": "Switzerland",
+    "year": 1997,
+    "gdp_per_capita ($)": 42923,
+    "suicides/100k pop": 266.77
+  },
+  {
+    "country": "Switzerland",
+    "year": 1998,
+    "gdp_per_capita ($)": 43872,
+    "suicides/100k pop": 273.42
+  },
+  {
+    "country": "Switzerland",
+    "year": 1999,
+    "gdp_per_capita ($)": 42859,
+    "suicides/100k pop": 251.98
+  },
+  {
+    "country": "Switzerland",
+    "year": 2000,
+    "gdp_per_capita ($)": 39952,
+    "suicides/100k pop": 266.2
+  },
+  {
+    "country": "Switzerland",
+    "year": 2001,
+    "gdp_per_capita ($)": 40582,
+    "suicides/100k pop": 261.69
+  },
+  {
+    "country": "Switzerland",
+    "year": 2002,
+    "gdp_per_capita ($)": 43419,
+    "suicides/100k pop": 273.7
+  },
+  {
+    "country": "Switzerland",
+    "year": 2003,
+    "gdp_per_capita ($)": 50639,
+    "suicides/100k pop": 242.66
+  },
+  {
+    "country": "Switzerland",
+    "year": 2004,
+    "gdp_per_capita ($)": 56123,
+    "suicides/100k pop": 242.27
+  },
+  {
+    "country": "Switzerland",
+    "year": 2005,
+    "gdp_per_capita ($)": 57790,
+    "suicides/100k pop": 246.19
+  },
+  {
+    "country": "Switzerland",
+    "year": 2006,
+    "gdp_per_capita ($)": 60536,
+    "suicides/100k pop": 241.63
+  },
+  {
+    "country": "Switzerland",
+    "year": 2007,
+    "gdp_per_capita ($)": 66807,
+    "suicides/100k pop": 255.81
+  },
+  {
+    "country": "Switzerland",
+    "year": 2008,
+    "gdp_per_capita ($)": 76202,
+    "suicides/100k pop": 237.51
+  },
+  {
+    "country": "Switzerland",
+    "year": 2009,
+    "gdp_per_capita ($)": 73529,
+    "suicides/100k pop": 180.13
+  },
+  {
+    "country": "Switzerland",
+    "year": 2010,
+    "gdp_per_capita ($)": 78474,
+    "suicides/100k pop": 160.52
+  },
+  {
+    "country": "Switzerland",
+    "year": 2011,
+    "gdp_per_capita ($)": 93053,
+    "suicides/100k pop": 168.22
+  },
+  {
+    "country": "Switzerland",
+    "year": 2012,
+    "gdp_per_capita ($)": 87951,
+    "suicides/100k pop": 165.39
+  },
+  {
+    "country": "Switzerland",
+    "year": 2013,
+    "gdp_per_capita ($)": 89634,
+    "suicides/100k pop": 170.26
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 1995,
+    "gdp_per_capita ($)": 650,
+    "suicides/100k pop": 90.44
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 1996,
+    "gdp_per_capita ($)": 608,
+    "suicides/100k pop": 103.64
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 1997,
+    "gdp_per_capita ($)": 612,
+    "suicides/100k pop": 100.97
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 1998,
+    "gdp_per_capita ($)": 636,
+    "suicides/100k pop": 136.5
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 1999,
+    "gdp_per_capita ($)": 619,
+    "suicides/100k pop": 145.06
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2000,
+    "gdp_per_capita ($)": 721,
+    "suicides/100k pop": 112.13
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2001,
+    "gdp_per_capita ($)": 863,
+    "suicides/100k pop": 133.46
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2002,
+    "gdp_per_capita ($)": 1077,
+    "suicides/100k pop": 115.43
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2003,
+    "gdp_per_capita ($)": 1431,
+    "suicides/100k pop": 107.02
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2004,
+    "gdp_per_capita ($)": 1624,
+    "suicides/100k pop": 112.8
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2005,
+    "gdp_per_capita ($)": 1906,
+    "suicides/100k pop": 134.19
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2006,
+    "gdp_per_capita ($)": 2397,
+    "suicides/100k pop": 143.84
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2007,
+    "gdp_per_capita ($)": 2916,
+    "suicides/100k pop": 96.69
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2008,
+    "gdp_per_capita ($)": 4368,
+    "suicides/100k pop": 117.58
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2009,
+    "gdp_per_capita ($)": 4508,
+    "suicides/100k pop": 42.54
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2010,
+    "gdp_per_capita ($)": 4962,
+    "suicides/100k pop": 45.75
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2011,
+    "gdp_per_capita ($)": 6319,
+    "suicides/100k pop": 31.63
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2012,
+    "gdp_per_capita ($)": 7498,
+    "suicides/100k pop": 30.6
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2013,
+    "gdp_per_capita ($)": 8255,
+    "suicides/100k pop": 23.29
+  },
+  {
+    "country": "United Kingdom",
+    "year": 1995,
+    "gdp_per_capita ($)": 24389,
+    "suicides/100k pop": 92.34
+  },
+  {
+    "country": "United Kingdom",
+    "year": 1996,
+    "gdp_per_capita ($)": 25609,
+    "suicides/100k pop": 88.32
+  },
+  {
+    "country": "United Kingdom",
+    "year": 1997,
+    "gdp_per_capita ($)": 28091,
+    "suicides/100k pop": 88.78
+  },
+  {
+    "country": "United Kingdom",
+    "year": 1998,
+    "gdp_per_capita ($)": 29508,
+    "suicides/100k pop": 90.76
+  },
+  {
+    "country": "United Kingdom",
+    "year": 1999,
+    "gdp_per_capita ($)": 29832,
+    "suicides/100k pop": 92.44
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2000,
+    "gdp_per_capita ($)": 29358,
+    "suicides/100k pop": 87.33
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2001,
+    "gdp_per_capita ($)": 29179,
+    "suicides/100k pop": 85.14
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2002,
+    "gdp_per_capita ($)": 31630,
+    "suicides/100k pop": 82.71
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2003,
+    "gdp_per_capita ($)": 36289,
+    "suicides/100k pop": 80.15
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2004,
+    "gdp_per_capita ($)": 42486,
+    "suicides/100k pop": 82.72
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2005,
+    "gdp_per_capita ($)": 44372,
+    "suicides/100k pop": 79.16
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2006,
+    "gdp_per_capita ($)": 47163,
+    "suicides/100k pop": 78.17
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2007,
+    "gdp_per_capita ($)": 53576,
+    "suicides/100k pop": 74.92
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2008,
+    "gdp_per_capita ($)": 50111,
+    "suicides/100k pop": 80.71
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2009,
+    "gdp_per_capita ($)": 41074,
+    "suicides/100k pop": 78
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2010,
+    "gdp_per_capita ($)": 41798,
+    "suicides/100k pop": 77.41
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2011,
+    "gdp_per_capita ($)": 44491,
+    "suicides/100k pop": 78.29
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2012,
+    "gdp_per_capita ($)": 44585,
+    "suicides/100k pop": 79.47
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2013,
+    "gdp_per_capita ($)": 45594,
+    "suicides/100k pop": 84.92
+  },
+  {
+    "country": "United States",
+    "year": 1995,
+    "gdp_per_capita ($)": 31518,
+    "suicides/100k pop": 173.09
+  },
+  {
+    "country": "United States",
+    "year": 1996,
+    "gdp_per_capita ($)": 32928,
+    "suicides/100k pop": 166.45
+  },
+  {
+    "country": "United States",
+    "year": 1997,
+    "gdp_per_capita ($)": 34644,
+    "suicides/100k pop": 161.96
+  },
+  {
+    "country": "United States",
+    "year": 1998,
+    "gdp_per_capita ($)": 36164,
+    "suicides/100k pop": 160.51
+  },
+  {
+    "country": "United States",
+    "year": 1999,
+    "gdp_per_capita ($)": 38072,
+    "suicides/100k pop": 150.77
+  },
+  {
+    "country": "United States",
+    "year": 2000,
+    "gdp_per_capita ($)": 39218,
+    "suicides/100k pop": 146.58
+  },
+  {
+    "country": "United States",
+    "year": 2001,
+    "gdp_per_capita ($)": 40018,
+    "suicides/100k pop": 148.22
+  },
+  {
+    "country": "United States",
+    "year": 2002,
+    "gdp_per_capita ($)": 40845,
+    "suicides/100k pop": 150.02
+  },
+  {
+    "country": "United States",
+    "year": 2003,
+    "gdp_per_capita ($)": 42468,
+    "suicides/100k pop": 145.64
+  },
+  {
+    "country": "United States",
+    "year": 2004,
+    "gdp_per_capita ($)": 44867,
+    "suicides/100k pop": 146.9
+  },
+  {
+    "country": "United States",
+    "year": 2005,
+    "gdp_per_capita ($)": 47423,
+    "suicides/100k pop": 146.68
+  },
+  {
+    "country": "United States",
+    "year": 2006,
+    "gdp_per_capita ($)": 49666,
+    "suicides/100k pop": 145.13
+  },
+  {
+    "country": "United States",
+    "year": 2007,
+    "gdp_per_capita ($)": 51585,
+    "suicides/100k pop": 149.12
+  },
+  {
+    "country": "United States",
+    "year": 2008,
+    "gdp_per_capita ($)": 52128,
+    "suicides/100k pop": 153.24
+  },
+  {
+    "country": "United States",
+    "year": 2009,
+    "gdp_per_capita ($)": 50563,
+    "suicides/100k pop": 154.19
+  },
+  {
+    "country": "United States",
+    "year": 2010,
+    "gdp_per_capita ($)": 51989,
+    "suicides/100k pop": 158.89
+  },
+  {
+    "country": "United States",
+    "year": 2011,
+    "gdp_per_capita ($)": 53452,
+    "suicides/100k pop": 162.36
+  },
+  {
+    "country": "United States",
+    "year": 2012,
+    "gdp_per_capita ($)": 55170,
+    "suicides/100k pop": 165.14
+  },
+  {
+    "country": "United States",
+    "year": 2013,
+    "gdp_per_capita ($)": 56520,
+    "suicides/100k pop": 166.67
+  }
+]
