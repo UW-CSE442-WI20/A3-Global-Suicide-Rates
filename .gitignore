@@ -26,3 +26,6 @@ yarn-error.log*
 .cache
 
 dist
+
+# build folder (parcel handles all that)
+docs/**
