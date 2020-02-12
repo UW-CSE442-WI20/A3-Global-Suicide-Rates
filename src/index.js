@@ -50,19 +50,14 @@ svg.append("g")
 
 svg.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("y", 0 - (padding.right / 2))
     .attr("x", 0 - (outer_height / 2))
-    .text(y_col);
-
-svg.append("text")
-    //.attr("transform", "rotate(-90)")
-    .attr("y", 100)
-    .attr("x", 100)
+    .attr("y", padding.right / 2)
+    .style("text-anchor", "middle")
     .text(y_col);
 
 svg.append("text")
     .attr("x", outer_width / 2)
-    .attr("y", outer_height + padding.bottom)
+    .attr("y", outer_height)
     .style("text-anchor", "middle")
     .text(x_col);
 
