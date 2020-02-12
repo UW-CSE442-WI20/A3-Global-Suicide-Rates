@@ -12,8 +12,8 @@ var x_col = "GDP per Capita ($)";
 var y_col = "Suicide Rate per 100k People";
 
 // calculate the x and y scale based on max values of the data
-var x_scale = d3.scaleLinear().domain(0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })).range([padding.left, inner_width]);
-var y_scale = d3.scaleLinear().domain(0, d3.max(overall_data, function (d) { return d["suicides/100k pop"]; })).range([inner_height + padding.top, padding.bottom]);
+var x_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })]).range([padding.left, inner_width]);
+var y_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["suicides/100k pop"]; })]).range([inner_height + padding.top, padding.bottom]);
 
 // prepare/aggregate the data //
 
