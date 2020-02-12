@@ -61,6 +61,24 @@ svg.append("text")
     .text(x_col);
 
 
+// Time
+// d3.select('p#value-time') for the year
+var dataTime = d3.range(0, 20).map(function (d) { return new Date(1995 + d, 10, 3); });
+
+var sliderTime = d3.sliderBottom().min(d3.min(dataTime)).max(d3.max(dataTime))
+    .step(1000 * 60 * 60 * 24 * 365).width(850).tickFormat(d3.timeFormat('%Y'))
+    .tickValues(dataTime).default(new Date(1995, 10, 3))
+    .on('onchange', val => { d3.select('p#value-time').text(d3.timeFormat('%Y')(val)); });
+
+
+var gTime = d3.select('div#slider-time').append('svg').attr('width', 900).attr('height', 100)
+    .append('g').attr('transform', 'translate(30,30)');
+
+gTime.call(sliderTime);
+d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value()));
+
+
+
 plot_by_year(svg, 2012);
 
 
@@ -80,18 +98,18 @@ function plot_by_year(svg, year) {
     console.log(curr_year_data);
 
     var color = d3.scaleOrdinal()
-        .domain(["Eastern Europe", "Western Europe", "Northern Europe", "Central America and Caribbean", 
-                "South America", "North America", "Middle East", "East Asia", "Central Asia", "Africa", "Oceania"])
-        .range(["fde725ff", "#21908dff", "#440154ff", "#000000ff", "#000000ff", 
-                "#000000ff", "#440154ff", "#000000ff", "#000000ff", "#000000ff", "#000000ff"]);
+        .domain(["Eastern Europe", "Western Europe", "Northern Europe", "Central America and Caribbean",
+            "South America", "North America", "Middle East", "East Asia", "Central Asia", "Africa", "Oceania"])
+        .range(["fde725ff", "#21908dff", "#440154ff", "#000000ff", "#000000ff",
+            "#000000ff", "#440154ff", "#000000ff", "#000000ff", "#000000ff", "#000000ff"]);
 
-   var tooltip = d3.select("body")
-    .append("div")
-    .style("position", "absolute")
-    .style("z-index", "10")
-    .style("visibility", "hidden")
-    .style("background", "#fff")
-    .text("a simple tooltip");
+    var tooltip = d3.select("body")
+        .append("div")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .style("background", "#fff")
+        .text("a simple tooltip");
 
     //Create circles
     svg.selectAll("circle")
@@ -111,10 +129,9 @@ function plot_by_year(svg, year) {
         .style("fill", function (d) {
             return color(d["Region"]);
         })
-        .on("mouseover", function(d){return fade_dots(d, svg, tooltip);})
-        .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
-<<<<<<< HEAD
-        .on("mouseout", function(){return unfade_dots(svg, tooltip)});
+        .on("mouseover", function (d) { return fade_dots(d, svg, tooltip); })
+        .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
+        .on("mouseout", function () { return unfade_dots(svg, tooltip) });
 }
 
 function fade_dots(d, svg, tooltip) {
@@ -127,24 +144,5 @@ function unfade_dots(svg, tooltip) {
     svg.selectAll("circle").style("opacity", 1);
     return tooltip.style("visibility", "hidden");
 }
-=======
-        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
-
-   	// Time
-    // d3.select('p#value-time') for the year
-    var dataTime = d3.range(0, 20).map(function(d) { return new Date(1995 + d, 10, 3); });
-
-    var sliderTime = d3.sliderBottom().min(d3.min(dataTime)).max(d3.max(dataTime))
-        .step(1000 * 60 * 60 * 24 * 365).width(850).tickFormat(d3.timeFormat('%Y'))
-        .tickValues(dataTime).default(new Date(1995, 10, 3))
-        .on('onchange', val => { d3.select('p#value-time').text(d3.timeFormat('%Y')(val)); });
 
 
-    var gTime = d3.select('div#slider-time').append('svg').attr('width', 900).attr('height', 100)
-        .append('g').attr('transform', 'translate(30,30)');
-
-    gTime.call(sliderTime);
-    d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value()));
-
-}
->>>>>>> 653c43bac5801d9593e53e064e27fbf10b44755b

@@ -15,3 +15,7 @@ h1 {
 .tooltip > text {
     font-size: 150px;
 }
+
+circle {
+    cursor: pointer;
+}
