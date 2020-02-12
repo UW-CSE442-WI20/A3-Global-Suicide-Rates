@@ -111,7 +111,18 @@ function plot_by_year(svg, year) {
         .style("fill", function (d) {
             return color(d["Region"]);
         })
-        .on("mouseover", function(d){tooltip.text(d["country"]); return tooltip.style("visibility", "visible");})
+        .on("mouseover", function(d){return fade_dots(d, svg, tooltip);})
         .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
-        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+        .on("mouseout", function(){return unfade_dots(svg, tooltip)});
+}
+
+function fade_dots(d, svg, tooltip) {
+    tooltip.text(d["country"]);
+    svg.selectAll("circle").style("opacity", .5);
+    return tooltip.style("visibility", "visible");
+}
+
+function unfade_dots(svg, tooltip) {
+    svg.selectAll("circle").style("opacity", 1);
+    return tooltip.style("visibility", "hidden");
 }
