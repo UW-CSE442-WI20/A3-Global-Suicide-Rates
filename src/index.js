@@ -2,11 +2,12 @@ import overall_data from '../resources/overall-suicide-rates.json';
 import detailed_data from '../resources/detailed-suicide-rates.json';
 
 // set some variables for padding, size, and labels
-var outer_width = 700;
+var outer_width = 650;
 var outer_height = 455;
 var padding = { top: 30, right: 0, bottom: 30, left: 60 };
 var inner_width = outer_width - padding.left - padding.right;
 var inner_height = outer_height - padding.top - padding.bottom;
+var popup_width = 200;
 var circle_radius = 6;
 var x_col = "GDP per Capita ($)";
 var y_col = "Suicide Rate per 100k People";
@@ -59,6 +60,12 @@ svg.append("text")
     .attr("y", outer_height - (padding.top / 2))
     .style("text-anchor", "middle")
     .text(x_col);
+
+// Makes the info popup on the right
+var popup = d3.select("#popup")
+    .append("svg")
+    .attr("width", popup_width)
+    .attr("height", outer_height);
 
 
 // Time
@@ -129,7 +136,8 @@ function plot_by_year(svg, year) {
         })
         .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this); })
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
-        .on("mouseout", function () { return unfade_dots(svg, tooltip) });
+        .on("mouseout", function () { return unfade_dots(svg, tooltip) })
+        .on("click", function (d, i) { show_country_data(d, this) });
 }
 
 function fade_dots(d, svg, tooltip, i) {
@@ -143,4 +151,12 @@ function fade_dots(d, svg, tooltip, i) {
 function unfade_dots(svg, tooltip) {
     svg.selectAll("circle").style("opacity", 1);
     return tooltip.style("visibility", "hidden");
+}
+
+function show_country_data(d, i) {
+    var popup = d3.select("#data")
+        .append("svg")
+        .attr("width", popup_width)
+        .attr("height", outer_height);
+
 }

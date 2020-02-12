@@ -11,6 +11,17 @@ h1 {
     text-align: center;
 }
 
+#data {
+    border: 3px black;
+    height: 455px;
+    width: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 circle {
     cursor: pointer;
 }
