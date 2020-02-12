@@ -72,6 +72,14 @@ function plot_by_year(svg, year) {
         .range(["fde725ff", "#21908dff", "#440154ff", "#000000ff", "#000000ff", 
                 "#000000ff", "#440154ff", "#000000ff", "#000000ff", "#000000ff", "#000000ff"]);
 
+   var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .style("background", "#fff")
+    .text("a simple tooltip");
+
     //Create circles
     svg.selectAll("circle")
         .data(curr_year_data)
@@ -89,5 +97,8 @@ function plot_by_year(svg, year) {
         })
         .style("fill", function (d) {
             return color(d["Region"]);
-        });
+        })
+        .on("mouseover", function(d){tooltip.text(d["country"]); return tooltip.style("visibility", "visible");})
+        .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 }
