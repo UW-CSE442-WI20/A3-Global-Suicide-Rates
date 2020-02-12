@@ -54,7 +54,7 @@ plot_by_year(svg, 2012);
 // Supposed to take in a year and plot the graph
 function plot_by_year(svg, year) {
 
-    console.log(group_by_year);
+    // console.log(group_by_year);
 
     // how do I grab data for a year without for looping??
     // var curr_year_data = group_by_year.key[year].values;
@@ -66,6 +66,11 @@ function plot_by_year(svg, year) {
     }
     console.log(curr_year_data);
 
+    var color = d3.scaleOrdinal()
+        .domain(["Eastern Europe", "Western Europe", "Northern Europe", "Central America and Caribbean", 
+                "South America", "North America", "Middle East", "East Asia", "Central Asia", "Africa", "Oceania"])
+        .range(["fde725ff", "#21908dff", "#440154ff", "#000000ff", "#000000ff", 
+                "#000000ff", "#440154ff", "#000000ff", "#000000ff", "#000000ff", "#000000ff"]);
 
     //Create circles
     svg.selectAll("circle")
@@ -81,5 +86,8 @@ function plot_by_year(svg, year) {
         })
         .attr("r", function (d) {
             return circle_radius;
+        })
+        .style("fill", function (d) {
+            return color(d["Region"]);
         });
 }
