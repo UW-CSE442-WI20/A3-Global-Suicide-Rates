@@ -48,6 +48,27 @@ svg.append("g")
     .attr("transform", "translate(" + padding.left + ",0)")
     .call(y_axis);
 
+svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - (padding.right / 2))
+    .attr("x", 0 - (outer_height / 2))
+    .text(y_col);
+
+svg.append("text")
+    //.attr("transform", "rotate(-90)")
+    .attr("y", 100)
+    .attr("x", 100)
+    .text(y_col);
+
+svg.append("text")
+    .attr("x", outer_width / 2)
+    .attr("y", outer_height + padding.bottom)
+    .style("text-anchor", "middle")
+    .text(x_col);
+
+// y = -15, -225
+
+
 plot_by_year(svg, 2012);
 
 
