@@ -7,13 +7,8 @@ h1 {
     text-align: center;
 }
 
-.tooltip {
-    visibility: visible;
-    border: 3px black;
-}
-
-.tooltip > text {
-    font-size: 150px;
+#container {
+    text-align: center;
 }
 
 circle {

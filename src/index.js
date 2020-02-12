@@ -2,12 +2,12 @@ import overall_data from '../resources/overall-suicide-rates.json';
 import detailed_data from '../resources/detailed-suicide-rates.json';
 
 // set some variables for padding, size, and labels
-var outer_width = 1000;
-var outer_height = 520;
-var padding = { top: 30, right: 30, bottom: 30, left: 60 };
+var outer_width = 700;
+var outer_height = 455;
+var padding = { top: 30, right: 0, bottom: 30, left: 60 };
 var inner_width = outer_width - padding.left - padding.right;
 var inner_height = outer_height - padding.top - padding.bottom;
-var circle_radius = 3;
+var circle_radius = 6;
 var x_col = "GDP per Capita ($)";
 var y_col = "Suicide Rate per 100k People";
 
@@ -51,7 +51,7 @@ svg.append("g")
 svg.append("text")
     .attr("transform", "rotate(-90)")
     .attr("x", 0 - (outer_height / 2))
-    .attr("y", padding.right / 2)
+    .attr("y", padding.left / 4)
     .style("text-anchor", "middle")
     .text(y_col);
 svg.append("text")
@@ -66,16 +66,16 @@ svg.append("text")
 var dataTime = d3.range(0, 20).map(function (d) { return new Date(1995 + d, 10, 3); });
 
 var sliderTime = d3.sliderBottom().min(d3.min(dataTime)).max(d3.max(dataTime))
-    .step(1000 * 60 * 60 * 24 * 365).width(850).tickFormat(d3.timeFormat('%Y'))
+    .step(1000 * 60 * 60 * 24 * 365).width(inner_width - padding.left).tickFormat(d3.timeFormat("%Y"))
     .tickValues(dataTime).default(new Date(1995, 10, 3))
-    .on('onchange', val => { d3.select('p#value-time').text(d3.timeFormat('%Y')(val)); });
+    .on("onchange", val => { d3.select("p#value-time").text(d3.timeFormat("%Y")(val)); });
 
 
-var gTime = d3.select('div#slider-time').append('svg').attr('width', 900).attr('height', 100)
-    .append('g').attr('transform', 'translate(30,30)');
+var gTime = d3.select("div#slider-time").append("svg").attr("width", inner_width).attr("height", 47)
+    .append("g").attr("transform", "translate(" + padding.left / 4 + ",7)");
 
 gTime.call(sliderTime);
-d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value()));
+d3.select("p#value-time").text(d3.timeFormat("%Y")(sliderTime.value()));
 
 
 
@@ -95,7 +95,6 @@ function plot_by_year(svg, year) {
             curr_year_data = curr_year.values;
         }
     }
-    console.log(curr_year_data);
 
     var color = d3.scaleOrdinal()
         .domain(["Eastern Europe", "Western Europe", "Northern Europe", "Central America and Caribbean",
@@ -117,7 +116,6 @@ function plot_by_year(svg, year) {
         .enter()
         .append("circle")
         .attr("cx", function (d) {
-            console.log(d["gdp_per_capita ($)"])
             return x_scale(d["gdp_per_capita ($)"]);
         })
         .attr("cy", function (d) {
@@ -129,14 +127,16 @@ function plot_by_year(svg, year) {
         .style("fill", function (d) {
             return color(d["Region"]);
         })
-        .on("mouseover", function (d) { return fade_dots(d, svg, tooltip); })
+        .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this); })
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
         .on("mouseout", function () { return unfade_dots(svg, tooltip) });
 }
 
-function fade_dots(d, svg, tooltip) {
+function fade_dots(d, svg, tooltip, i) {
     tooltip.text(d["country"]);
-    svg.selectAll("circle").style("opacity", .5);
+
+    svg.selectAll("circle").style("opacity", .3);
+    d3.select(i).style("opacity", 1);
     return tooltip.style("visibility", "visible");
 }
 
@@ -144,5 +144,3 @@ function unfade_dots(svg, tooltip) {
     svg.selectAll("circle").style("opacity", 1);
     return tooltip.style("visibility", "hidden");
 }
-
-
