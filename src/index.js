@@ -4,16 +4,16 @@ import detailed_data from '../resources/detailed-suicide-rates.json';
 // set some variables for padding, size, and labels
 var outer_width = 1000;
 var outer_height = 450;
-var margin = { top: 30, right: 30, bottom: 30, left: 60 };
-var inner_width = outer_width - margin.left - margin.right;
-var inner_height = outer_height - margin.top - margin.bottom;
+var padding = { top: 30, right: 30, bottom: 30, left: 60 };
+var inner_width = outer_width - padding.left - padding.right;
+var inner_height = outer_height - padding.top - padding.bottom;
 var circle_radius = 3;
 var x_col = "GDP per Capita ($)";
 var y_col = "Suicide Rate per 100k People";
 
 // calculate the x and y scale based on max values of the data
-var x_scale = d3.scaleLinear().domain(0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })).range([margin.left, inner_width]);
-var y_scale = d3.scaleLinear().domain(0, d3.max(overall_data, function (d) { return d["suicides/100k pop"]; })).range([margin.bottom, inner_height]);
+var x_scale = d3.scaleLinear().domain(0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })).range([padding.left, inner_width]);
+var y_scale = d3.scaleLinear().domain(0, d3.max(overall_data, function (d) { return d["suicides/100k pop"]; })).range([inner_height + padding.top, padding.bottom]);
 
 // prepare/aggregate the data //
 
@@ -41,11 +41,11 @@ var y_axis = d3.axisLeft()
 // put the axis in the div
 svg.append("g")
     .attr("class", "axis")
-    .attr("transform", "translate(0," + (outer_height - margin.top) + ")")
+    .attr("transform", "translate(0," + (outer_height - padding.top) + ")")
     .call(x_axis);
 svg.append("g")
     .attr("class", "axis")
-    .attr("transform", "translate(" + margin.left + ",0)")
+    .attr("transform", "translate(" + padding.left + ",0)")
     .call(y_axis);
 
 plot_by_year(svg, 2012);
