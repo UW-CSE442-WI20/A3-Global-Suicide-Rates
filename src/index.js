@@ -48,6 +48,22 @@ svg.append("g")
     .attr("transform", "translate(" + padding.left + ",0)")
     .call(y_axis);
 
+svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("x", 0 - (outer_height / 2))
+    .attr("y", padding.right / 2)
+    .style("text-anchor", "middle")
+    .text(y_col);
+
+svg.append("text")
+    .attr("x", outer_width / 2)
+    .attr("y", outer_height)
+    .style("text-anchor", "middle")
+    .text(x_col);
+
+// y = -15, -225
+
+
 plot_by_year(svg, 2012);
 
 
