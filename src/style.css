@@ -36,6 +36,7 @@ h1 {
     grid-row: 2 / 3;
     text-align: left;
     font-size: 15px;
+    line-height: .5;
 }
 
 circle {
