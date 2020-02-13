@@ -115,6 +115,9 @@ function plot_by_year(svg, year) {
         .data(curr_year_data)
         .enter()
         .append("circle")
+        .attr("class", function(d) {
+            return d["Region"].replace(/ /g, "_");
+        })
         .attr("cx", function (d) {
             return x_scale(d["gdp_per_capita ($)"]);
         })
@@ -134,9 +137,13 @@ function plot_by_year(svg, year) {
 
 function fade_dots(d, svg, tooltip, i) {
     tooltip.text(d["country"]);
-
+    console.log(d)
+    var region = d["Region"]
+    console.log(region)
     svg.selectAll("circle").style("opacity", .3);
-    d3.select(i).style("opacity", 1);
+    // d3.select(i).style("opacity", 1);
+    d3.selectAll("." + region.replace(/ /g, "_"))
+        .style("opacity", 1)
     return tooltip.style("visibility", "visible");
 }
 
