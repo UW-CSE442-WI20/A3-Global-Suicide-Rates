@@ -1,20 +1,24 @@
 body {
     font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+    height: calc(100vh - 17px);
 }
 
 h1 {
-    margin: 0;
-    text-align: center;
+    margin: 0 75px;
+    text-align: left;
 }
 
 #container {
-    text-align: center;
+    text-align: left;
+    margin-left: 30px;
 }
 
 #grid-container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 0fr 0fr 1fr;
     grid-template-rows: auto 1fr;
+    /* grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr; */
 }
 
 #scatter {
@@ -28,7 +32,7 @@ h1 {
     text-align: left;
     position: relative;
     width: min-content;
-    padding: 0px 5px 5px 5px;
+    padding: 0px 10px 5px 10px;
     border: 1px solid black;
 }
 #legend table {
