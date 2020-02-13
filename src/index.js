@@ -33,6 +33,17 @@ var group_by_year_overall_data = d3.nest()
     .key(function (d) { return d.year })
     .entries(detailed_data);
 
+// it's magic, don't ask...
+let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
+"Mediterranean", "North America", "Central America and Caribbean", "South America"];
+
+let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
+"#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+
+let color = d3.scaleOrdinal()
+.domain(regionList)
+.range(colorList);
+
 console.log("start");
 
 // set up the actual visualization
@@ -324,17 +335,6 @@ function setLegendHighlight(region) {
     }
 }
 
-// it's magic, don't ask...
-let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
-    "Mediterranean", "North America", "Central America and Caribbean", "South America"];
-
-let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-    "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
-
-let color = d3.scaleOrdinal()
-    .domain(regionList)
-    .range(colorList);
-
 function setup_dots(svg, pie_svg, year) {
     var curr_year_data = {};
     for (var curr_year of group_by_year) {
@@ -350,10 +350,6 @@ function setup_dots(svg, pie_svg, year) {
         var y = b.country.toLowerCase();
         return x < y ? -1 : x > y ? 1 : 0;
     });
-
-    var color = d3.scaleOrdinal()
-        .domain(regionList)
-        .range(colorList);
 
     var tooltip = d3.select("body")
         .append("div")
