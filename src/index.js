@@ -9,6 +9,7 @@ const {
 // this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
 var curr_dot = null;
+var curr_dot_data = null;
 
 document.onclick = toggle_dot_highlight;
 
@@ -124,13 +125,28 @@ function plot_by_year(svg, pie_svg, year) {
             return y_scale(d["suicides/100k pop"]);
         });
     d3.select("#year_text")
-      .text(year);
+        .text(year);
+
+    if (curr_dot) {
+        for (var curr_country of curr_year_data) {
+            if (curr_country.country == curr_dot_data["country"]) {
+                curr_dot_data = curr_country;
+                break;
+            }
+        }
+        document.getElementById("country-text").innerHTML = "Country: " + curr_dot_data["country"];
+        document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + curr_dot_data["gdp_per_capita ($)"];
+        document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + curr_dot_data["suicides/100k pop"];
+
+        show_pie_chart(curr_dot_data, pie_svg);
+    }
 }
 
-function hightlight_dot(dot) {
+function hightlight_dot(d, dot) {
     console.log("highlight")
     if_dot_clicked = true;
     curr_dot = dot;
+    curr_dot_data = d;
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
@@ -139,7 +155,7 @@ function fade_dots(d, svg, tooltip, i, pie_svg) {
     document.getElementById("country-text").innerHTML = "Country: " + d["country"];
     document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
     document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
-    show_pie_chart(d, i, pie_svg);
+    show_pie_chart(d, pie_svg);
     tooltip.text(d["country"]);
     var region = d["Region"]
     console.log(region)
@@ -155,16 +171,16 @@ function fade_dots(d, svg, tooltip, i, pie_svg) {
 function unfade_dots(svg, tooltip, pie_svg) {
     if (!curr_dot) {
         svg.selectAll("circle").style("opacity", 1);
+        pie_svg.selectAll("*").remove();
+        document.getElementById("popup").style.visibility = "hidden";
     } else {
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     }
-    pie_svg.selectAll("*").remove();
-    document.getElementById("popup").style.visibility = "hidden";
     return tooltip.style("visibility", "hidden");
 }
 
-function show_pie_chart(d, i, pie_svg) {
+function show_pie_chart(d, pie_svg) {
     var male = 0;
     var female = 0;
     for (var curr_year of group_by_year_overall_data) {
@@ -191,7 +207,7 @@ function show_pie_chart(d, i, pie_svg) {
         .value(function (d) { return d.value; });
     var data_ready = pie(d3.entries(sex_data));
 
-    pie_svg
+    /*pie_svg
         .selectAll("charts")
         .data(data_ready)
         .enter()
@@ -218,6 +234,46 @@ function show_pie_chart(d, i, pie_svg) {
         .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
         .style("text-anchor", "middle")
         .style("font-size", 13);
+*/
+    var u = pie_svg.selectAll("path")
+        .data(data_ready)
+
+    // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+    u
+        .enter()
+        .append('path')
+        .merge(u)
+        .transition()
+        .duration(1000)
+        .attr('d', d3.arc()
+            .innerRadius(0)
+            .outerRadius(pie_radius)
+        )
+        .attr('fill', function (d) { return (pie_color(d.data.key)) })
+        .attr("stroke", "white")
+        .style("stroke-width", "2px")
+        .style("opacity", 1)
+
+    var arcGenerator = d3.arc()
+        .innerRadius(0)
+        .outerRadius(pie_radius);
+
+    pie_svg
+        .selectAll("slices")
+        .data(data_ready)
+        .enter()
+        .append('text')
+        .transition()
+        .duration(1000)
+        .text(function (d) { return d.data.key })
+        .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
+        .style("text-anchor", "middle")
+        .style("font-size", 13);
+
+    // remove the group that is not present anymore
+    u
+        .exit()
+        .remove()
 }
 
 function toggle_dot_highlight() {
@@ -282,7 +338,7 @@ function setup_dots(svg, pie_svg, year) {
         .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this, pie_svg); })
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
         .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
-        .on("click", function (d, i) { hightlight_dot(this) });
+        .on("click", function (d, i) { hightlight_dot(d, this) });
 
     svg.append("text")
         .attr("id", "year_text")
