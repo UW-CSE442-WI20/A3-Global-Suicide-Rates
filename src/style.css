@@ -28,7 +28,7 @@ h1 {
     text-align: left;
     position: relative;
     width: min-content;
-    padding: 0px 14px 12px;
+    padding: 0px 5px 5px 5px;
     border: 1px solid black;
 }
 #legend table {
