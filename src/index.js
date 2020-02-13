@@ -1,21 +1,9 @@
 import overall_data from '../resources/overall-suicide-rates.json';
 import detailed_data from '../resources/detailed-suicide-rates.json';
+import {outer_width, outer_height, padding, inner_width, inner_height,
+    popup_width, circle_radius, x_col, y_col, pie_width, pie_height, 
+    pie_margin, pie_radius} from './config.js';
 
-// set some variables for padding, size, and labels for the scatter plot
-var outer_width = 625;
-var outer_height = 455;
-var padding = { top: 30, right: 0, bottom: 30, left: 60 };
-var inner_width = outer_width - padding.left - padding.right;
-var inner_height = outer_height - padding.top - padding.bottom;
-var circle_radius = 6;
-var x_col = "GDP per Capita ($)";
-var y_col = "Suicide Rate per 100k People";
-
-// set some variables for the pie chart
-var pie_width = 450;
-var pie_height = 450;
-var pie_margin = 40;
-var pie_radius = Math.min(pie_width, pie_height) / 2 - pie_margin
 
 // calculate the x and y scale based on max values of the data
 var x_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })]).range([padding.left, inner_width]);
