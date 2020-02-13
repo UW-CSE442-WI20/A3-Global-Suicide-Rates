@@ -97,17 +97,29 @@ function plot_by_year(svg, year) {
     }
 
     var color = d3.scaleOrdinal()
-        .domain(["Eastern Europe", "Western Europe", "Northern Europe", "Central America and Caribbean",
-            "South America", "North America", "Middle East", "East Asia", "Central Asia", "Africa", "Oceania"])
-        .range(["fde725ff", "#21908dff", "#440154ff", "#000000ff", "#000000ff",
-            "#000000ff", "#440154ff", "#000000ff", "#000000ff", "#000000ff", "#000000ff"]);
+        .domain(["Asia",
+                 "Northern Europe",
+                 "Western Europe",
+                 "Eastern Europe",
+                 "Mediterranean",
+                 "North America",
+                 "Central America and Caribbean",
+                 "South America"])
+        .range(["#f28e2b",
+                "#76b7b2",
+                "#59a14f",
+                "#e15759",
+                "#edc948",
+                "#4e79a7",
+                "#b07aa1",
+                "#bab0ac"]);
 
     var tooltip = d3.select("body")
         .append("div")
         .style("position", "absolute")
         .style("z-index", "10")
         .style("visibility", "hidden")
-        .style("background", "#fff")
+        .style("background", "rgba(255,255,255,0.5)")
         .text("a simple tooltip");
 
     //Create circles
