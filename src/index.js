@@ -1,4 +1,4 @@
-const overall_data = require('../resources/overall-suicide-rates.json')
+var overall_data = require('../resources/overall-suicide-rates.json')
 const detailed_data = require('../resources/detailed-suicide-rates.json')
 const {
     outer_width, outer_height, padding, inner_width, inner_height,
@@ -6,7 +6,7 @@ const {
     pie_margin, pie_radius
 } = require('./config.js');
 
-overall_data.sort(function (a,b) {return d3.ascending(a.country - b.country);});
+
 
 // this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
@@ -116,6 +116,13 @@ function plot_by_year(svg, pie_svg, year) {
         }
     }
     console.log(curr_year_data);
+    curr_year_data = curr_year_data.slice(0);
+    curr_year_data.sort(function (a, b) {
+
+        var x = a.country.toLowerCase();
+        var y = b.country.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+    });
 
     svg.selectAll("circle")
         .data(curr_year_data)
@@ -274,7 +281,7 @@ function toggle_dot_highlight() {
 
 // it's magic, don't ask...
 let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
-        "Mediterranean", "North America", "Central America and Caribbean", "South America"];
+    "Mediterranean", "North America", "Central America and Caribbean", "South America"];
 
 let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
     "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
@@ -290,6 +297,14 @@ function setup_dots(svg, pie_svg, year) {
             curr_year_data = curr_year.values;
         }
     }
+
+    curr_year_data = curr_year_data.slice(0);
+    curr_year_data.sort(function (a, b) {
+
+        var x = a.country.toLowerCase();
+        var y = b.country.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+    });
 
     let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
         "Mediterranean", "North America", "Central America and Caribbean", "South America"];
