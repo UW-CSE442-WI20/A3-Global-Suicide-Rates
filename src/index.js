@@ -1,10 +1,10 @@
 const overall_data = require('../resources/overall-suicide-rates.json')
 const detailed_data = require('../resources/detailed-suicide-rates.json')
-import {
+const {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
     pie_margin, pie_radius
-} from './config.js';
+} = require('./config.js');
 
 // this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
