@@ -1,10 +1,12 @@
-const overall_data = require('../resources/overall-suicide-rates.json')
+var overall_data = require('../resources/overall-suicide-rates.json')
 const detailed_data = require('../resources/detailed-suicide-rates.json')
 const {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
-    pie_margin, pie_radius, regionList, colorList
+    pie_margin, pie_radius
 } = require('./config.js');
+
+
 
 // this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
@@ -119,11 +121,25 @@ function plot_by_year(svg, pie_svg, year) {
             curr_year_data = curr_year.values;
         }
     }
+    console.log(curr_year_data);
+    curr_year_data = curr_year_data.slice(0);
+    curr_year_data.sort(function (a, b) {
+
+        var x = a.country.toLowerCase();
+        var y = b.country.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+    });
 
     svg.selectAll("circle")
         .data(curr_year_data)
         .transition()
         .duration(400)
+        .attr("class", function (d) {
+            return d["Region"].replace(/ /g, "_");
+        })
+        .style("fill", function (d) {
+            return color(d["Region"]);
+        })
         .attr("cx", function (d) {
             return x_scale(d["gdp_per_capita ($)"]);
         })
@@ -201,6 +217,7 @@ function updateDetailedInfo(d, pie_svg) {
 }
 
 function show_pie_chart(d, pie_svg) {
+    pie_svg.style("visibility", "visible");
     var male = 0;
     var female = 0;
     for (var curr_year of group_by_year_overall_data) {
@@ -218,6 +235,10 @@ function show_pie_chart(d, pie_svg) {
             break;
         }
     }
+
+    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
+    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
+    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
 
     var sex_data = { "male": male, "female": female };
     var pie_color = d3.scaleOrdinal()
@@ -303,6 +324,17 @@ function setLegendHighlight(region) {
     }
 }
 
+// it's magic, don't ask...
+let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
+    "Mediterranean", "North America", "Central America and Caribbean", "South America"];
+
+let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
+    "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+
+let color = d3.scaleOrdinal()
+    .domain(regionList)
+    .range(colorList);
+
 function setup_dots(svg, pie_svg, year) {
     var curr_year_data = {};
     for (var curr_year of group_by_year) {
@@ -310,6 +342,14 @@ function setup_dots(svg, pie_svg, year) {
             curr_year_data = curr_year.values;
         }
     }
+
+    curr_year_data = curr_year_data.slice(0);
+    curr_year_data.sort(function (a, b) {
+
+        var x = a.country.toLowerCase();
+        var y = b.country.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+    });
 
     var color = d3.scaleOrdinal()
         .domain(regionList)
