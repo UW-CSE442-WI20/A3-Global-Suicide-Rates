@@ -87,7 +87,7 @@ d3.select("p#value-time").text(d3.timeFormat("%Y")(sliderTime.value()));
 
 var year = -1;
 // get instant input
-setInterval(function() {
+setInterval(function () {
     var newYear = parseInt((d3.timeFormat("%Y")(sliderTime.value())));
     if (year != newYear) {
         year = newYear;
@@ -98,7 +98,7 @@ setInterval(function() {
 
 // Supposed to take in a year and plot the graph
 function plot_by_year(svg, pie_svg, year) {
-	d3.selectAll("circle").remove();
+    d3.selectAll("circle").remove();
     // console.log(group_by_year);
 
     // how do I grab data for a year without for looping??
@@ -150,34 +150,36 @@ function plot_by_year(svg, pie_svg, year) {
         .style("fill", function (d) {
             return color(d["Region"]);
         })
-        .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this); })
+        .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this, pie_svg); })
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
-        .on("mouseout", function () { return unfade_dots(svg, tooltip) })
-        .on("click", function (d, i) { show_country_data(d, this, pie_svg) });
+        .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
+        .on("click", function (d, i) { console.log("clicked") });
 }
 
-function fade_dots(d, svg, tooltip, i) {
+function fade_dots(d, svg, tooltip, i, pie_svg) {
+
+    document.getElementById("popup").style.visibility = "visible";
+    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
+    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
+    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
+    show_pie_chart(d, i, pie_svg);
     tooltip.text(d["country"]);
     var region = d["Region"]
     console.log(region)
     svg.selectAll("circle").style("opacity", .3);
     d3.selectAll("." + region.replace(/ /g, "_"))
-        .style("opacity", 1)
+        .style("opacity", 1);
     return tooltip.style("visibility", "visible");
 }
 
-function unfade_dots(svg, tooltip) {
+function unfade_dots(svg, tooltip, pie_svg) {
+    pie_svg.selectAll("*").remove();
     document.getElementById("popup").style.visibility = "hidden";
     svg.selectAll("circle").style("opacity", 0.8);
     return tooltip.style("visibility", "hidden");
 }
 
-function show_country_data(d, i, pie_svg) {
-    document.getElementById("popup").style.visibility = "visible";
-    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
-    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
-    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
-
+function show_pie_chart(d, i, pie_svg) {
     var male = 0;
     var female = 0;
     for (var curr_year of group_by_year_overall_data) {
@@ -204,8 +206,6 @@ function show_country_data(d, i, pie_svg) {
         .value(function (d) { return d.value; });
     var data_ready = pie(d3.entries(sex_data));
 
-
-    pie_svg.selectAll("*").remove();
     pie_svg
         .selectAll("charts")
         .data(data_ready)
@@ -219,16 +219,18 @@ function show_country_data(d, i, pie_svg) {
         .attr("stroke", "black")
         .style("stroke-width", "2px")
         .style("opacity", 0.7);
+
+
+    var arcGenerator = d3.arc()
+        .innerRadius(0)
+        .outerRadius(pie_radius);
     pie_svg
-        .selectAll('slices')
+        .selectAll("slices")
         .data(data_ready)
         .enter()
         .append('text')
         .text(function (d) { return d.data.key })
         .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
         .style("text-anchor", "middle")
-        .style("font-size", 10)
-
-    console.log(male);
-    console.log(female);
+        .style("font-size", 13);
 }
