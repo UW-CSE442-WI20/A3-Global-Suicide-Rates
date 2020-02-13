@@ -17,7 +17,7 @@ var curr_dot_data = null;
 var legendIsClicked = false;
 
 // allows this listener to be blocked by listeners on top of it
-d3.select("body").on("click", function() {toggle_dot_highlight()} );
+d3.select("body").on("click", function () { toggle_dot_highlight() });
 
 // calculate the x and y scale based on max values of the data
 var x_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })]).range([padding.left, inner_width]);
@@ -35,14 +35,14 @@ var group_by_year_overall_data = d3.nest()
 
 // it's magic, don't ask...
 let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
-"Mediterranean", "North America", "Central America and Caribbean", "South America"];
+    "Mediterranean", "North America", "Central America and Caribbean", "South America"];
 
 let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-"#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+    "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
 
 let color = d3.scaleOrdinal()
-.domain(regionList)
-.range(colorList);
+    .domain(regionList)
+    .range(colorList);
 
 console.log("start");
 
@@ -178,7 +178,7 @@ function highlight_dot(d, dot) {
     if_dot_clicked = true;
     curr_dot = dot;
     curr_dot_data = d;
-    
+
     highlightRegion(d["Region"]);
     svg.selectAll("circle").style("opacity", faded_opacity);
         d3.select(curr_dot).style("opacity", selected_opacity);
@@ -215,7 +215,7 @@ function unfade_dots(svg, tooltip, pie_svg) {
         svg.selectAll("circle").style("opacity", faded_opacity);
         d3.select(curr_dot).style("opacity", selected_opacity);
     }
-    
+
     return tooltip.style("visibility", "hidden");
 }
 
@@ -323,6 +323,8 @@ function legendListeners() {
         })
         .on("click", function() {
             legendIsClicked = true;
+            document.getElementById("popup").style.visibility = "hidden";
+            pie_svg.style("visibility", "hidden");
             highlightRegion(this.className);
         });
 }
@@ -331,7 +333,7 @@ function highlightRegion(region) {
     console.log("highlighting " + region);
 
     d3.event.stopPropagation();
-   
+
     setLegendHighlight(region);
 
     d3.selectAll("svg").selectAll("circle")
