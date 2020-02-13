@@ -85,13 +85,20 @@ gTime.call(sliderTime);
 d3.select("p#value-time").text(d3.timeFormat("%Y")(sliderTime.value()));
 
 
-
-plot_by_year(svg, pie_svg, 2012);
-
+var year = -1;
+// get instant input
+setInterval(function() {
+    var newYear = parseInt((d3.timeFormat("%Y")(sliderTime.value())));
+    if (year != newYear) {
+        year = newYear;
+        plot_by_year(svg, pie_svg, year);
+        console.log(year);
+    }
+}, 50);
 
 // Supposed to take in a year and plot the graph
 function plot_by_year(svg, pie_svg, year) {
-
+	d3.selectAll("circle").remove();
     // console.log(group_by_year);
 
     // how do I grab data for a year without for looping??
