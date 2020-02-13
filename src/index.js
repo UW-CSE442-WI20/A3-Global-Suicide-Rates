@@ -123,6 +123,8 @@ function plot_by_year(svg, pie_svg, year) {
         .attr("cy", function (d) {
             return y_scale(d["suicides/100k pop"]);
         });
+    d3.select("#year_text")
+      .text(year);
 }
 
 function hightlight_dot(dot) {
@@ -280,4 +282,13 @@ function setup_dots(svg, pie_svg, year) {
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
         .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
         .on("click", function (d, i) { hightlight_dot(this) });
+
+    svg.append("text")
+        .attr("id", "year_text")
+        .attr("x", outer_width / 2 + padding.left)
+        .attr("y", padding.top + padding.left)
+        .attr("dy", ".35em")
+        .style("opacity", 0.2)
+        .style("font-size", "80px")
+        .text(year);
 }
