@@ -1,14 +1,15 @@
-import overall_data from '../resources/overall-suicide-rates.json';
-import detailed_data from '../resources/detailed-suicide-rates.json';
-import {
+const overall_data = require('../resources/overall-suicide-rates.json')
+const detailed_data = require('../resources/detailed-suicide-rates.json')
+const {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
     pie_margin, pie_radius, regionList, colorList
-} from './config.js';
-import { selection } from 'd3';
+} = require('./config.js');
 
+// this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
-var curr_dot;
+var curr_dot = null;
+var curr_dot_data = null;
 
 //document.onclick = toggle_dot_highlight;
 d3.select("body").on("click", function() {toggle_dot_highlight()} );
@@ -73,6 +74,7 @@ var pie_svg = d3.select("#popup")
     .append("g")
     .attr("transform", "translate(" + pie_width / 2 + "," + pie_height / 2 + ")");
 
+setup_dots(svg, pie_svg, 1995);
 
 legendListeners();
 
@@ -100,15 +102,12 @@ setInterval(function () {
     if (year != newYear) {
         year = newYear;
         plot_by_year(svg, pie_svg, year);
-        console.log(year);
+        // console.log(year);
     }
 }, 50);
 
 // Supposed to take in a year and plot the graph
 function plot_by_year(svg, pie_svg, year) {
-    d3.selectAll("circle").remove();
-    // console.log(group_by_year);
-
     // how do I grab data for a year without for looping??
     // var curr_year_data = group_by_year.key[year].values;
     var curr_year_data = {};
@@ -118,82 +117,75 @@ function plot_by_year(svg, pie_svg, year) {
         }
     }
 
-    var color = d3.scaleOrdinal()
-        .domain(regionList)
-        .range(colorList);
-
-    var tooltip = d3.select("body")
-        .append("div")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .style("background", "rgba(255,255,255,0)")
-        .text("a simple tooltip");
-
-    //Create circles
     svg.selectAll("circle")
         .data(curr_year_data)
-        .enter()
-        .append("circle")
-        .attr("class", function (d) {
-            return d["Region"].replace(/ /g, "_");
-        })
+        .transition()
+        .duration(400)
         .attr("cx", function (d) {
             return x_scale(d["gdp_per_capita ($)"]);
         })
         .attr("cy", function (d) {
             return y_scale(d["suicides/100k pop"]);
-        })
-        .attr("r", function (d) {
-            return circle_radius;
-        })
-        .style("stroke", "black")
-        .style("opacity", 0.8)
-        .style("fill", function (d) {
-            return color(d["Region"]);
-        })
-        .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this, pie_svg); })
-        .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
-        .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
-        .on("click", function (d, i) { hightlight_dot(this) });
+        });
+    d3.select("#year_text")
+        .text(year);
+
+    if (curr_dot) {
+        for (var curr_country of curr_year_data) {
+            if (curr_country.country == curr_dot_data["country"]) {
+                curr_dot_data = curr_country;
+                break;
+            }
+        }
+        document.getElementById("country-text").innerHTML = "Country: " + curr_dot_data["country"];
+        document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + curr_dot_data["gdp_per_capita ($)"];
+        document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + curr_dot_data["suicides/100k pop"];
+
+        show_pie_chart(curr_dot_data, pie_svg);
+    }
 }
 
-function hightlight_dot(dot) {
+function highlight_dot(d, dot) {
     console.log("highlight")
+    console.log(d)
     if_dot_clicked = true;
     curr_dot = dot;
+    curr_dot_data = d;
+    pie_svg.style("visibility", "visible");
+    show_pie_chart(d, pie_svg);
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
+    if (curr_dot != null) { return; }
     document.getElementById("popup").style.visibility = "visible";
     document.getElementById("country-text").innerHTML = "Country: " + d["country"];
     document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
     document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
-    show_pie_chart(d, i, pie_svg);
+    show_pie_chart(d, pie_svg);
     tooltip.text(d["country"]);
 
     highlightRegion(d["Region"]);
-    if (curr_dot) {
-        d3.select(curr_dot).style("opacity", 1);
-    }
+    // if (curr_dot) {
+    //     d3.select(curr_dot).style("opacity", 1);
+    // }
     return tooltip.style("visibility", "visible");
 }
 
 function unfade_dots(svg, tooltip, pie_svg) {
     if (!curr_dot) {
         svg.selectAll("circle").style("opacity", 1);
+        pie_svg.selectAll("*").remove();
+        document.getElementById("popup").style.visibility = "hidden";
     } else {
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     }
     setLegendHighlight("");
-
-    pie_svg.selectAll("*").remove();
-    document.getElementById("popup").style.visibility = "hidden";
+    
     return tooltip.style("visibility", "hidden");
 }
 
-function show_pie_chart(d, i, pie_svg) {
+function show_pie_chart(d, pie_svg) {
     var male = 0;
     var female = 0;
     for (var curr_year of group_by_year_overall_data) {
@@ -220,29 +212,33 @@ function show_pie_chart(d, i, pie_svg) {
         .value(function (d) { return d.value; });
     var data_ready = pie(d3.entries(sex_data));
 
-    pie_svg
-        .selectAll("charts")
+    var u = pie_svg.selectAll("path")
         .data(data_ready)
+
+    u
         .enter()
         .append('path')
+        .merge(u)
+        .transition()
+        .duration(1000)
         .attr('d', d3.arc()
             .innerRadius(0)
             .outerRadius(pie_radius)
         )
         .attr('fill', function (d) { return (pie_color(d.data.key)) })
-        .attr("stroke", "black")
+        .attr("stroke", "white")
         .style("stroke-width", "2px")
-        .style("opacity", 0.7);
-
+        .style("opacity", 1)
 
     var arcGenerator = d3.arc()
         .innerRadius(0)
         .outerRadius(pie_radius);
-    pie_svg
-        .selectAll("slices")
-        .data(data_ready)
+
+    u
         .enter()
         .append('text')
+        .transition()
+        .duration(1000)
         .text(function (d) { return d.data.key })
         .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
         .style("text-anchor", "middle")
@@ -250,13 +246,14 @@ function show_pie_chart(d, i, pie_svg) {
 }
 
 function toggle_dot_highlight() {
-    console.log("toggle");
+    // console.log("toggle");
     if (if_dot_clicked) {
-        console.log(curr_dot)
+        // console.log(curr_dot)
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     } else {
         svg.selectAll("circle").style("opacity", 1);
+        pie_svg.style("visibility", "hidden");
         curr_dot = null;
     }
     if_dot_clicked = false;
@@ -290,4 +287,59 @@ function setLegendHighlight(region) {
         d3.select("#legend ." + region.replace(/ /g, "_"))
             .style("opacity", 0);
     }
+}
+
+function setup_dots(svg, pie_svg, year) {
+    var curr_year_data = {};
+    for (var curr_year of group_by_year) {
+        if (curr_year.key == year) {
+            curr_year_data = curr_year.values;
+        }
+    }
+
+    var color = d3.scaleOrdinal()
+        .domain(regionList)
+        .range(colorList);
+
+    var tooltip = d3.select("body")
+        .append("div")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .style("background", "rgba(255,255,255,0)")
+        .text("a simple tooltip");
+    svg.selectAll("circle")
+        .data(curr_year_data)
+        .enter()
+        .append("circle")
+        .attr("class", function (d) {
+            return d["Region"].replace(/ /g, "_");
+        })
+        .attr("cx", function (d) {
+            return x_scale(d["gdp_per_capita ($)"]);
+        })
+        .attr("cy", function (d) {
+            return y_scale(d["suicides/100k pop"]);
+        })
+        .attr("r", function (d) {
+            return circle_radius;
+        })
+        .style("stroke", "black")
+        .style("opacity", 0.8)
+        .style("fill", function (d) {
+            return color(d["Region"]);
+        })
+        .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this, pie_svg); })
+        .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
+        .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
+        .on("click", function (d, i) { highlight_dot(d, this) });
+
+    svg.append("text")
+        .attr("id", "year_text")
+        .attr("x", outer_width / 2 + padding.left)
+        .attr("y", padding.top + padding.left)
+        .attr("dy", ".35em")
+        .style("opacity", 0.2)
+        .style("font-size", "80px")
+        .text(year);
 }

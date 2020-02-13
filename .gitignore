@@ -29,4 +29,4 @@ yarn-error.log*
 dist
 
 # build folder (parcel handles all that)
-docs/**
+# docs/**
