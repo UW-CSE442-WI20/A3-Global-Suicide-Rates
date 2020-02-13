@@ -3,13 +3,15 @@ import detailed_data from '../resources/detailed-suicide-rates.json';
 import {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
-    pie_margin, pie_radius
+    pie_margin, pie_radius, regionList, colorList
 } from './config.js';
+import { selection } from 'd3';
 
 var if_dot_clicked = false;
 var curr_dot;
 
-document.onclick = toggle_dot_highlight;
+//document.onclick = toggle_dot_highlight;
+d3.select("body").on("click", function() {toggle_dot_highlight()} );
 
 // calculate the x and y scale based on max values of the data
 var x_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })]).range([padding.left, inner_width]);
@@ -72,6 +74,8 @@ var pie_svg = d3.select("#popup")
     .attr("transform", "translate(" + pie_width / 2 + "," + pie_height / 2 + ")");
 
 
+legendListeners();
+
 // Time
 // d3.select('p#value-time') for the year
 var dataTime = d3.range(0, 19).map(function (d) { return new Date(1995 + d, 10, 3); });
@@ -113,12 +117,6 @@ function plot_by_year(svg, pie_svg, year) {
             curr_year_data = curr_year.values;
         }
     }
-
-    let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
-        "Mediterranean", "North America", "Central America and Caribbean", "South America"];
-
-    let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-        "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
 
     var color = d3.scaleOrdinal()
         .domain(regionList)
@@ -173,11 +171,8 @@ function fade_dots(d, svg, tooltip, i, pie_svg) {
     document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
     show_pie_chart(d, i, pie_svg);
     tooltip.text(d["country"]);
-    var region = d["Region"]
-    console.log(region)
-    svg.selectAll("circle").style("opacity", .3);
-    d3.selectAll("." + region.replace(/ /g, "_"))
-        .style("opacity", 1);
+
+    highlightRegion(d["Region"]);
     if (curr_dot) {
         d3.select(curr_dot).style("opacity", 1);
     }
@@ -191,6 +186,8 @@ function unfade_dots(svg, tooltip, pie_svg) {
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     }
+    setLegendHighlight("");
+
     pie_svg.selectAll("*").remove();
     document.getElementById("popup").style.visibility = "hidden";
     return tooltip.style("visibility", "hidden");
@@ -263,4 +260,34 @@ function toggle_dot_highlight() {
         curr_dot = null;
     }
     if_dot_clicked = false;
+    setLegendHighlight();
+}
+
+function legendListeners() {
+    var legend = d3.select("#legend").selectAll("td")
+        .on("click", function() { highlightRegion(this.className) } );
+}
+
+function highlightRegion(region) {
+    console.log("highlighting " + region);
+
+    d3.event.stopPropagation();
+   
+    setLegendHighlight(region);
+
+    d3.selectAll("svg").selectAll("circle")
+        .style("opacity", .3);
+    d3.selectAll("circle." + region.replace(/ /g, "_"))
+        .style("opacity", 1);
+}
+
+function setLegendHighlight(region) {
+    var td = d3.selectAll("#legend td");
+    if (!region) {
+        td.style("opacity", 0);
+    } else {
+        td.style("opacity", 0.7);
+        d3.select("#legend ." + region.replace(/ /g, "_"))
+            .style("opacity", 0);
+    }
 }

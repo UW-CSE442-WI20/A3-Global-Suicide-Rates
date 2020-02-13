@@ -26,9 +26,23 @@ h1 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     text-align: left;
+    position: relative;
+}
+#legend table {
+    position: absolute;
+    top: 46px;
+    left: -10px;
+    width: 330px;
+}
+#legend td {
+    height: 19px;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 0;
+    cursor: pointer;
 }
 #legend img {
-    max-width: 75%;
+    width: 300px;
 }
 
 #popup {
