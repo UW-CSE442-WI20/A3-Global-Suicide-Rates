@@ -209,7 +209,7 @@ function show_country_data(d, i, pie_svg) {
         .attr('fill', function (d) { return (pie_color(d.data.key)) })
         .attr("stroke", "black")
         .style("stroke-width", "2px")
-        .style("opacity", 0.7)
+        .style("opacity", 0.7);
 
 
     console.log(male);

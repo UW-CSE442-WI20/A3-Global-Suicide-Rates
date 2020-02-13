@@ -10,8 +10,8 @@ export var x_col = "GDP per Capita ($)";
 export var y_col = "Suicide Rate per 100k People";
 
 // set some variables for the pie chart
-var pie_width = 225;
-var pie_height = 225;
-var pie_margin = 20;
-var pie_radius = Math.min(pie_width, pie_height) / 2 - pie_margin
+export var pie_width = 225;
+export var pie_height = 225;
+export var pie_margin = 20;
+export var pie_radius = Math.min(pie_width, pie_height) / 2 - pie_margin
 
