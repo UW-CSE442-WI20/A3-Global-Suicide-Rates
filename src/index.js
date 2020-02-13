@@ -1,8 +1,10 @@
 import overall_data from '../resources/overall-suicide-rates.json';
 import detailed_data from '../resources/detailed-suicide-rates.json';
-import {outer_width, outer_height, padding, inner_width, inner_height,
-    popup_width, circle_radius, x_col, y_col, pie_width, pie_height, 
-    pie_margin, pie_radius} from './config.js';
+import {
+    outer_width, outer_height, padding, inner_width, inner_height,
+    popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
+    pie_margin, pie_radius
+} from './config.js';
 
 
 // calculate the x and y scale based on max values of the data
@@ -105,7 +107,7 @@ function plot_by_year(svg, pie_svg, year) {
         "Mediterranean", "North America", "Central America and Caribbean", "South America"];
 
     let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-                     "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+        "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
 
     var color = d3.scaleOrdinal()
         .domain(regionList)
@@ -187,10 +189,10 @@ function show_country_data(d, i, pie_svg) {
         }
     }
 
-    var sex_data = {"male" : male, "female" : female};
+    var sex_data = { "male": male, "female": female };
     var pie_color = d3.scaleOrdinal()
         .domain(sex_data)
-        .range(["#98abc5", "#8a89a6"]);
+        .range(["#76b7b2", "#e15759"]);
     var pie = d3.pie()
         .value(function (d) { return d.value; });
     var data_ready = pie(d3.entries(sex_data));
@@ -210,7 +212,15 @@ function show_country_data(d, i, pie_svg) {
         .attr("stroke", "black")
         .style("stroke-width", "2px")
         .style("opacity", 0.7);
-
+    pie_svg
+        .selectAll('slices')
+        .data(data_ready)
+        .enter()
+        .append('text')
+        .text(function (d) { return d.data.key })
+        .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
+        .style("text-anchor", "middle")
+        .style("font-size", 10)
 
     console.log(male);
     console.log(female);
