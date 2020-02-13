@@ -13,7 +13,11 @@ var if_dot_clicked = false;
 var curr_dot = null;
 var curr_dot_data = null;
 
-document.onclick = toggle_dot_highlight;
+// to maintain highlighting when legend is clicked
+var legendIsClicked = false;
+
+// allows this listener to be blocked by listeners on top of it
+d3.select("body").on("click", function() {toggle_dot_highlight()} );
 
 // calculate the x and y scale based on max values of the data
 var x_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })]).range([padding.left, inner_width]);
@@ -28,6 +32,17 @@ var group_by_year = d3.nest()
 var group_by_year_overall_data = d3.nest()
     .key(function (d) { return d.year })
     .entries(detailed_data);
+
+// it's magic, don't ask...
+let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
+"Mediterranean", "North America", "Central America and Caribbean", "South America"];
+
+let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
+"#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+
+let color = d3.scaleOrdinal()
+.domain(regionList)
+.range(colorList);
 
 console.log("start");
 
@@ -76,6 +91,8 @@ var pie_svg = d3.select("#popup")
     .attr("transform", "translate(" + pie_width / 2 + "," + pie_height / 2 + ")");
 
 setup_dots(svg, pie_svg, 1995);
+
+legendListeners();
 
 // Time
 // d3.select('p#value-time') for the year
@@ -150,11 +167,8 @@ function plot_by_year(svg, pie_svg, year) {
                 break;
             }
         }
-        document.getElementById("country-text").innerHTML = "Country: " + curr_dot_data["country"];
-        document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + curr_dot_data["gdp_per_capita ($)"];
-        document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + curr_dot_data["suicides/100k pop"];
 
-        show_pie_chart(curr_dot_data, pie_svg);
+        updateDetailedInfo(curr_dot_data, pie_svg);
     }
 }
 
@@ -164,40 +178,53 @@ function highlight_dot(d, dot) {
     if_dot_clicked = true;
     curr_dot = dot;
     curr_dot_data = d;
+    
+    highlightRegion(d["Region"]);
+    svg.selectAll("circle").style("opacity", .3);
+        d3.select(curr_dot).style("opacity", 1);
+
     pie_svg.style("visibility", "visible");
-    show_pie_chart(d, pie_svg);
+    updateDetailedInfo(d, pie_svg);
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
-    if (curr_dot != null) { return; }
-    document.getElementById("popup").style.visibility = "visible";
-    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
-    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
-    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
-    show_pie_chart(d, pie_svg);
+    // Always display tooltip
     tooltip.text(d["country"]);
-    var region = d["Region"]
-    console.log(d);
-    // console.log("select " + region)
-    svg.selectAll("circle").style("opacity", .3);
-    d3.selectAll("." + region.replace(/ /g, "_"))
-        .style("opacity", 1);
-    // if (curr_dot) {
-    //     d3.select(curr_dot).style("opacity", 1);
-    // }
-    return tooltip.style("visibility", "visible");
+    tooltip.style("visibility", "visible");
+
+    if (curr_dot == null) {
+        // Country display info should only update if there is no selection
+        document.getElementById("popup").style.visibility = "visible";
+        updateDetailedInfo(d, pie_svg);
+
+        if (!legendIsClicked) {
+            highlightRegion(d["Region"]);
+        }
+    }
 }
 
 function unfade_dots(svg, tooltip, pie_svg) {
     if (!curr_dot) {
-        svg.selectAll("circle").style("opacity", 1);
         pie_svg.selectAll("*").remove();
         document.getElementById("popup").style.visibility = "hidden";
+        if (!legendIsClicked) {
+            svg.selectAll("circle").style("opacity", 1);
+            setLegendHighlight("");
+        }
     } else {
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     }
+    
     return tooltip.style("visibility", "hidden");
+}
+
+function updateDetailedInfo(d, pie_svg) {
+    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
+    document.getElementById("gdp-text").innerHTML = "GDP per Capita: $" + d["gdp_per_capita ($)"];
+    document.getElementById("suicide-text").innerHTML = "Suicide Rate per 100k People: " + d["suicides/100k pop"];
+
+    show_pie_chart(d, pie_svg);
 }
 
 function show_pie_chart(d, pie_svg) {
@@ -266,30 +293,47 @@ function show_pie_chart(d, pie_svg) {
 }
 
 function toggle_dot_highlight() {
-    // console.log("toggle");
-    if (if_dot_clicked) {
-        // console.log(curr_dot)
-        svg.selectAll("circle").style("opacity", .3);
-        d3.select(curr_dot).style("opacity", 1);
-    } else {
-        svg.selectAll("circle").style("opacity", 1);
-        pie_svg.style("visibility", "hidden");
-        document.getElementById("popup").style.visibility = "hidden";
-        curr_dot = null;
-    }
+    console.log("toggle");
+    svg.selectAll("circle").style("opacity", 1);
+    pie_svg.style("visibility", "hidden");
+    curr_dot = null;
+
     if_dot_clicked = false;
+    legendIsClicked = false;
+    setLegendHighlight("");
 }
 
-// it's magic, don't ask...
-let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
-    "Mediterranean", "North America", "Central America and Caribbean", "South America"];
+function legendListeners() {
+    d3.select("#legend").selectAll("td")
+        .on("click", function() {
+            legendIsClicked = true;
+            highlightRegion(this.className);
+        });
+}
 
-let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-    "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+function highlightRegion(region) {
+    console.log("highlighting " + region);
 
-let color = d3.scaleOrdinal()
-    .domain(regionList)
-    .range(colorList);
+    d3.event.stopPropagation();
+   
+    setLegendHighlight(region);
+
+    d3.selectAll("svg").selectAll("circle")
+        .style("opacity", .3);
+    d3.selectAll("circle." + region.replace(/ /g, "_"))
+        .style("opacity", 1);
+}
+
+function setLegendHighlight(region) {
+    var td = d3.selectAll("#legend td");
+    if (!region) {
+        td.style("opacity", 0);
+    } else {
+        td.style("opacity", 0.7);
+        d3.select("#legend ." + region.replace(/ /g, "_"))
+            .style("opacity", 0);
+    }
+}
 
 function setup_dots(svg, pie_svg, year) {
     var curr_year_data = {};
@@ -306,16 +350,6 @@ function setup_dots(svg, pie_svg, year) {
         var y = b.country.toLowerCase();
         return x < y ? -1 : x > y ? 1 : 0;
     });
-
-    let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
-        "Mediterranean", "North America", "Central America and Caribbean", "South America"];
-
-    let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-        "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
-
-    var color = d3.scaleOrdinal()
-        .domain(regionList)
-        .range(colorList);
 
     var tooltip = d3.select("body")
         .append("div")
