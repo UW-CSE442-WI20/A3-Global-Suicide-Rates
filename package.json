@@ -13,6 +13,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
+    "config.js": "^0.1.0",
     "d3": "^5.15.0"
   }
 }
