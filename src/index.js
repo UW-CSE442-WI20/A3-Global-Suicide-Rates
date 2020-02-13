@@ -295,6 +295,7 @@ function show_pie_chart(d, pie_svg) {
 function toggle_dot_highlight() {
     console.log("toggle");
     svg.selectAll("circle").style("opacity", 1);
+    document.getElementById("popup").style.visibility = "hidden";
     pie_svg.style("visibility", "hidden");
     curr_dot = null;
 
