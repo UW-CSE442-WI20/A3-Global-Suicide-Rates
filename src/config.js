@@ -14,3 +14,7 @@ export var pie_width = 225;
 export var pie_height = 225;
 export var pie_margin = 20;
 export var pie_radius = Math.min(pie_width, pie_height) / 2 - pie_margin
+
+// vars for dot opacity
+export let selected_opacity = 0.8;
+export let faded_opacity = 0.3;
