@@ -101,7 +101,7 @@ function plot_by_year(svg, year) {
                       "Mediterranean", "North America", "Central America and Caribbean", "South America"];
 
     let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
-                     "#edc948", "#4e79a7", "#b07aa1", "#bab0ac"];
+                     "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
 
     var color = d3.scaleOrdinal()
         .domain(regionList)
