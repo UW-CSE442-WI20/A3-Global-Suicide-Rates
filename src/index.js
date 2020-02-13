@@ -199,7 +199,7 @@ function show_country_data(d, i, pie_svg) {
         }
     }
 
-    var sex_data = [male, female];
+    var sex_data = {male, female};
     var pie_color = d3.scaleOrdinal()
         .domain(sex_data)
         .range(["#98abc5", "#8a89a6"]);
@@ -207,8 +207,10 @@ function show_country_data(d, i, pie_svg) {
         .value(function (d) { return d.value; });
     var data_ready = pie(d3.entries(sex_data));
 
+
+    pie_svg.selectAll("*").remove();
     pie_svg
-        .selectAll('whatever')
+        .selectAll("charts")
         .data(data_ready)
         .enter()
         .append('path')
