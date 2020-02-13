@@ -118,6 +118,12 @@ function plot_by_year(svg, pie_svg, year) {
         .data(curr_year_data)
         .transition()
         .duration(400)
+        .attr("class", function (d) {
+            return d["Region"].replace(/ /g, "_");
+        })
+        .style("fill", function (d) {
+            return color(d["Region"]);
+        })
         .attr("cx", function (d) {
             return x_scale(d["gdp_per_capita ($)"]);
         })
@@ -257,6 +263,17 @@ function toggle_dot_highlight() {
     }
     if_dot_clicked = false;
 }
+
+// it's magic, don't ask...
+let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
+        "Mediterranean", "North America", "Central America and Caribbean", "South America"];
+
+let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
+    "#edc948", "#4e79a7", "#bab0ac", "#b07aa1"];
+
+let color = d3.scaleOrdinal()
+    .domain(regionList)
+    .range(colorList);
 
 function setup_dots(svg, pie_svg, year) {
     var curr_year_data = {};
