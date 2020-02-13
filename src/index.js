@@ -162,11 +162,13 @@ function fade_dots(d, svg, tooltip, i) {
 }
 
 function unfade_dots(svg, tooltip) {
+    document.getElementById("popup").style.visibility = "hidden";
     svg.selectAll("circle").style("opacity", 1);
     return tooltip.style("visibility", "hidden");
 }
 
 function show_country_data(d, i) {
+    document.getElementById("popup").style.visibility = "visible";
     document.getElementById("country-text").innerHTML = "Country: " + d["country"];
     document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
     document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
