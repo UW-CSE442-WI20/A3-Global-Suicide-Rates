@@ -6,6 +6,10 @@ import {
     pie_margin, pie_radius
 } from './config.js';
 
+var if_dot_clicked = false;
+var curr_dot;
+
+document.onclick = toggle_dot_highlight;
 
 // calculate the x and y scale based on max values of the data
 var x_scale = d3.scaleLinear().domain([0, d3.max(overall_data, function (d) { return d["gdp_per_capita ($)"]; })]).range([padding.left, inner_width]);
@@ -153,11 +157,16 @@ function plot_by_year(svg, pie_svg, year) {
         .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this, pie_svg); })
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
         .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
-        .on("click", function (d, i) { console.log("clicked") });
+        .on("click", function (d, i) { hightlight_dot(this) });
+}
+
+function hightlight_dot(dot) {
+    console.log("highlight")
+    if_dot_clicked = true;
+    curr_dot = dot;
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
-
     document.getElementById("popup").style.visibility = "visible";
     document.getElementById("country-text").innerHTML = "Country: " + d["country"];
     document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
@@ -169,13 +178,21 @@ function fade_dots(d, svg, tooltip, i, pie_svg) {
     svg.selectAll("circle").style("opacity", .3);
     d3.selectAll("." + region.replace(/ /g, "_"))
         .style("opacity", 1);
+    if (curr_dot) {
+        d3.select(curr_dot).style("opacity", 1);
+    }
     return tooltip.style("visibility", "visible");
 }
 
 function unfade_dots(svg, tooltip, pie_svg) {
+    if (!curr_dot) {
+        svg.selectAll("circle").style("opacity", 1);
+    } else {
+        svg.selectAll("circle").style("opacity", .3);
+        d3.select(curr_dot).style("opacity", 1);
+    }
     pie_svg.selectAll("*").remove();
     document.getElementById("popup").style.visibility = "hidden";
-    svg.selectAll("circle").style("opacity", 0.8);
     return tooltip.style("visibility", "hidden");
 }
 
@@ -233,4 +250,17 @@ function show_pie_chart(d, i, pie_svg) {
         .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
         .style("text-anchor", "middle")
         .style("font-size", 13);
+}
+
+function toggle_dot_highlight() {
+    console.log("toggle");
+    if (if_dot_clicked) {
+        console.log(curr_dot)
+        svg.selectAll("circle").style("opacity", .3);
+        d3.select(curr_dot).style("opacity", 1);
+    } else {
+        svg.selectAll("circle").style("opacity", 1);
+        curr_dot = null;
+    }
+    if_dot_clicked = false;
 }
