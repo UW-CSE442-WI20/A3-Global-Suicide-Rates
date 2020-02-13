@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -11,18 +11,31 @@ h1 {
     text-align: center;
 }
 
-#popup {
-    border: 3px black;
-    height: 455px;
-    width: 350px;
-    text-align: left;
-    font-size: 15px;
-    visibility: visible;
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
+#scatter {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+#legend {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: left;
+}
+#legend img {
+    max-width: 75%;
+}
+
+#popup {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    text-align: left;
+    font-size: 15px;
 }
 
 circle {
