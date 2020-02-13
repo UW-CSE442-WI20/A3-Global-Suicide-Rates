@@ -6,6 +6,8 @@ const {
     pie_margin, pie_radius
 } = require('./config.js');
 
+overall_data.sort(function (a,b) {return d3.ascending(a.country - b.country);});
+
 // this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
 var curr_dot = null;
@@ -113,6 +115,7 @@ function plot_by_year(svg, pie_svg, year) {
             curr_year_data = curr_year.values;
         }
     }
+    console.log(curr_year_data);
 
     svg.selectAll("circle")
         .data(curr_year_data)
@@ -185,6 +188,7 @@ function unfade_dots(svg, tooltip, pie_svg) {
 }
 
 function show_pie_chart(d, pie_svg) {
+    pie_svg.style("visibility", "visible");
     var male = 0;
     var female = 0;
     for (var curr_year of group_by_year_overall_data) {
@@ -202,6 +206,10 @@ function show_pie_chart(d, pie_svg) {
             break;
         }
     }
+
+    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
+    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
+    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
 
     var sex_data = { "male": male, "female": female };
     var pie_color = d3.scaleOrdinal()
