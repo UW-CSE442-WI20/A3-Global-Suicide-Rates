@@ -1,5 +1,5 @@
 body {
-    font-family: consolas;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
     width: 350px;
     text-align: left;
     font-size: 15px;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .flex-container {
