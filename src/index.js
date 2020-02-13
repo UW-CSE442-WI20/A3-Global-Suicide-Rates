@@ -1,5 +1,5 @@
-import overall_data from '../resources/overall-suicide-rates.json';
-import detailed_data from '../resources/detailed-suicide-rates.json';
+const overall_data = require('../resources/overall-suicide-rates.json')
+const detailed_data = require('../resources/detailed-suicide-rates.json')
 import {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
