@@ -274,6 +274,7 @@ function toggle_dot_highlight() {
     } else {
         svg.selectAll("circle").style("opacity", 1);
         pie_svg.style("visibility", "hidden");
+        document.getElementById("popup").style.visibility = "hidden";
         curr_dot = null;
     }
     if_dot_clicked = false;
