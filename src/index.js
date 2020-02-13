@@ -99,21 +99,21 @@ function plot_by_year(svg, year) {
 
     var color = d3.scaleOrdinal()
         .domain(["Asia",
-                 "Northern Europe",
-                 "Western Europe",
-                 "Eastern Europe",
-                 "Mediterranean",
-                 "North America",
-                 "Central America and Caribbean",
-                 "South America"])
+            "Northern Europe",
+            "Western Europe",
+            "Eastern Europe",
+            "Mediterranean",
+            "North America",
+            "Central America and Caribbean",
+            "South America"])
         .range(["#f28e2b",
-                "#76b7b2",
-                "#59a14f",
-                "#e15759",
-                "#edc948",
-                "#4e79a7",
-                "#b07aa1",
-                "#bab0ac"]);
+            "#76b7b2",
+            "#59a14f",
+            "#e15759",
+            "#edc948",
+            "#4e79a7",
+            "#b07aa1",
+            "#bab0ac"]);
 
     var tooltip = d3.select("body")
         .append("div")
@@ -128,7 +128,7 @@ function plot_by_year(svg, year) {
         .data(curr_year_data)
         .enter()
         .append("circle")
-        .attr("class", function(d) {
+        .attr("class", function (d) {
             return d["Region"].replace(/ /g, "_");
         })
         .attr("cx", function (d) {
