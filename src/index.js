@@ -1,14 +1,14 @@
-import overall_data from '../resources/overall-suicide-rates.json';
-import detailed_data from '../resources/detailed-suicide-rates.json';
-import {
+const overall_data = require('../resources/overall-suicide-rates.json')
+const detailed_data = require('../resources/detailed-suicide-rates.json')
+const {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
     pie_margin, pie_radius
-} from './config.js';
+} = require('./config.js');
 
 // this is to highlight a single dot when you click on it
 var if_dot_clicked = false;
-var curr_dot;
+var curr_dot = null;
 
 document.onclick = toggle_dot_highlight;
 
@@ -134,6 +134,7 @@ function hightlight_dot(dot) {
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
+    if (curr_dot != null) { return; }
     document.getElementById("popup").style.visibility = "visible";
     document.getElementById("country-text").innerHTML = "Country: " + d["country"];
     document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
