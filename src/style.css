@@ -27,12 +27,15 @@ h1 {
     grid-row: 1 / 2;
     text-align: left;
     position: relative;
+    width: min-content;
+    padding: 0px 14px 12px;
+    border: 1px solid black;
 }
 #legend table {
     position: absolute;
     top: 46px;
-    left: -10px;
-    width: 330px;
+    left: 5px;
+    width: 310px;
 }
 #legend td {
     height: 19px;

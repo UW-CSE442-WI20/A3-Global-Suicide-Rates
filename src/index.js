@@ -11,7 +11,10 @@ var if_dot_clicked = false;
 var curr_dot = null;
 var curr_dot_data = null;
 
-//document.onclick = toggle_dot_highlight;
+// to maintain highlighting when legend is clicked
+var legendIsClicked = false;
+
+// allows this listener to be blocked by listeners on top of it
 d3.select("body").on("click", function() {toggle_dot_highlight()} );
 
 // calculate the x and y scale based on max values of the data
@@ -137,11 +140,8 @@ function plot_by_year(svg, pie_svg, year) {
                 break;
             }
         }
-        document.getElementById("country-text").innerHTML = "Country: " + curr_dot_data["country"];
-        document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + curr_dot_data["gdp_per_capita ($)"];
-        document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + curr_dot_data["suicides/100k pop"];
 
-        show_pie_chart(curr_dot_data, pie_svg);
+        updateDetailedInfo(curr_dot_data, pie_svg);
     }
 }
 
@@ -151,38 +151,53 @@ function highlight_dot(d, dot) {
     if_dot_clicked = true;
     curr_dot = dot;
     curr_dot_data = d;
+    
+    highlightRegion(d["Region"]);
+    svg.selectAll("circle").style("opacity", .3);
+        d3.select(curr_dot).style("opacity", 1);
+
     pie_svg.style("visibility", "visible");
-    show_pie_chart(d, pie_svg);
+    updateDetailedInfo(d, pie_svg);
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
-    if (curr_dot != null) { return; }
-    document.getElementById("popup").style.visibility = "visible";
-    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
-    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
-    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
-    show_pie_chart(d, pie_svg);
+    // Always display tooltip
     tooltip.text(d["country"]);
+    tooltip.style("visibility", "visible");
 
-    highlightRegion(d["Region"]);
-    // if (curr_dot) {
-    //     d3.select(curr_dot).style("opacity", 1);
-    // }
-    return tooltip.style("visibility", "visible");
+    if (curr_dot == null) {
+        // Country display info should only update if there is no selection
+        document.getElementById("popup").style.visibility = "visible";
+        updateDetailedInfo(d, pie_svg);
+
+        if (!legendIsClicked) {
+            highlightRegion(d["Region"]);
+        }
+    }
 }
 
 function unfade_dots(svg, tooltip, pie_svg) {
     if (!curr_dot) {
-        svg.selectAll("circle").style("opacity", 1);
         pie_svg.selectAll("*").remove();
         document.getElementById("popup").style.visibility = "hidden";
+        if (!legendIsClicked) {
+            svg.selectAll("circle").style("opacity", 1);
+            setLegendHighlight("");
+        }
     } else {
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     }
-    setLegendHighlight("");
     
     return tooltip.style("visibility", "hidden");
+}
+
+function updateDetailedInfo(d, pie_svg) {
+    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
+    document.getElementById("gdp-text").innerHTML = "GDP per Capita: $" + d["gdp_per_capita ($)"];
+    document.getElementById("suicide-text").innerHTML = "Suicide Rate per 100k People: " + d["suicides/100k pop"];
+
+    show_pie_chart(d, pie_svg);
 }
 
 function show_pie_chart(d, pie_svg) {
@@ -246,23 +261,22 @@ function show_pie_chart(d, pie_svg) {
 }
 
 function toggle_dot_highlight() {
-    // console.log("toggle");
-    if (if_dot_clicked) {
-        // console.log(curr_dot)
-        svg.selectAll("circle").style("opacity", .3);
-        d3.select(curr_dot).style("opacity", 1);
-    } else {
-        svg.selectAll("circle").style("opacity", 1);
-        pie_svg.style("visibility", "hidden");
-        curr_dot = null;
-    }
+    console.log("toggle");
+    svg.selectAll("circle").style("opacity", 1);
+    pie_svg.style("visibility", "hidden");
+    curr_dot = null;
+
     if_dot_clicked = false;
-    setLegendHighlight();
+    legendIsClicked = false;
+    setLegendHighlight("");
 }
 
 function legendListeners() {
-    var legend = d3.select("#legend").selectAll("td")
-        .on("click", function() { highlightRegion(this.className) } );
+    d3.select("#legend").selectAll("td")
+        .on("click", function() {
+            legendIsClicked = true;
+            highlightRegion(this.className);
+        });
 }
 
 function highlightRegion(region) {
