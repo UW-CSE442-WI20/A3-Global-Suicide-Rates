@@ -3,7 +3,7 @@ const detailed_data = require('../resources/detailed-suicide-rates.json')
 const {
     outer_width, outer_height, padding, inner_width, inner_height,
     popup_width, circle_radius, x_col, y_col, pie_width, pie_height,
-    pie_margin, pie_radius
+    pie_margin, pie_radius, selected_opacity, faded_opacity
 } = require('./config.js');
 
 
@@ -180,8 +180,8 @@ function highlight_dot(d, dot) {
     curr_dot_data = d;
     
     highlightRegion(d["Region"]);
-    svg.selectAll("circle").style("opacity", .3);
-        d3.select(curr_dot).style("opacity", 1);
+    svg.selectAll("circle").style("opacity", faded_opacity);
+        d3.select(curr_dot).style("opacity", selected_opacity);
 
     pie_svg.style("visibility", "visible");
     updateDetailedInfo(d, pie_svg);
@@ -208,12 +208,12 @@ function unfade_dots(svg, tooltip, pie_svg) {
         pie_svg.selectAll("*").remove();
         document.getElementById("popup").style.visibility = "hidden";
         if (!legendIsClicked) {
-            svg.selectAll("circle").style("opacity", 1);
+            svg.selectAll("circle").style("opacity", selected_opacity);
             setLegendHighlight("");
         }
     } else {
-        svg.selectAll("circle").style("opacity", .3);
-        d3.select(curr_dot).style("opacity", 1);
+        svg.selectAll("circle").style("opacity", faded_opacity);
+        d3.select(curr_dot).style("opacity", selected_opacity);
     }
     
     return tooltip.style("visibility", "hidden");
@@ -294,7 +294,7 @@ function show_pie_chart(d, pie_svg) {
 
 function toggle_dot_highlight() {
     console.log("toggle");
-    svg.selectAll("circle").style("opacity", 1);
+    svg.selectAll("circle").style("opacity", selected_opacity);
     pie_svg.style("visibility", "hidden");
     curr_dot = null;
 
@@ -314,10 +314,10 @@ function legendListeners() {
             if (!legendIsClicked) {
                 setLegendHighlight("");
                 if (curr_dot) {
-                    d3.selectAll("circle").style("opacity", 0.3);
-                    d3.select(curr_dot).style("opacity", 1);
+                    d3.selectAll("circle").style("opacity", faded_opacity);
+                    d3.select(curr_dot).style("opacity", selected_opacity);
                 } else {
-                    d3.selectAll("circle").style("opacity", 1);
+                    d3.selectAll("circle").style("opacity", selected_opacity);
                 }
             }
         })
@@ -335,9 +335,9 @@ function highlightRegion(region) {
     setLegendHighlight(region);
 
     d3.selectAll("svg").selectAll("circle")
-        .style("opacity", .3);
+        .style("opacity", faded_opacity);
     d3.selectAll("circle." + region.replace(/ /g, "_"))
-        .style("opacity", 1);
+        .style("opacity", selected_opacity);
 }
 
 function setLegendHighlight(region) {
