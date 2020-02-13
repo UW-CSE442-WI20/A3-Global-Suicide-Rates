@@ -11,10 +11,12 @@ h1 {
     text-align: center;
 }
 
-#data {
+#popup {
     border: 3px black;
     height: 455px;
-    width: 100px;
+    width: 350px;
+    text-align: left;
+    font-size: 15px;
 }
 
 .flex-container {

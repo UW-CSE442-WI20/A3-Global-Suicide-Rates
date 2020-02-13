@@ -2,7 +2,7 @@ import overall_data from '../resources/overall-suicide-rates.json';
 import detailed_data from '../resources/detailed-suicide-rates.json';
 
 // set some variables for padding, size, and labels
-var outer_width = 650;
+var outer_width = 625;
 var outer_height = 455;
 var padding = { top: 30, right: 0, bottom: 30, left: 60 };
 var inner_width = outer_width - padding.left - padding.right;
@@ -60,12 +60,6 @@ svg.append("text")
     .attr("y", outer_height - (padding.top / 2))
     .style("text-anchor", "middle")
     .text(x_col);
-
-// Makes the info popup on the right
-var popup = d3.select("#popup")
-    .append("svg")
-    .attr("width", popup_width)
-    .attr("height", outer_height);
 
 
 // Time
@@ -154,9 +148,7 @@ function unfade_dots(svg, tooltip) {
 }
 
 function show_country_data(d, i) {
-    var popup = d3.select("#data")
-        .append("svg")
-        .attr("width", popup_width)
-        .attr("height", outer_height);
-
+    document.getElementById("country-text").innerHTML = "Country: " + d["country"];
+    document.getElementById("gdp-text").innerHTML = "GDP per Capita: " + d["gdp_per_capita ($)"];
+    document.getElementById("suicide-text").innerHTML = "Suicide Rate Rate per 100k People: " + d["suicides/100k pop"];
 }
