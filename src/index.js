@@ -305,6 +305,22 @@ function toggle_dot_highlight() {
 
 function legendListeners() {
     d3.select("#legend").selectAll("td")
+        .on("mouseover", function() {
+            if (!legendIsClicked) {
+                highlightRegion(this.className);
+            }
+        })
+        .on("mouseout", function() {
+            if (!legendIsClicked) {
+                setLegendHighlight("");
+                if (curr_dot) {
+                    d3.selectAll("circle").style("opacity", 0.3);
+                    d3.select(curr_dot).style("opacity", 1);
+                } else {
+                    d3.selectAll("circle").style("opacity", 1);
+                }
+            }
+        })
         .on("click", function() {
             legendIsClicked = true;
             highlightRegion(this.className);
