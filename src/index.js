@@ -142,12 +142,14 @@ function plot_by_year(svg, pie_svg, year) {
     }
 }
 
-function hightlight_dot(d, dot) {
+function highlight_dot(d, dot) {
     console.log("highlight")
     console.log(d)
     if_dot_clicked = true;
     curr_dot = dot;
     curr_dot_data = d;
+    pie_svg.style("visibility", "visible");
+    show_pie_chart(d, pie_svg);
 }
 
 function fade_dots(d, svg, tooltip, i, pie_svg) {
@@ -209,38 +211,9 @@ function show_pie_chart(d, pie_svg) {
         .value(function (d) { return d.value; });
     var data_ready = pie(d3.entries(sex_data));
 
-    /*pie_svg
-        .selectAll("charts")
-        .data(data_ready)
-        .enter()
-        .append('path')
-        .attr('d', d3.arc()
-            .innerRadius(0)
-            .outerRadius(pie_radius)
-        )
-        .attr('fill', function (d) { return (pie_color(d.data.key)) })
-        .attr("stroke", "black")
-        .style("stroke-width", "2px")
-        .style("opacity", 0.7);
-
-
-    var arcGenerator = d3.arc()
-        .innerRadius(0)
-        .outerRadius(pie_radius);
-    pie_svg
-        .selectAll("slices")
-        .data(data_ready)
-        .enter()
-        .append('text')
-        .text(function (d) { return d.data.key })
-        .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
-        .style("text-anchor", "middle")
-        .style("font-size", 13);
-*/
     var u = pie_svg.selectAll("path")
         .data(data_ready)
 
-    // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
     u
         .enter()
         .append('path')
@@ -260,9 +233,7 @@ function show_pie_chart(d, pie_svg) {
         .innerRadius(0)
         .outerRadius(pie_radius);
 
-    pie_svg
-        .selectAll("slices")
-        .data(data_ready)
+    u
         .enter()
         .append('text')
         .transition()
@@ -271,11 +242,6 @@ function show_pie_chart(d, pie_svg) {
         .attr("transform", function (d) { return "translate(" + arcGenerator.centroid(d) + ")"; })
         .style("text-anchor", "middle")
         .style("font-size", 13);
-
-    // remove the group that is not present anymore
-    u
-        .exit()
-        .remove()
 }
 
 function toggle_dot_highlight() {
@@ -286,6 +252,7 @@ function toggle_dot_highlight() {
         d3.select(curr_dot).style("opacity", 1);
     } else {
         svg.selectAll("circle").style("opacity", 1);
+        pie_svg.style("visibility", "hidden");
         curr_dot = null;
     }
     if_dot_clicked = false;
@@ -340,7 +307,7 @@ function setup_dots(svg, pie_svg, year) {
         .on("mouseover", function (d, i) { return fade_dots(d, svg, tooltip, this, pie_svg); })
         .on("mousemove", function () { return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px"); })
         .on("mouseout", function () { return unfade_dots(svg, tooltip, pie_svg) })
-        .on("click", function (d, i) { hightlight_dot(d, this) });
+        .on("click", function (d, i) { highlight_dot(d, this) });
 
     svg.append("text")
         .attr("id", "year_text")
