@@ -97,30 +97,22 @@ function plot_by_year(svg, year) {
         }
     }
 
+    let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
+                      "Mediterranean", "North America", "Central America and Caribbean", "South America"];
+
+    let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
+                     "#edc948", "#4e79a7", "#b07aa1", "#bab0ac"];
+
     var color = d3.scaleOrdinal()
-        .domain(["Asia",
-            "Northern Europe",
-            "Western Europe",
-            "Eastern Europe",
-            "Mediterranean",
-            "North America",
-            "Central America and Caribbean",
-            "South America"])
-        .range(["#f28e2b",
-            "#76b7b2",
-            "#59a14f",
-            "#e15759",
-            "#edc948",
-            "#4e79a7",
-            "#b07aa1",
-            "#bab0ac"]);
+        .domain(regionList)
+        .range(colorList);
 
     var tooltip = d3.select("body")
         .append("div")
         .style("position", "absolute")
         .style("z-index", "10")
         .style("visibility", "hidden")
-        .style("background", "rgba(255,255,255,0.5)")
+        .style("background", "rgba(255,255,255,0)")
         .text("a simple tooltip");
 
     //Create circles
@@ -140,6 +132,8 @@ function plot_by_year(svg, year) {
         .attr("r", function (d) {
             return circle_radius;
         })
+        .style("stroke", "black")
+        .style("opacity", 0.8)
         .style("fill", function (d) {
             return color(d["Region"]);
         })
@@ -163,7 +157,7 @@ function fade_dots(d, svg, tooltip, i) {
 
 function unfade_dots(svg, tooltip) {
     document.getElementById("popup").style.visibility = "hidden";
-    svg.selectAll("circle").style("opacity", 1);
+    svg.selectAll("circle").style("opacity", 0.8);
     return tooltip.style("visibility", "hidden");
 }
 
