@@ -96,23 +96,15 @@ function plot_by_year(svg, year) {
         }
     }
 
+    let regionList = ["Asia", "Northern Europe", "Western Europe", "Eastern Europe",
+                      "Mediterranean", "North America", "Central America and Caribbean", "South America"];
+
+    let colorList = ["#f28e2b", "#76b7b2", "#59a14f", "#e15759",
+                     "#edc948", "#4e79a7", "#b07aa1", "#bab0ac"];
+
     var color = d3.scaleOrdinal()
-        .domain(["Asia",
-                 "Northern Europe",
-                 "Western Europe",
-                 "Eastern Europe",
-                 "Mediterranean",
-                 "North America",
-                 "Central America and Caribbean",
-                 "South America"])
-        .range(["#f28e2b",
-                "#76b7b2",
-                "#59a14f",
-                "#e15759",
-                "#edc948",
-                "#4e79a7",
-                "#b07aa1",
-                "#bab0ac"]);
+        .domain(regionList)
+        .range(colorList);
 
     var tooltip = d3.select("body")
         .append("div")
