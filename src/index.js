@@ -187,7 +187,7 @@ function show_country_data(d, i, pie_svg) {
         }
     }
 
-    var sex_data = {male, female};
+    var sex_data = {"male" : male, "female" : female};
     var pie_color = d3.scaleOrdinal()
         .domain(sex_data)
         .range(["#98abc5", "#8a89a6"]);
