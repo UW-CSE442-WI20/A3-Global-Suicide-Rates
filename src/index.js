@@ -99,7 +99,7 @@ setInterval(function () {
     if (year != newYear) {
         year = newYear;
         plot_by_year(svg, pie_svg, year);
-        console.log(year);
+        // console.log(year);
     }
 }, 50);
 
@@ -144,6 +144,7 @@ function plot_by_year(svg, pie_svg, year) {
 
 function hightlight_dot(d, dot) {
     console.log("highlight")
+    console.log(d)
     if_dot_clicked = true;
     curr_dot = dot;
     curr_dot_data = d;
@@ -158,13 +159,14 @@ function fade_dots(d, svg, tooltip, i, pie_svg) {
     show_pie_chart(d, pie_svg);
     tooltip.text(d["country"]);
     var region = d["Region"]
-    console.log(region)
+    console.log(d);
+    // console.log("select " + region)
     svg.selectAll("circle").style("opacity", .3);
     d3.selectAll("." + region.replace(/ /g, "_"))
         .style("opacity", 1);
-    if (curr_dot) {
-        d3.select(curr_dot).style("opacity", 1);
-    }
+    // if (curr_dot) {
+    //     d3.select(curr_dot).style("opacity", 1);
+    // }
     return tooltip.style("visibility", "visible");
 }
 
@@ -277,9 +279,9 @@ function show_pie_chart(d, pie_svg) {
 }
 
 function toggle_dot_highlight() {
-    console.log("toggle");
+    // console.log("toggle");
     if (if_dot_clicked) {
-        console.log(curr_dot)
+        // console.log(curr_dot)
         svg.selectAll("circle").style("opacity", .3);
         d3.select(curr_dot).style("opacity", 1);
     } else {
